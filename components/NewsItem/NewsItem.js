@@ -1,0 +1,3 @@
+class NewsItem extends HTMLElement {
+
+}

@@ -1,0 +1,3 @@
+class ProductList extends HTMLElement {
+
+}
