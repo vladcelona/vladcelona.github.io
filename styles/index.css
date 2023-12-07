@@ -474,3 +474,8 @@ button:hover, button:focus {
   text-align: right;
   width: 60%;
 }
+
+.product-item>img {
+  max-height: 200px;
+  object-fit: cover;
+}

@@ -20,7 +20,7 @@ const products = [
     "barcode": null,
     "barcodes": [],
     "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
-    "image": "https://charuel.ru/upload/iblock/fcb/l1ef7lqv9eivqoea3xazy18xq02duzn3.jpg",
+    "image": "https://charuel.ru/upload/iblock/032/ho0whw8miecb83x7g8s3ichg892r34f0.jpg",
     "images": [
       "https://charuel.ru/upload/iblock/fcb/l1ef7lqv9eivqoea3xazy18xq02duzn3.jpg",
       "https://charuel.ru/upload/iblock/98f/xmtytzz9kq4s57fxbl5beusq5c960p78.jpg",
@@ -1119,7 +1119,7 @@ const products = [
     "barcode": null,
     "barcodes": [],
     "externalUrl": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_924/",
-    "image": "https://charuel.ru/upload/iblock/cbe/3wos570o9jtmug0mpn0p1z88y71k61tf.jpg",
+    "image": "https://charuel.ru/upload/iblock/db1/vilxufsfzb2hfk1cav81wo223afgrzlv.jpg",
     "images": [
       "https://charuel.ru/upload/iblock/cbe/3wos570o9jtmug0mpn0p1z88y71k61tf.jpg",
       "https://charuel.ru/upload/iblock/25d/efdy45c0ebef0gv2kfh8r8stbke6kgjf.jpg",
@@ -1425,7 +1425,7 @@ const products = [
     "barcode": null,
     "barcodes": [],
     "externalUrl": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/bluza-zhenskaya-_604/",
-    "image": "https://charuel.ru/upload/iblock/560/szl3gj70pp1h2b64vx982pdo1ua59zhp.jpg",
+    "image": "https://charuel.ru/upload/iblock/ba4/updbcqe2gufqzd03wwnrltuqb4ecdk0c.jpg",
     "images": [
       "https://charuel.ru/upload/iblock/560/szl3gj70pp1h2b64vx982pdo1ua59zhp.jpg",
       "https://charuel.ru/upload/iblock/143/a01tylssw6ur8uaxkbfjii9fu72ilhc0.jpg",
@@ -1730,7 +1730,7 @@ const products = [
     "barcode": null,
     "barcodes": [],
     "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
-    "image": "https://charuel.ru/upload/iblock/76b/cuktcamsrt4x2m0mkfz7bsp11965n1rg.jpg",
+    "image": "https://www.pompa.ru/upload/resize_cache/webp/iblock/f8d/xr3mpet6f90r97n9aj5idckh8a9agjnz/500_665_1/1014222p90090_i1.webp",
     "images": [
       "https://charuel.ru/upload/iblock/76b/cuktcamsrt4x2m0mkfz7bsp11965n1rg.jpg",
       "https://charuel.ru/upload/iblock/bc9/y8tvdckf07sz2l8v02vb3be8xcg6ts7m.jpg",
@@ -2394,7 +2394,7 @@ const products = [
     "barcode": null,
     "barcodes": [],
     "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_126/",
-    "image": "https://charuel.ru/upload/iblock/f2a/ophb3xzs5o5642c0uyfv7256izi573k0.jpg",
+    "image": "https://www.charuel.ru/upload/resize_cache/iblock/903/525_702_1/eo2ucbk3x3gtlfyq6d9z2k5336xb9pjd.jpg",
     "images": [
       "https://charuel.ru/upload/iblock/f2a/ophb3xzs5o5642c0uyfv7256izi573k0.jpg",
       "https://charuel.ru/upload/iblock/18e/41n2nwo6yrrfcsv2dfeemdamvofnvlxe.jpg",
@@ -2859,7 +2859,7 @@ const products = [
     "barcode": null,
     "barcodes": [],
     "externalUrl": "https://charuel.ru/catalogue/odezhda/bryuki/shorty/shorty-zhenskie-_46/",
-    "image": "https://charuel.ru/upload/iblock/8b6/so3xt7bz2d91injx6ofkfni81jbol8hr.jpg",
+    "image": "https://a.lmcdn.ru/img389x562/M/P/MP002XW19XNC_21431378_2_v1_2x.jpg",
     "images": [
       "https://charuel.ru/upload/iblock/8b6/so3xt7bz2d91injx6ofkfni81jbol8hr.jpg",
       "https://charuel.ru/upload/iblock/6e8/sx2pfuoh3fy9z1oufd8p7ch0km4i2zcv.jpg",

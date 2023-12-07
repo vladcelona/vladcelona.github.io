@@ -3,83 +3,83 @@ const news = [
     "title": "Why We Cover High Fashion",
     "image": "https://static01.nyt.com/images/2018/07/01/insider/01friedman-top/merlin_132841976_ecbc95bd-68c6-4a7a-a7d2-c0d3668af9e6-superJumbo.jpg?quality=75&auto=webp",
     "date": "2023-12-07",
-    "content": `Times Insider delivers behind-the-scenes insights into how news, features and opinion come together at The New York Times.
+    "content": `Times Insider предоставляет закулисную информацию о том, как новости, статьи и мнения объединяются в New York Times.
 
-    When people ask me why I like covering fashion, one of my answers (and I have a couple) is always that clothes are one of the very few universal subjects: Everyone has to think about food, shelter and what they put on their bodies. Even nudists think about what they wear — they just reject the idea of wearing anything.
+    Когда люди спрашивают меня, почему мне нравится освещать моду, один из моих ответов (и у меня есть парочка) всегда заключается в том, что одежда - одна из немногих универсальных тем: каждый должен думать о еде, крове и о том, что он надевает на свое тело. Даже нудисты думают о том, что они носят — они просто отвергают идею носить что-либо.
     
-    That’s why, as Harold Koda, the former curator of the Met’s Costume Institute once told me, the decibel levels are measurably higher at a fashion exhibition than at any other show the museum puts on. Everyone feels entitled to have an opinion.
+    Вот почему, как однажды сказал мне Гарольд Кода, бывший куратор Института костюма Метрополитен-музея, уровень децибел на выставке моды заметно выше, чем на любом другом показе, который устраивает музей. Каждый чувствует, что имеет право иметь свое мнение.
     
-    But there are, unquestionably, parts of the clothes conversation that are less accessible than others. Most notably, the haute couture. The what?
+    Но, несомненно, есть аспекты разговора об одежде, которые менее доступны, чем другие. В первую очередь, это высокая мода. Что?
     
-    Exactly.
+    Точно.
     
-    Quick crib sheet: haute couture (or let’s just call it “couture” for simplicity’s sake) is a twice-yearly five-day show fiesta in Paris where a select handful of brands produce hand-made-to-order garments that cost approximately  $10,000 to $100,000 a piece. Yes, you read that right.
+    Краткая справка: haute couture (или давайте для простоты будем называть это просто “кутюр”) - это проводимая два раза в год пятидневная выставка-фиеста в Париже, на которой несколько избранных брендов производят одежду ручной работы на заказ стоимостью примерно от 10 000 до 100 000 долларов за штуку. Да, вы правильно поняли.
     
-    To qualify as a couture house, which is an official designation like champagne, a brand must maintain an atelier of a certain number of artisans full time and produce a specific number of garments twice a year for a show. There are only a very few that can fulfill the requirements, including Chanel, Dior and Valentino. A lot have dropped out over the years (Balmain, Versace, Saint Laurent), and the governing organization that adjudicates this has relaxed some of its rules to admit younger, less resourced or guest designers, like Iris van Herpen and Guo Pei, who made Rihanna’s Met Gala sunny-side-up egg cape.
+    Чтобы претендовать на звание дома моды, что является официальным обозначением, подобным champagne, бренд должен содержать ателье с определенным количеством мастеров на постоянной основе и производить определенное количество предметов одежды два раза в год для показа. Есть лишь очень немногие, которые могут соответствовать этим требованиям, включая Chanel, Dior и Valentino. За эти годы многие из них отказались от участия (Balmain, Versace, Saint Laurent), и руководящая организация, которая выносит решения по этому вопросу, смягчила некоторые из своих правил, чтобы принять молодых, менее обеспеченных ресурсами или приглашенных дизайнеров, таких как Айрис ван Херпен и Го Пей, которые создали для Рианны Met Gala sunny-side-up egg накидка.
     
-    Editors’ Picks
+    Выбор редакции
     
-    A Logo to Unite America? Good Luck.
+    Логотип, который объединит Америку? удачи.
     
-    Is It Ever Inappropriate to Wear Red Lipstick?
+    Неуместно ли когда-нибудь пользоваться красной помадой?
     
-    Restaurant Review: After a Scandal, April Bloomfield Sets a New Course
-    Image
+    Обзор ресторана: После скандала Эйприл Блумфилд устанавливает новый курс
+    Изображение
     
-    Chanel haute couture show in Paris, spring 2018.Credit...Valerio Mezzanotti for The New York Times
+    Показ Chanel haute couture в Париже, весна 2018.Фото... Валерио Меццанотти для New York Times
     
-    Anyway, there are only a few hundred clients in the world who regularly buy couture, including Middle Eastern royalty and American businesswomen. Guests often sit on gold ballroom chairs. At Chanel, the designer Karl Lagerfeld has a tendency to recreate gardens from around the world, from Versailles to Norway, as his sets.
+    В любом случае, в мире всего несколько сотен клиентов, которые регулярно покупают одежду от кутюр, включая членов ближневосточных королевских семей и американских бизнесвумен. Гости часто сидят на золотых бальных стульях. Дизайнер Chanel Карл Лагерфельд имеет тенденцию воссоздавать сады со всего мира, от Версаля до Норвегии, в качестве декораций.
     
-    Sounds like the ultimate let-them-eat-cake event, right? In a world struggling with income inequality, riven by tides of immigration and deep social divisions, where streetwear is on the rise, why cover it at all?
+    Звучит как идеальное мероприятие "дай им съесть торт", верно? В мире, борющемся с неравенством доходов, раздираемом потоками иммиграции и глубокими социальными разногласиями, где уличная одежда на подъеме, зачем вообще ее освещать?
     
-    The usual answer from most fashion people, and brands, for that matter, is it’s “the dream”: the ultimate escapist fantasy. But that always struck me as weird, especially now. Don’t know about you, but it was never my dream to wear a giant ball gown and run through the Hall of Mirrors.
+    Обычный ответ большинства модельеров и брендов, если уж на то пошло, таков: это “мечта”: конечная фантазия эскаписта. Но это всегда казалось мне странным, особенно сейчас. Не знаю, как вы, но я никогда не мечтала надеть гигантское бальное платье и пробежать по Зеркальному залу.
     
-    And it’s not the “Devil Wears Prada” argument, though that does hold true: In a world where everything goes into the Instagram soup and from there seeps into the cultural digestive system, what might appear on a runway in the Musée Rodin (where Dior holds its shows) in July will affect what H&M does in August.
+    И это не аргумент “Дьявол носит Prada”, хотя и он справедлив: в мире, где все попадает в суп из Instagram, а оттуда просачивается в культурную пищеварительную систему, то, что может появиться на подиуме в Музее Родена (где Dior проводит свои показы) в июле, повлияет на то, что H&M делает это в августе.
     
-    For me, it’s never been about imagining myself in the clothes, or even being able to buy the clothes, any more than watching great sports is about being able to play soccer like Lionel Messi.
+    Для меня никогда не было важно представлять себя в одежде или даже иметь возможность купить эту одежду, точно так же, как просмотр отличных спортивных состязаний - это возможность играть в футбол, как Лионель Месси.
     
-    It’s about using this particular craft form as a wormhole into what’s going on in the world. The gowns themselves may not seem that relevant (especially when they reimagine a woman as, say, a lavender bush). But the issues they raise are.
+    Речь идет об использовании этой конкретной формы ремесла в качестве лазейки в то, что происходит в мире. Сами платья могут показаться не такими актуальными (особенно когда они переосмысливают женщину, скажем, как куст лаванды). Но проблемы, которые они поднимают, таковы.
     
-    Image
+    Изображение
     
-    Givenchy couture, spring 2018.Credit...Guillaume Roujas/Nowfashion
+    Givenchy couture, весна 2018.Фото...Guillaume Roujas/Nowfashion
     
-    Image
+    Изображение
     
-    Christian Dior couture, spring 2018.Credit...Valerio Mezzanotti for The New York Times
+    Christian Dior couture, весна 2018.Фото... Валерио Меццанотти для New York Times
     
-    Like, for example, the fact that to a certain extent any women’s wear collection, at any level, should be a treatise on female identity at that particular moment in time. At least if it’s any good. That’s why Karl Lagerfeld made his Chanel bride wear the pants last January, not the corseted meringue; why at Dior, Maria Grazia Chiuri paid homage to Leonor Fini, an early 20th century Surrealist (I don’t think anyone would dispute the surreal nature of our current era); why at Givenchy, Clare Waight Keller protected gowns dripping in silver fringe with military greatcoats.
+    Как, например, тот факт, что в определенной степени любая коллекция женской одежды любого уровня должна быть трактатом о женской идентичности в данный конкретный момент времени. По крайней мере, если от этого есть хоть какой-то толк. Вот почему Карл Лагерфельд в январе прошлого года заставил свою невесту из Chanel надеть брюки, а не безе с корсетом; почему в Dior Мария Грация Кьюри отдала дань уважения Леонор Фини, сюрреалистке начала 20 века (я не думаю, что кто-то станет оспаривать сюрреалистическую природу нашей нынешней эпохи); почему в Givenchy Клэр Платья Уэйта Келлера, украшенные серебристой бахромой, сочетались с военными шинелями.
     
-    Like the fact that the mostly French gatekeepers of couture, the most rigid of fashion sectors, have increasingly lowered barriers to entry to woo and admit designers from China, Lebanon and Russia. Fashion is acknowledging the value of porous borders, even as its Western European home grows more skittish about them.
+    Например, тот факт, что в основном французские привратники моды, самого жесткого из секторов моды, все больше снижают барьеры для входа, чтобы привлечь дизайнеров из Китая, Ливана и России. Мода признает ценность пористых границ, даже несмотря на то, что ее западноевропейская родина становится все более щепетильной по отношению к ним.
     
-    Like the fact that this is as good a way as any to talk about the current tension between the handmade and human (and historical) and the technological. It’s the fashion equivalent of reading books versus watching YouTube.
+    Нравится тот факт, что это самый лучший способ рассказать о нынешнем напряжении между ручной работой, человеческим (и историческим) и технологическим. Это модный эквивалент чтения книг по сравнению с просмотром YouTube.
     
-    After all, these are all garments created entirely by hand (except in the case of Iris van Herpen, who tends to 3D print a lot of her materials), as part of a long tradition. Last season at Valentino, the designer Pierpaolo Piccioli named every dress after the person who made it, practically fetishizing the artisan in the face of … well, Facebook.`
+    В конце концов, все эти предметы одежды создаются исключительно вручную (за исключением Айрис ван Херпен, которая использует 3D-печать многих своих материалов), что является частью давней традиции. В прошлом сезоне в Valentino дизайнер Пьерпаоло Пиччоли назвал каждое платье в честь человека, который его сшил, практически фетишизировав мастера перед лицом... ну, Facebook.`
   },
   {
     "title": "High-fashion thermals? The Scandi ski staple that has taken to the runways",
     "image": "https://images.vs-static.com/pcO68GowTDeeUMqW43OF5RBDyfI=/1200x0/00054_bottega_veneta_fall_2023_ready_to_wear_credit_gorunway_jpg_d5984f2cdc/00054_bottega_veneta_fall_2023_ready_to_wear_credit_gorunway_jpg_d5984f2cdc.webp",
     "date": "2023-12-07",
-    "content": `It seems the fashion industry at large is lusting for long-johns and toasty thermals this autumn
+    "content": `"Похоже, этой осенью индустрия моды в целом жаждет длинных кальсон и термобелья с эффектом "поджаривания".
 
-    The action of slipping on thermal underwear beneath our clothes is wholly practical, yet deeply reminiscent of childhood tantrums. Few acts oozed teenage rebellion like wearing next to nothing in freezing temperatures. But one of the first styling lessons we learn as we grow older is the value of a good pair of thermals come winter.
+    Надевание термобелья под одежду абсолютно практично, но в то же время сильно напоминает детские истерики. Немногие поступки так вдохновляли подростков на бунт, как ношение практически ничего при низких температурах. Но один из первых уроков стиля, который мы усваиваем, становясь старше, - это ценность хорошей пары термобелья зимой.
     
     
-    Advertisement
-    Even so, this go-to garment (really the foundation of our Nordic cold-weather wardrobes) has been regaled to hide away beneath finer 'fits. In other words, we've considered it a winterised version of your favourite pyjamas – not meant to be seen.
+    Реклама
+    Несмотря на это, эта универсальная одежда (на самом деле основа наших скандинавских гардеробов для холодной погоды) была разработана для того, чтобы ее можно было спрятать под более облегающими вещами. Другими словами, мы рассматривали ее как утепленную версию вашей любимой пижамы, которая не предназначена для того, чтобы ее видели.
     
-    However, our perspective is quickly shifting, owing to the fashionable upgrade of the humble long john for autumn/winter 2023.
+    Однако наши взгляды быстро меняются благодаря модному обновлению humble long john на осень/зиму 2023 года.
     
-    This notion of elevated thermals was cemented by Bottega Veneta this season. Sporting long-sleeved thermal tops, three models made their way down the runway and long johns were given new sartorial status – going from a snow slope exclusive covered by pills, lint and fuzz, to a rarefied staple in our everyday styling arsenal.
-    
-    
+    Это представление о повышенной температуре было закреплено Bottega Veneta в этом сезоне. Три модели с теплыми топами с длинными рукавами появились на подиуме, а кальсоны обрели новый статус - от эксклюзивного снежного покрова, покрытого подушечками, ворсом и пушком, до редкого элемента в нашем арсенале повседневного стиля.
     
     
-    The collection's rural romanticism echoed a memory of a Midsommar of the past, when the temperature dropped lower than on Christmas that same year (a true story). Freezing whilst sipping our schnapps for warmth, Bottega Veneta's layered white warmers would have been a readily welcomed wardrobe addition. Yes, they were made for (Italian) winter, but considering our fickle summer weather – especially on Midsommar – and the delicate floral embroideries, it is easy to argue they could, and should, remain in rotation all year round.
     
-    Throughout London Fashion Week, we found ourselves drawn to a variety of Scandinavian design details. None more so than the fine-knit base layers at Nensi Dojaka. They resonated – similarly to Bottega Veneta's midsummer long johns – with their wearability and sheer utilitarian usefulness be it in the form of long-sleeved ski tops or body suits.
     
-    But when faced with super-cold commutes, we can all agree that thermal leggings are the pinnacle of our winter wardrobes. In fact, we will always recommended Uniqlo's Heattech Long johns as a base layer when combatting chilly morning. But even when caught in the glaringly hot runway spotlights, these knitted tights had a leg up on its competitors – be it slinky, sheer skirts or tailored trousers.
+    Сельский романтизм коллекции перекликается с воспоминаниями о середине лета прошлого года, когда температура упала ниже, чем на Рождество в том же году (правдивая история). Замерзая, потягивая шнапс, чтобы согреться, многослойные белые грелки Bottega Veneta стали бы желанным дополнением к гардеробу. Да, они были сшиты для (итальянской) зимы, но, учитывая нашу переменчивую летнюю погоду – особенно в Мидсоммаре – и нежные цветочные вышивки, легко утверждать, что они могли и должны оставаться в моде круглый год.
+    
+    На протяжении всей Недели моды в Лондоне нас привлекали разнообразные детали скандинавского дизайна. Ни одна из них не привлекала больше, чем базовые слои из тонкого трикотажа в Nensi Dojaka. Они нашли отклик – как и летние кальсоны Bottega Veneta – своей удобством в носке и чисто утилитарной полезностью, будь то в виде лыжных топов с длинными рукавами или облегающих костюмов.
+    
+    Но когда мы сталкиваемся с очень холодными поездками на работу, мы все можем согласиться с тем, что термо-леггинсы являются вершиной нашего зимнего гардероба. На самом деле, мы всегда будем рекомендовать кальсоны Heattech от Uniqlo в качестве базового слоя для борьбы с утренним холодом. Но даже оказавшись в ослепительно ярких лучах прожекторов подиума, эти трикотажные колготки не уступали своим конкурентам – будь то облегающие прозрачные юбки или брюки на заказ.
     
     
     Saint Laurent AW23.
@@ -90,71 +90,69 @@ const news = [
     
     Loewe AW23.
     
-    Take Saint Laurent, for instance. The French Maison presented leggy looks, pairing graphite grey and black knitted thermals with tone-in-tone tailoring – such as the dove grey blazer above – and surprising material mixes. Be it rendered in silky, broad-shoulder blouses or casually draped checkered wool.
+    Возьмем, к примеру, Saint Laurent. Французский дом представил длинноногие образы, сочетая графитово-серую и черную трикотажную термокостюмы с пошивом тон в тон - таким, как блейзер dove grey, представленный выше, – и неожиданным сочетанием материалов. Будь то шелковые блузки с широкими плечами или небрежно задрапированная шерстяная одежда в клетку.
     
-    In Milan, Ferragamo's creative director Maximilian Davis had his models donning statement faux furs and superbly cut coats – accentuated by warming body suits and leggings peaking out beneath the hemlines. Even menswear saw the long john reimagined on the runway, with Jonathan Anderson presenting the most classic take on the trend at Loewe – buttons and all.
+    В Милане креативный директор Ferragamo Максимилиан Дэвис приказал своим моделям надеть эффектные искусственные меха и пальто великолепного кроя, подчеркнутые теплыми облегающими костюмами и леггинсами, выглядывающими из–под подолов. Даже мужская одежда увидела переосмысление long john на подиуме, а Джонатан Андерсон представил самый классический взгляд на тренд в Loewe – пуговицы и все такое прочее.
     
-    But few designers have thermals down-pat as well as our locals. The Nordic brands know just how essential these pieces are in a winter wardrobe, after all, resulting in an onslaught of office appropriate iterations emanating from the region. Take the matchy-matchy sets and delicately detailed ski staples shown at Copenhagen, for example, making a case for base layers we won't want to cover up.
+    Но мало кто из дизайнеров так же хорошо разбирается в термобелье, как наши местные жители. В конце концов, скандинавские бренды знают, насколько эти вещи необходимы в зимнем гардеробе, что привело к появлению множества моделей, подходящих для офиса, родом из этого региона. Возьмем, к примеру, комплекты "в тон" и изящно детализированные лыжные скобы, показанные в Копенгагене, в качестве основы для базовых слоев, которые мы не захотим прикрывать.
     
     
-    Remain AW23.
+    Остаются AW23.
     
     
     Holzweiler AW23.
     
     
-    Filippa K AW23.
+    Филиппа К AW23.
     
-    Consider Holzweiler's crafty crocheted creations; the effervescent effect it would have at your next 'aprés ski', not to mention night out – preferably paired with sultrily lacquered accessories, perhaps even a not-so-subtly flash of lacey lingerie.
+    Подумайте о хитроумных вязаных изделиях Holzweiler; какой искрометный эффект они произведут на вашем следующем "апре ски", не говоря уже о вечернем выходе – предпочтительно в сочетании с аксессуарами, покрытыми знойным лаком, возможно, даже с не столь изысканным кружевным бельем.
     
-    At Filippa K, recently appointed creative director Lisa Kessler took a more literal approach with her contrast stitched leggings and ski goggle collaboration inspired by ski jumpers in the '70s. Styled with chunky socks and scrappy sandals, naturally. And yes, you can argue that the body stockings at Remain might not strictly adhere to the traditional definition of long johns, but they provide a warming base layer which –arguably – is the basic function of thermals.
+    Недавно назначенная креативным директором Filippa K Лиза Кесслер применила более буквальный подход, создав леггинсы с контрастной строчкой и лыжные очки, вдохновленные прыгунами с трамплина 70-х. Естественно, в сочетании с короткими носками и босоножками в стиле пэчворк. И да, вы можете возразить, что боди–чулки Remain, возможно, не совсем соответствуют традиционному определению кальсон, но они обеспечивают согревающий базовый слой, который, возможно, является основной функцией термобелья.
     
-    Call us easily influenced, but we're considering foregoing a skin-bearing summer and jump straight into toasty-thermal-autumn. After all, who isn't lusting to layer with long johns – perhaps even putting thermal pieces front and centre – after this fashion month?`
-  },
+    Можете считать, что мы легко поддаемся влиянию, но мы подумываем о том, чтобы отказаться от лета, приносящего пользу коже, и сразу перейти к теплой осени. В конце концов, кому не хочется надеть длинные кальсоны – возможно, даже надеть термобелье спереди и по центру – после этого месяца моды?`},
   {
     "title": "High Fashion Twitter predicts this year’s gilded Met Gala looks",
     "image": "https://static01.nyt.com/images/2018/01/23/fashion/runway-couture/01friedman2/01friedman2-superJumbo-v2.jpg?quality=75&auto=webp",
     "date": "2023-12-07",
-    "content": `FASHIONFEATURE
-    Timothée Chalamet in a Ludovic de Saint Sernin bathrobe? Bella Hadid in Vivienne Westwood corsetry? The internet’s fashion figureheads imagine a style spectacle that might (but probably won’t) happen
-    29April 2022
-    TextDaniel Rodgers
-    We are bearing witness to the slow and painful demise of the red carpet. That’s not to say there’s any less of them, of course, but that the celebrity circus is losing its cultural sway. The Oscars were boring, even despite The Slap, and so were the Grammys and the VMAs – all of which emerged from the pandemic with about as much fanfare as someone blowing a raspberry. Much of this is to do with the fashion on show. Where famous people once dressed in flanks of raw meat, lolloping stuffed swans around their bare shoulders, they now wear sturdy pantsuits and quinceanera dresses, chosen by big brand sponsors and superstar stylists.
+    "content": `ОСОБЕННОСТИ МОДЫ
+    Тимоти Шаламе в халате от Людовика де Сен-Сернена? Белла Хадид в корсете от Вивьен Вествуд? Модные деятели Интернета представляют себе зрелище стиля, которое могло бы (но, вероятно, не произойдет)
+    29 апреля 2022
+    ТЕКСТ Дэниел Роджерс
+    Мы являемся свидетелями медленного и болезненного угасания красной дорожки. Это, конечно, не значит, что их стало меньше, но цирк знаменитостей теряет свое культурное влияние. Вручение "Оскаров" было скучным, даже несмотря на пощечину, так же как и "Грэмми" и VMA – все они вышли из пандемии с такой же помпой, с какой кто-то дует на малину. Во многом это связано с показом моды. Там, где знаменитые люди когда-то одевались в куски сырого мяса, накинув на голые плечи чучела лебедей, теперь они носят строгие брючные костюмы и пышные платья, выбранные спонсорами крупных брендов и стилистами-суперзвездами.
     
-    READ MORE
-    Kanye West and Julia Fox
-    For Kanye West and Julia Fox, the runway is a rival
-    Harry Styles at the 2021 Grammy Awards
-    Cher from Clueless loved Harry Styles’ Clueless-esque Grammys look
-    Connie Fleming Mugler
-    Team Thierry: a comprehensive guide to Mugler’s catwalk cameos
-    Julia Fox and Kanye West
-    The Ye-ssification of Julia Fox, and more fashion news you missed
-    For fashion fans, however, the Met Gala’s star is still at a glimmer, with Kim Kardashian’s Balenciaga, Rihanna’s Galliano, and Cardi B’s Mugler dangling a carrot above the keyboards of High Fashion Twitter pundits – even if the event’s 2021 edition left much to be desired. “I’ve got major burnout from the disappointing looks year after year,” says HFT’s @DECOUTURIZE. “At the end of the day these celebrities are very boring!” With hindsight, one of the best moments of last year’s Met Gala was when Alexandria Ocasio-Cortez decided to wear a wedding dress splashed with “TAX THE RICH” in blood-red lettering across her posterior. It told us more about AOC than Billie Eilish’s frothy blush gown or A$AP Rocky, who led photographers up the Met’s staircase, tearing off a patchwork quilt to reveal a… black suit beneath. 
+    подробнее
+    Канье Уэст и Джулия Фокс
+    Для Канье Уэста и Джулии Фокс подиум - соперник
+    Гарри Стайлс на церемонии вручения премии "Грэмми" 2021 года
+    Шер из Clueless понравился образ Гарри Стайлса на церемонии "Грэмми" в стиле Clueless
+    Конни Флеминг Маглер
+    Команда Тьерри: подробный путеводитель по камеям Мюглера на подиуме
+    Джулия Фокс и Канье Уэст
+    Признание Джулии Фокс и другие новости моды, которые вы пропустили
+    Однако для поклонников моды звезда Met Gala все еще сияет: Баленсиага от Ким Кардашьян, Гальяно от Рианны и Мюглер от Карди Би размахивают морковкой над клавиатурами знатоков высокой моды в Твиттере – даже если выпуск мероприятия 2021 года оставляет желать лучшего. “Я сильно выгораю из-за разочаровывающего внешнего вида год за годом”, - говорит @DECOUTURIZE из HFT. “В конце концов, эти знаменитости очень скучные!” Оглядываясь назад, можно сказать, что одним из лучших моментов прошлогоднего гала-концерта Met было то, когда Александрия Окасио-Кортес решила надеть свадебное платье с кроваво-красными буквами “TAX THE RICH” поперек спины. Это рассказало нам об AOC больше, чем платье Билли Айлиш с пенящимися румянами или A$AP Rocky, которая повела фотографов вверх по лестнице Метрополитен-музея, сорвав лоскутное одеяло, чтобы показать под ним... черный костюм. 
     
-    In theory, this year’s Gilded Age theme could buck the banalisation of the red carpet, rooted in an era of rapid economic growth, where technological innovation, bustles, and gay bathhouses were beginning to blossom. “It was when electricity became a thing, a concept which was first looked on as magic,” social media consultant Iolo Edwards says, detailing how he’d like to see Michèle Lamy in one of Rick Owens’ LED headpieces and Timothée Chalamet in a spangled Ludovic de Saint Sernin bathrobe. “But I hate how people have only taken the upper classes into account. The move of the working classes, from agriculture to industry, probably had a bigger impact on fashion, with early photographs of factory workers in their enormous suits reminding me of Yohji Yamamoto’s draped tailoring.” 
+    Теоретически, тема "Золотого века" в этом году могла бы противостоять банализации красной дорожки, уходящей корнями в эпоху быстрого экономического роста, когда начинали расцветать технологические инновации, шумиха и гей-бани. “Это было тогда, когда электричество стало вещью, концепцией, на которую сначала смотрели как на волшебство”, - говорит консультант по социальным сетям Иоло Эдвардс, подробно описывая, как он хотел бы видеть Мишель Лами в одном из светодиодных головных уборов Рика Оуэнса и Тимоти Шаламе в расшитом блестками халате Людовика де Сен-Сернена. “Но я ненавижу то, что люди принимают во внимание только высшие классы. Переход рабочего класса из сельского хозяйства в промышленность, вероятно, оказал большее влияние на моду: ранние фотографии фабричных рабочих в их огромных костюмах напомнили мне о драпированном пошиве Йоджи Ямамото”. 
     
-    There’s no excuse, then, for more nude-illusion gowns – that being said, TikTok thinks Kim Kardashian is going to wear Marilyn Monroe’s “Happy Birthday, Mr. President” dress, with Julia Fox in custom Schiaparelli. Since Joan Rivers’ beloved Fashion Police has been replaced by sprawling social media threads, below, we ask the figureheads of High Fashion Twitter to wager their bets on the upcoming Met Gala, imagining a fashion extravaganza that might (but probably won’t) happen.
+    Таким образом, нет оправдания для большего количества платьев с эффектом обнаженной натуры - как бы то ни было, TikTok считает, что Ким Кардашьян собирается надеть платье Мэрилин Монро “С днем рождения, мистер Президент”, а Джулия Фокс – сшитое на заказ платье Schiaparelli. Поскольку любимая "Полиция моды" Джоан Риверс была заменена обширными темами в социальных сетях, ниже мы просим руководителей твиттера высокой моды сделать ставки на предстоящий Met Gala, представив себе феерию моды, которая может (но, вероятно, не произойдет).
     
-    BELLA HADID, BY @THEKIMBINO
-    “So I’d like to see some archival Christian Lacroix. I recently did a TikTok about him specifically with mention of the Met Gala! Although he’s super problematic, I think John Galliano’s AW97 archive at Christian Dior is brilliant for the theme. But Charles James’ archive is right at the top of my list – like number one – and if I was a celebrity I would pay top notch for a gown by him. Other archial pieces, like McQueen at Givenchy, would be great! Generally speaking, archived looks would always be at the top of my list, but I know how impossible it is to get into them! 
+    БЕЛЛА ХАДИД, АВТОР @THEKIMBINO
+    “Итак, я бы хотел посмотреть архив Кристиана Лакруа. Недавно я сделал пост о нем, в частности, с упоминанием Met Gala! Хотя он очень проблематичен, я думаю, что архив AW97 Джона Гальяно в Christian Dior великолепно подходит для этой темы. Но архив Чарльза Джеймса стоит на первом месте в моем списке – как номер один, – и если бы я была знаменитостью, я бы заплатила по высшему разряду за платье от него. Другие архивные вещи, такие как McQueen от Givenchy, были бы великолепны! Вообще говоря, архивные образы всегда были бы на первом месте в моем списке, но я знаю, как невозможно попасть в них! 
     
-    I think whoever goes with Daniel Roseberry has the potential to really stunt, especially with his metal work. Christopher John Rogers has such a strong design language and technique in the way he constructs his clothes that would work really well for the Met, too. Otherwise, Moschino could be a real hit or miss in terms of being really literal in the interpretation. Vivienne Westwood would also be really brilliant – I would love to see Bella or one of the supers wearing her designs. Otherwise, anyone wearing Glenn Martens’ Gaultier is gonna make a real statement.”
+    Я думаю, что у того, кто работает с Дэниелом Розбери, есть потенциал по-настоящему выделиться, особенно с его работами по металлу. Кристофер Джон Роджерс обладает таким сильным дизайнерским языком и техникой в том, как он создает свою одежду, что это действительно хорошо подошло бы и для Метрополитен-музея. В противном случае, Moschino мог бы стать настоящим хитом с точки зрения буквальности интерпретации. Вивьен Вествуд также была бы действительно великолепна – я бы хотел увидеть Беллу или кого-то из суперов в ее образах. В противном случае любой, кто наденет Готье от Гленна Мартенса, сделает настоящее заявление”.
     
-    NAOMI CAMPBELL, BY @MUGLERIZE
-    “What I would like to see is, of course, archival Christian Lacroix. Specifically pieces from either his Prêt-à-Porter collections, or better, Haute Couture, during the mid to late 90s. The reason why I have chosen that specific time period is because the collections were so glamorous, while managing to possess a sense of simplicity that just enhanced and sharpened all that excess. And I know I’m just wishful thinking right now, but I would really love to see Regina King pull something from his archives.
+    НАОМИ КЭМПБЕЛЛ, АВТОР @MUGLERIZE
+    “Что я хотела бы увидеть, так это, конечно, архив Кристиана Лакруа. В частности, вещи из его коллекций Прет-а-Порте или, что еще лучше, от кутюр середины-конца 90-х. Причина, по которой я выбрала именно этот период времени, заключается в том, что коллекции были настолько гламурными, но при этом умудрялись сохранять ощущение простоты, которое только усиливало и заостряло все это излишество. И я знаю, что сейчас просто выдаю желаемое за действительное, но мне бы очень хотелось увидеть, как Реджина Кинг извлекает что-нибудь из своих архивов.
     
-    I hope someone flips the theme upside down. The Gilded Age was not just about glamour, jewels, and cinched waists, but it also saw a huge rise in immigration, with most people on the hunt for the American Dream experiencing extreme poverty. So I would like to see someone interpret that part of the era with real senstivity – hopefully in Alexander McQueen’s SS04 collection, Deliverance, which has that same essence and meaning, albeit from a different time in American history.”
+    Я надеюсь, кто-нибудь перевернет тему с ног на голову. Золотой век был не только временем гламура, драгоценностей и подтянутых талий, но и ознаменовался огромным ростом иммиграции, при этом большинство людей в погоне за американской мечтой жили в крайней бедности. Поэтому я хотел бы увидеть, как кто–то по-настоящему чувственно интерпретирует эту часть эпохи - надеюсь, в коллекции Александра Маккуина SS04 ”Избавление", которая обладает той же сущностью и значением, хотя и относится к другому периоду американской истории".
     
-    KIM KARDASHIAN, BY @IOLOEDWARDS
-    “Bustles (butt padding) were essential to the womenswear of the era and I’m sure that we’ll see many of them, but I’m looking forward to see how Thom Browne does it. Though it would be funny to see Kim Kardashian un-reverse her (alleged) brazilian butt lift with one, I think it would be much more on brand for Thom to have a queen like Miss Fame or Symone to wear one with a bare flat chest, queering up the history. Otherwise, should Timothée want a bit of modesty from his towel, once inside he could wear Balenciaga couture by Demna, razor-cut leather bathrobes, and of course an oiled chest could be noted as a nod to Rockefeller’s monopoly on the resource in the press release.”
+    КИМ КАРДАШЬЯН, АВТОР @IOLOEDWARDS
+    “Бюст (подкладка для ягодиц) был неотъемлемой частью женской одежды той эпохи, и я уверена, что мы увидим многие из них, но я с нетерпением жду возможности увидеть, как Том Браун это делает. Хотя было бы забавно увидеть, как Ким Кардашьян отменила свою (предполагаемую) бразильскую подтяжку ягодиц с помощью одного из них, я думаю, что для бренда Тома было бы гораздо лучше, если бы такая королева, как Мисс Слава или Симона, носила его с обнаженной плоской грудью, что перевернуло бы историю. В противном случае, если Тимоти захочет немного скромности в своем полотенце, оказавшись внутри, он может надеть одежду от Balenciaga от Demna, кожаные халаты с бритвенным вырезом и, конечно, смазанную маслом грудь можно отметить в пресс-релизе как дань монополии Рокфеллера на этот ресурс”.
     
-    DOJA CAT, @IDESERVECOUTURE
-    “I think it’s a common story at this point that a lot of celebrities are just gonna gloss over the theme. That’s just what happens at the Met – especially with Gilded Glamour because people are just gonna hear the glamour part and run with it, they’re not gonna pay attention to the time period. With that being said, there’s two designers I really want to see. One of them is Vivienne Westwood – she’s one of the rare designers who understands history and uses it in an interesting way, and I can imagine Doja Cat pulling from her collections. The second designer I’d like to see would be John Galliano. I don’t think that’s gonna happen, as we all know about what happened in 2011, but his clothes from that period would fit perfectly with the theme, particularly on Bella or Imaan.”
+    КОШКА ДОДЖА, @IDESERVECOUTURE
+    “Я думаю, на данный момент это обычная история, что многие знаменитости просто замалчивают эту тему. Именно это и происходит в Met – особенно с Gilded Glamour, потому что люди просто услышат гламурную часть и будут следовать ей, они не будут обращать внимания на период времени. С учетом сказанного, есть два дизайнера, которых я действительно хочу увидеть. Одна из них – Вивьен Вествуд - она один из редких дизайнеров, который понимает историю и использует ее интересным образом, и я могу представить, как Донья Кэт использует ее коллекции. Вторым дизайнером, которого я хотел бы видеть, был бы Джон Гальяно. Я не думаю, что это произойдет, поскольку мы все знаем о том, что произошло в 2011 году, но его одежда того периода идеально вписалась бы в тему, особенно на Bella или Imaan”.
     
-    LIZZO, @FLYREBEL
-    “With the red carpet theme being ‘gilded glamour/white tie’ I expect to see a lot of spot-on literal nods to the aesthetic of the gilded age. Bustles, mutton sleeves, elegant, over-the-top gowns, and sharp tuxedos. I’m anxious to see what Christopher John Rogers comes up with – as his purple plaid bustle gown was on display for last year’s Lexicon of Fashion – and I would LOVE to see Tracee Ellis Ross in one of his designs. I’d also love to see Zac Posen take on a gilded age dress. Otherwise, it would be good to see some playful, campy interpretations of the theme – like, I can’t wait to see Daniel Roseberry’s take, ideally on Lizzo – or a nod to gilded age sportswear. I would also love to see Black attendees interpret the theme through the lens of Black style, culture, and climate of the time (the end of Reconstruction, the emergence of the Black elite mirrored by voter suppression, segregation laws, the second Morrill Act, etc).”`
-  }
+    ЛИЗЗО, @FLYREBEL
+    “Поскольку темой красной ковровой дорожки является "позолоченный гламур/белый галстук", я ожидаю увидеть множество буквальных отсылок к эстетике золотого века. Бюстье, рукава из овечьей шерсти, элегантные платья с завышенной талией и строгие смокинги. Мне не терпится увидеть, что придумает Кристофер Джон Роджерс, поскольку его фиолетовое клетчатое платье bustle было представлено на прошлогоднем Lexicon of Fashion, и я бы хотела увидеть Трейси Эллис Росс в одном из его дизайнов. Я бы также с удовольствием посмотрела, как Зак Позен наденет платье "золотого века". В противном случае было бы неплохо увидеть несколько игривых, непринужденных интерпретаций темы – например, я не могу дождаться, когда увижу работу Дэниела Розбери, в идеале на Lizzo – или намек на спортивную одежду gilded age. Я также хотел бы, чтобы чернокожие участники интерпретировали тему через призму черного стиля, культуры и климата того времени (окончание реконструкции, появление черной элиты, отраженное подавлением избирателей, законами о сегрегации, вторым законом Моррилла и т.д.)”.`}
 ];
 
 // Function to add a news to the products list
