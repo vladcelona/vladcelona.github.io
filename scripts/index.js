@@ -3147,7 +3147,7 @@ const products = [
 const news = [
   {
     "title": "Why We Cover High Fashion",
-    "image": "https://graceloveslace.com/cdn/shop/products/grace-loves-lace.shop_.wedding-dresses-song-001_small.jpg?v=1634262521",
+    "image": "https://static01.nyt.com/images/2018/07/01/insider/01friedman-top/merlin_132841976_ecbc95bd-68c6-4a7a-a7d2-c0d3668af9e6-superJumbo.jpg?quality=75&auto=webp",
     "date": "2023-12-07",
     "content": `Times Insider delivers behind-the-scenes insights into how news, features and opinion come together at The New York Times.
 
@@ -3204,7 +3204,7 @@ const news = [
   },
   {
     "title": "High-fashion thermals? The Scandi ski staple that has taken to the runways",
-    "image": "https://graceloveslace.com/cdn/shop/products/grace-loves-lace.shop_.wedding-dresses-song-001_small.jpg?v=1634262521",
+    "image": "https://images.vs-static.com/pcO68GowTDeeUMqW43OF5RBDyfI=/1200x0/00054_bottega_veneta_fall_2023_ready_to_wear_credit_gorunway_jpg_d5984f2cdc/00054_bottega_veneta_fall_2023_ready_to_wear_credit_gorunway_jpg_d5984f2cdc.webp",
     "date": "2023-12-07",
     "content": `It seems the fashion industry at large is lusting for long-johns and toasty thermals this autumn
 
@@ -3259,7 +3259,7 @@ const news = [
   },
   {
     "title": "High Fashion Twitter predicts this year’s gilded Met Gala looks",
-    "image": "https://graceloveslace.com/cdn/shop/products/grace-loves-lace.shop_.wedding-dresses-song-001_small.jpg?v=1634262521",
+    "image": "https://static01.nyt.com/images/2018/01/23/fashion/runway-couture/01friedman2/01friedman2-superJumbo-v2.jpg?quality=75&auto=webp",
     "date": "2023-12-07",
     "content": `FASHIONFEATURE
     Timothée Chalamet in a Ludovic de Saint Sernin bathrobe? Bella Hadid in Vivienne Westwood corsetry? The internet’s fashion figureheads imagine a style spectacle that might (but probably won’t) happen

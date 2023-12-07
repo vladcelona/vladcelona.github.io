@@ -3144,27 +3144,6 @@ const products = [
   }
 ]
 
-const news = [
-  {
-    "title": "Breaking News: Example Title 1",
-    "image": "https://graceloveslace.com/cdn/shop/products/grace-loves-lace.shop_.wedding-dresses-song-001_small.jpg?v=1634262521",
-    "date": "2023-12-07",
-    "content": "This is the content for the first news article."
-  },
-  {
-    "title": "Breaking News: Example Title 2",
-    "image": "https://graceloveslace.com/cdn/shop/products/grace-loves-lace.shop_.wedding-dresses-song-001_small.jpg?v=1634262521",
-    "date": "2023-12-07",
-    "content": "This is the content for the second news article."
-  },
-  {
-    "title": "Special Report: Example Title 3",
-    "image": "https://graceloveslace.com/cdn/shop/products/grace-loves-lace.shop_.wedding-dresses-song-001_small.jpg?v=1634262521",
-    "date": "2023-12-07",
-    "content": "This is the content for the third news article."
-  }
-];
-
 // Function to add a product to the products list
 function addProductToPage(product) {
 
