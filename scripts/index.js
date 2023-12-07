@@ -3477,7 +3477,7 @@ function updateCartIcon() {
 }
 
 /**
- * Functino that opens modal window and adds content into it
+ * Function that opens modal window and adds content into it
  * @param {any} item 
  */
 function openModal(item) {
