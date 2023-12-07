@@ -1,0 +1,112 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.global-header-content {
+  color: white;
+  font-size: bold;
+}
+
+.global-header {
+  /* justify-content: space-between; */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  width: calc(100%) !important;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background-color: #FF69B4A0;
+  border-bottom: 1px #A0A0A0A0;
+}
+
+.global-header-content {
+  width: inherit;
+  padding: 16px;
+  justify-content: space-between;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+}
+
+.global-header-navigation {
+  width: inherit;
+  padding: 16px;
+  justify-content: space-around;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.navigation-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.header-menu-icon {
+  color: white;
+  height: 20px;
+  width: 32px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+}
+
+.cart-item-count {
+  margin-left: 4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#shopping_cart_icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.filler {
+  width: 8px;
+}

@@ -1,3 +1,0 @@
-class NewsList extends HTMLElement {
-
-}

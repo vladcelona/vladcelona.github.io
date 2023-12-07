@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <link rel="icon" href="./public/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0,
-      maximum-scale=1.0, user-scalable=no">
+        maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="MIREA University coursework website" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="./styles/index.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script src="./scripts/index.js" type="text/javascript" defer></script>
+    <link href="./styles/cart.css" rel="stylesheet" type="text/css" />
+    <script src="./scripts/cart.js" type="text/javascript" defer></script>
+    <title>Cart</title>
   </head>
   <body>
     <!-- Notifying user that they/them have to enable JavaScript -->
@@ -45,16 +45,34 @@
       </div>
     </header>
     <main style="margin-top: 107px;">
-      <div class="section-header" id="news">Новости индустрии</div>
-      <div class="news-list-container"></div>
-      <button class="view-button" onclick="window.location.href = './news.html'">
-        Посмотреть все новости
-      </button>
-      <div class="section-header" id="products">Товары</div>
+      <div class="section-header" id="products">Ваша корзина</div>
       <div class="product-list-container"></div>
-      <button class="view-button" onclick="window.location.href = './products.html'">
-        Посмотреть все товары
-      </button>
+      <div class=".delivery-info">
+        <h2>Контактные данные</h2>
+        <form class=".info-form">
+          <div><label for="name" class="inform">Имя <strong>(обязательно)</strong></label></div>
+          <div><input type="text" placeholder="Имя" name="name" required="" pattern="[A-Za-zА-Яа-яЁё]+"></div>
+          <div><label for="surname" class="inform">Фамилия</label></div>
+          <div><input type="text" placeholder="Фамилия" name="surname" required="" pattern="[A-Za-zА-Яа-яЁё]+"></div>
+          <div><label for="tel">Телефон <strong>(обязательно)</strong></label></div>
+          <div><input  id="phone" onInput="this.value = phoneFormat(this.value)" /></div>
+          <div><label for="mail" class="inform">Электронная почта <strong>(обязательно)</strong></label></div>
+          <div><input type="email" placeholder="Электронная почта" name="mail" required="" /></div>
+      </form>
+      <h2>Адрес доставки</h2>
+      <form>
+        <div class="home">
+          <label for="address" class="inform">Адрес доставки <strong>(обязательно)</strong>
+          <input type="text" placeholder="Улица, дом" name="address" required="" pattern="[A-Za-zА-Яа-яЁё0-9]+" />
+          </label>
+          <label for="address1" class="inform">Квартира/офис
+          <input type="text" name="address" required="" />
+          </label>
+        </div>
+        <label for="story">Комментарии</label>
+        <textarea id="story" name="story" rows="5" cols="33"></textarea>
+      </form>
+    </div>
     </main>
     <!-- Global footer component render by /components/Footer/Footer.js script file -->
     <footer class="global-footer" id="footer_anchor">
@@ -104,9 +122,18 @@
         </div>
       </div>
     </footer>
-    <div id="modal_overlay" style="display: none; opacity: 0;">
-      <div id="modal_content">
-        <span id="close_modal" onclick="closeModal()">&times;</span>
+    <div class="cart-info">
+      <div class="cart-info-content">
+        <div class="heading">
+          <p href="./index.html" style="text-decoration: none; color: white;">
+            К оплате: <b id="total_price"></b>
+          </p>
+        </div>
+        <div class="header-menu">
+          <button>
+            Оплатить
+          </button>
+        </div>
       </div>
     </div>
   </body>
