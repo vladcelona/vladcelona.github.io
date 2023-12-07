@@ -3147,6 +3147,18 @@ const products = [
 // --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
 
 /**
+ * Function that gets only items from localStorage that do not equal '0'
+ * @returns Updates cart object
+ */
+function getCart() {
+  return products.filter((product) => localStorage.getItem(product['id']) !== '0');
+}
+
+console.log(getCart().length);
+
+// --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
+
+/**
  * Function that adds a certain product to page
  * @param {any} product 
  */
@@ -3241,9 +3253,8 @@ function handleAddToCart(product) {
   const productList = document.getElementsByClassName('product-list-container'); 
   console.log(productList[0].children); productList[0].innerHTML = '';
 
-  products.forEach(addProductToPage);
-
-  updateCartIcon();
+  getCart().forEach(addProductToPage);
+  updateCartIcon(); updatePage();
 }
 
 /**
@@ -3257,9 +3268,8 @@ function handleRemoveFromCart(product) {
   const productList = document.getElementsByClassName('product-list-container'); 
   console.log(productList[0].children); productList[0].innerHTML = '';
 
-  products.forEach(addProductToPage);
-
-  updateCartIcon();
+  getCart().forEach(addProductToPage);
+  updateCartIcon(); updatePage();
 }
 
 // --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
@@ -3538,33 +3548,40 @@ function formatPrice(price) {
 // --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
 
 function phoneFormat(input) {//returns (###) ###-####
-  input = input.replace(/\D/g,'').substring(0,10); //Strip everything but 1st 10 digits
+  input = input.replace(/\D/g, '').substring(0, 10);
   var size = input.length;
-  if (size>0) {input="("+input}
-  if (size>3) {input=input.slice(0,4)+") "+input.slice(4)}
-  if (size>6) {input=input.slice(0,9)+"-" +input.slice(9)}
+  if (size > 0) { input = "(" + input }
+  if (size > 3) { input = input.slice(0,4) + ") " + input.slice(4) }
+  if (size > 6) { input = input.slice(0,9) + "-"  + input.slice(9) }
   return input;
 }
 
-function updatePrice() {
-  document.getElementById('total_price').textContent = formatPrice(
-    products.filter((product) => localStorage.getItem(product.id) !== '0').reduce((sum, item) => {
-      return sum + item.price * localStorage.getItem(item.id);
-    }, 0)
-  );
+function updatePage() {
+  console.log(getCart());
+  const totalPrice = (getCart().length === 0)
+    ? 0 
+    : getCart().reduce((sum, item) => {
+        return sum + item.price * localStorage.getItem(item.id);
+      }, 0);
+  if (totalPrice === 0) {
+    document.getElementById('delivery_info').setAttribute('style', 'visibility: hidden');
+    document.getElementById('empty').setAttribute('style', 'visibility: visible');
+  } else {
+    document.getElementById('delivery_info').removeAttribute('style');
+    document.getElementById('empty').setAttribute('style', 'visibility: hidden');
+  }
+  document.getElementById('total_price').textContent = formatPrice(totalPrice);
 }
-
-updatePrice();
 
 // --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
 
 document.addEventListener("DOMContentLoaded", function() {
-  products.forEach((product) => { 
+  getCart().forEach((product) => { 
     localStorage.setItem(
       product['id'], (localStorage.getItem(product['id']) === 'null') 
         ? '0' : localStorage.getItem(product['id'])
       ); 
   });
-  console.log(localStorage);
-  products.forEach(addProductToPage);
+  getCart().forEach(addProductToPage);
+  updatePage();
 });

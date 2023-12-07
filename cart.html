@@ -46,8 +46,9 @@
     </header>
     <main style="margin-top: 107px;">
       <div class="section-header" id="products">Ваша корзина</div>
+      <div class="section-header" id="empty">У вас пустая корзина</div>
       <div class="product-list-container"></div>
-      <div class=".delivery-info">
+      <div class=".delivery-info" id="delivery_info">
         <h2>Контактные данные</h2>
         <form class=".info-form">
           <div><label for="name" class="inform">Имя <strong>(обязательно)</strong></label></div>
@@ -58,21 +59,21 @@
           <div><input  id="phone" onInput="this.value = phoneFormat(this.value)" /></div>
           <div><label for="mail" class="inform">Электронная почта <strong>(обязательно)</strong></label></div>
           <div><input type="email" placeholder="Электронная почта" name="mail" required="" /></div>
-      </form>
-      <h2>Адрес доставки</h2>
-      <form>
-        <div class="home">
-          <label for="address" class="inform">Адрес доставки <strong>(обязательно)</strong>
-          <input type="text" placeholder="Улица, дом" name="address" required="" pattern="[A-Za-zА-Яа-яЁё0-9]+" />
-          </label>
-          <label for="address1" class="inform">Квартира/офис
-          <input type="text" name="address" required="" />
-          </label>
-        </div>
-        <label for="story">Комментарии</label>
-        <textarea id="story" name="story" rows="5" cols="33"></textarea>
-      </form>
-    </div>
+        </form>
+        <h2>Адрес доставки</h2>
+        <form>
+          <div class="home">
+            <label for="address" class="inform">Адрес доставки <strong>(обязательно)</strong>
+            <input type="text" placeholder="Улица, дом" name="address" required="" pattern="[A-Za-zА-Яа-яЁё0-9]+" />
+            </label>
+            <label for="address1" class="inform">Квартира/офис
+            <input type="text" name="address" required="" />
+            </label>
+          </div>
+          <label for="story">Комментарии</label>
+          <textarea id="story" name="story" rows="5" cols="33"></textarea>
+        </form>
+      </div>
     </main>
     <!-- Global footer component render by /components/Footer/Footer.js script file -->
     <footer class="global-footer" id="footer_anchor">

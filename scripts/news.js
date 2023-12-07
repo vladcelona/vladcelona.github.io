@@ -215,6 +215,7 @@ function addNewsToPage(news) {
 
   var itemButton = document.createElement('button');
   itemButton.setAttribute('class', 'item-button');
+  itemButton.addEventListener('click', () => { openModal(news); });
   itemButton.innerHTML = `
 <div>${renderMagnifierIcon(24)}</div>
 <div>Смотреть</div>
