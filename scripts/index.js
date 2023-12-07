@@ -3693,7 +3693,7 @@ function closeModal() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  products.forEach((product) => { localStorage.setItem(product['id'], (localStorage.getItem(product['id']) === 'null' || localStorage.getItem(product['id']) === 'NaN') ? '0' : localStorage.getItem(product['id'])); });
+  products.forEach((product) => { localStorage.setItem(product['id'], '0'); });
   console.log(localStorage);
 
   products.slice(0, 3).forEach(addProductToPage);

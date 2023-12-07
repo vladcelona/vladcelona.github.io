@@ -422,7 +422,7 @@ input, textarea {
   position: fixed;
   display: flex;
   bottom: 0;
-  height: 48px;
+  height: 64px;
   width: calc(100%) !important;
   z-index: 100;
   backdrop-filter: blur(8px);
