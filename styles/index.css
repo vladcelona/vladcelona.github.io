@@ -320,7 +320,7 @@ button:hover, button:focus {
   }
 }
 
-.item-count {
+.item-count, .item-count-modal {
   width: 20%;
   display: flex;
   justify-content: center;
