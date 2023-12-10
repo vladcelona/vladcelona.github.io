@@ -4200,8 +4200,6 @@ function openModal(item) {
         () => { handleAddToCart(item); openModal(item); }, 
         `<div>${renderPlusIcon(24)}</div>`
       );
-      
-      console.log(localStorage.getItem(item['id']))
 
       const descriptionHeader = createAndSetAttributes(
         'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}
