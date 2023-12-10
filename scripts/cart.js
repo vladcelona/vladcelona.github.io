@@ -3170,7 +3170,8 @@ function addProductToPage(product) {
   const itemImage = createAndAddEventListener('img', {'src': product.image}, () => openModal(product));
   const itemName = createAndSetAttributes('p', {'class': 'item-title'}, product.name);
   const itemPrice = createAndSetAttributes(
-    'p', {'class': 'item-price'}, `${formatPrice(product.price)} ${product.currencyLabel}`
+    'p', {'class': 'item-price'},
+    `${formatPrice(product.price * parseInt(localStorage.getItem(product.id)))} ${product.currencyLabel}`
   );
 
   if (isCartItem) {
@@ -3547,7 +3548,7 @@ function formatPrice(price) {
 
 // --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
 
-function phoneFormat(input) {//returns (###) ###-####
+function phoneFormat(input) {
   input = input.replace(/\D/g, '').substring(0, 10);
   var size = input.length;
   if (size > 0) { input = "(" + input }

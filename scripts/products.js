@@ -3349,8 +3349,9 @@ function openModal(item) {
         `<div>${renderMinusIcon(24)}</div>`
       );
       const itemCount = createAndSetAttributes(
-        'div', {'class': 'item-count'}, localStorage.getItem(item['id'])
+        'div', {'class': 'item-count'}
       );
+      itemCount.textContent = localStorage.getItem(item['id']);
       const itemButtonAdd = createButton(
         'item-button-add', 
         () => { handleAddToCart(item); openModal(item); }, 
