@@ -3160,29 +3160,29 @@ console.log(getCart().length);
 
 /**
  * Function that adds a certain product to page
- * @param {any} product 
+ * @param {any} product
  */
 function addProductToPage(product) {
   const isCartItem = localStorage.getItem(product['id']) === '0';
   const productList = document.querySelector('.product-list-container');
-
+  
   const listItem = createAndSetAttributes('div', {'class': 'product-item', 'id': product['id']});
   const itemImage = createAndAddEventListener('img', {'src': product.image}, () => openModal(product));
   const itemName = createAndSetAttributes('p', {'class': 'item-title'}, product.name);
   const itemPrice = createAndSetAttributes(
     'p', {'class': 'item-price'}, `${formatPrice(product.price)} ${product.currencyLabel}`
   );
-
+  
   if (isCartItem) {
     const itemButton = createButton(
-      'item-button', 
-      () => handleAddToCart(product), 
+      'item-button',
+      () => handleAddToCart(product),
       `
         <div>${renderPlusIcon(24)}</div>
         <div>Добавить</div>
       `
     );
-
+    
     listItem.appendChild(itemImage);
     listItem.appendChild(itemPrice);
     listItem.appendChild(itemName);
@@ -3191,7 +3191,7 @@ function addProductToPage(product) {
     const buttonsDiv = createAndSetAttributes('div', {'class': 'buttons-div'});
     
     const itemButtonRemove = createButton(
-      'item-button-remove', 
+      'item-button-remove',
       () => handleRemoveFromCart(product), `<div>${renderMinusIcon(24)}</div>`
     );
     const itemCount = createAndSetAttributes(
@@ -3200,17 +3200,17 @@ function addProductToPage(product) {
     const itemButtonAdd = createButton(
       'item-button-add', () => handleAddToCart(product), `<div>${renderPlusIcon(24)}</div>`
     );
-
+    
     appendToButtonsDiv([itemButtonRemove, itemCount, itemButtonAdd], buttonsDiv);
-
+    
     listItem.appendChild(itemImage);
     listItem.appendChild(itemPrice);
     listItem.appendChild(itemName);
     listItem.appendChild(buttonsDiv);
   }
-
+  
   productList.appendChild(listItem);
-
+  
   function createAndSetAttributes(tag, attributes, textContent) {
     const element = document.createElement(tag);
     for (const [key, value] of Object.entries(attributes)) {
@@ -3221,20 +3221,20 @@ function addProductToPage(product) {
     }
     return element;
   }
-
+  
   function createAndAddEventListener(tag, attributes, eventListener) {
     const element = createAndSetAttributes(tag, attributes);
     element.addEventListener('click', eventListener);
     return element;
   }
-
+  
   function createButton(className, clickHandler, innerHTML) {
     const button = createAndSetAttributes('button', {'class': className});
     button.addEventListener('click', clickHandler);
     button.innerHTML = innerHTML.trim();
     return button;
   }
-
+  
   function appendToButtonsDiv(elements, parent) {
     elements.forEach(element => parent.appendChild(element));
   }
@@ -3244,30 +3244,30 @@ function addProductToPage(product) {
 
 /**
  * Function that adds product to localStorage (Cart)
- * @param {any} product 
+ * @param {any} product
  */
 function handleAddToCart(product) {
   localStorage.setItem(product['id'], parseInt(localStorage.getItem(product['id'])) + 1);
   console.log(localStorage);
-
-  const productList = document.getElementsByClassName('product-list-container'); 
+  
+  const productList = document.getElementsByClassName('product-list-container');
   console.log(productList[0].children); productList[0].innerHTML = '';
-
+  
   getCart().forEach(addProductToPage);
   updateCartIcon(); updatePage();
 }
 
 /**
  * Function that removes product from localStorage (Cart)
- * @param {any} product 
+ * @param {any} product
  */
 function handleRemoveFromCart(product) {
   localStorage.setItem(product['id'], Math.max(parseInt(localStorage.getItem(product['id'])) - 1, 0));
   console.log(localStorage);
-
-  const productList = document.getElementsByClassName('product-list-container'); 
+  
+  const productList = document.getElementsByClassName('product-list-container');
   console.log(productList[0].children); productList[0].innerHTML = '';
-
+  
   getCart().forEach(addProductToPage);
   updateCartIcon(); updatePage();
 }
@@ -3279,10 +3279,10 @@ function handleRemoveFromCart(product) {
  */
 function updateCartIcon() {
   let cartLength = 0;
-  for (let key of Object.keys(localStorage)) { 
+  for (let key of Object.keys(localStorage)) {
     if (localStorage[key] !== '0' && localStorage[key] !== "NaN") { cartLength++ }
   }
-
+  
   document.querySelector('.cart-item-count').textContent = (cartLength === 0) ? '' : cartLength;
 }
 
@@ -3290,102 +3290,102 @@ function updateCartIcon() {
 
 /**
  * Function that opens modal window and adds content into it
- * @param {any} item 
+ * @param {any} item
  */
 function openModal(item) {
   const modalOverlay = document.getElementById('modal_overlay');
   const modalContent = document.getElementById('modal_content');
   let buttonsDiv; // Declare buttonsDiv outside the conditional block
-
+  
   modalOverlay.style.display = 'flex';
   modalContent.innerHTML = `
     <span id="close_modal" onclick="closeModal()">&times;</span>
   `.trim();
-
+  
   const modalHeader = createAndSetAttributes(
     'h3', {'class': 'modal-header', 'style': 'font-weight: bold'}
   );
   const modalImage = createAndSetAttributes('img', {'class': 'modal-image'});
-
+  
   if (item.id !== undefined) {
     modalHeader.textContent = item.name;
     modalImage.src = item.image;
-
+    
     const modalPrice = createAndSetAttributes(
       'p', {'class': 'modal-item-price', 'style': 'font-weight: bold; font-size: 20px'}
     );
     modalPrice.textContent = `${formatPrice(item.price)} ${item.currencyLabel}`;
-
+    
     if (localStorage.getItem(item['id']) === '0') {
-      const itemButton = createButton('item-button', () => { 
-        handleAddToCart(item); openModal(item); }, 
+      const itemButton = createButton('item-button', () => {
+          handleAddToCart(item); openModal(item); },
         `
           <div>${renderPlusIcon(24)}</div>
           <div>Добавить</div>
         `
       );
-
+      
       buttonsDiv = createAndSetAttributes('div', {'class': 'buttons-div'});
-
+      
       const descriptionHeader = createAndSetAttributes(
         'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}
       );
       descriptionHeader.textContent = `Описание`;
-
+      
       const description = createAndSetAttributes('div', {'style': 'white-space: pre-line;'});
       description.textContent = `${item.description}`;
-
+      
       const propertiesHeader = createAndSetAttributes(
         'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}
       );
       propertiesHeader.textContent = `Характеристики`;
-
+      
       const properties = createAndAppend(
-        'div', {'class': 'properties-container'}, 
+        'div', {'class': 'properties-container'},
         item.properties.map((property) => createPropertyDiv(property))
       );
-
+      
       appendToModalContent([
-        modalHeader, modalImage, modalPrice, itemButton, descriptionHeader, 
+        modalHeader, modalImage, modalPrice, itemButton, descriptionHeader,
         description, propertiesHeader, properties
       ]);
     } else {
       buttonsDiv = createAndSetAttributes('div', {'class': 'buttons-div'});
-
+      
       const itemButtonRemove = createButton(
-        'item-button-remove', 
-        () => { handleRemoveFromCart(item); openModal(item); }, 
+        'item-button-remove',
+        () => { handleRemoveFromCart(item); openModal(item); },
         `<div>${renderMinusIcon(24)}</div>`
       );
       const itemCount = createAndSetAttributes(
         'div', {'class': 'item-count'}, localStorage.getItem(item['id'])
       );
       const itemButtonAdd = createButton(
-        'item-button-add', 
-        () => { handleAddToCart(item); openModal(item); }, 
+        'item-button-add',
+        () => { handleAddToCart(item); openModal(item); },
         `<div>${renderPlusIcon(24)}</div>`
       );
-
+      
       const descriptionHeader = createAndSetAttributes(
         'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}
       );
       descriptionHeader.textContent = `Описание`;
-
+      
       const description = createAndSetAttributes('div', {'style': 'white-space: pre-line;'});
       description.textContent = `${item.description}`;
-
+      
       const propertiesHeader = createAndSetAttributes(
         'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}
       );
       propertiesHeader.textContent = `Характеристики`;
-
+      
       const properties = createAndAppend(
-        'div', {'class': 'properties-container'}, 
+        'div', {'class': 'properties-container'},
         item.properties.map((property) => createPropertyDiv(property))
       );
-
+      
       appendToModalContent([
-        modalHeader, modalImage, modalPrice, buttonsDiv, descriptionHeader, 
+        modalHeader, modalImage, modalPrice, buttonsDiv, descriptionHeader,
         description, propertiesHeader, properties
       ]);
       appendToButtonsDiv([itemButtonRemove, itemCount, itemButtonAdd]);
@@ -3393,22 +3393,22 @@ function openModal(item) {
   } else {
     modalHeader.textContent = item.title;
     modalImage.src = item.image;
-
+    
     const contentHeader = createAndSetAttributes(
       'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}
     );
     contentHeader.textContent = `Содержание`;
-
+    
     const content = createAndSetAttributes('div', {'style': 'white-space: pre-line; margin-top: 16px'});
     content.textContent = `${item.content}`;
-
+    
     appendToModalContent([modalHeader, modalImage, contentHeader, content]);
   }
-
+  
   setTimeout(() => {
     modalOverlay.style.opacity = '1';
   }, 100);
-
+  
   function createAndSetAttributes(tag, attributes) {
     const element = document.createElement(tag);
     for (const [key, value] of Object.entries(attributes)) {
@@ -3416,14 +3416,14 @@ function openModal(item) {
     }
     return element;
   }
-
+  
   function createButton(className, clickHandler, innerHTML) {
     const button = createAndSetAttributes('button', {'class': className});
     button.addEventListener('click', clickHandler);
     button.innerHTML = innerHTML.trim();
     return button;
   }
-
+  
   function createPropertyDiv(property) {
     const propertyDiv = createAndSetAttributes('div', {'class': 'property-item'});
     propertyDiv.innerHTML = `
@@ -3436,7 +3436,7 @@ function openModal(item) {
     `.trim();
     return propertyDiv;
   }
-
+  
   function createAndAppend(tag, attributes, children) {
     const element = createAndSetAttributes(tag, attributes);
     if (Array.isArray(children)) {
@@ -3446,11 +3446,11 @@ function openModal(item) {
     }
     return element;
   }
-
+  
   function appendToModalContent(elements) {
     elements.forEach(element => modalContent.appendChild(element));
   }
-
+  
   function appendToButtonsDiv(buttons) {
     buttons.forEach(button => buttonsDiv.appendChild(button));
   }
@@ -3462,14 +3462,14 @@ function openModal(item) {
 function closeModal() {
   const modalOverlay = document.getElementById('modal_overlay');
   const modalContent = document.getElementById('modal_content');
-
+  
   modalContent.style.transform = 'translateY(-50px)';
   modalOverlay.style.opacity = '0';
-
+  
   modalContent.innerHTML = `
 <span id="close_modal" onclick="closeModal()">&times;</span>
   `.trim();
-
+  
   setTimeout(() => {
     modalOverlay.style.display = 'none';
     modalContent.style.transform = 'translateY(0)';
@@ -3480,7 +3480,7 @@ function closeModal() {
 
 /**
  * Function that renders Plus icon
- * @param {number} size Size (height and width) of an icon 
+ * @param {number} size Size (height and width) of an icon
  * @returns A HTML svg icon code
  */
 function renderPlusIcon(size) {
@@ -3508,7 +3508,7 @@ function renderPlusIcon(size) {
 
 /**
  * Function that renders Minus icon
- * @param {number} size Size (height and width) of an icon 
+ * @param {number} size Size (height and width) of an icon
  * @returns A HTML svg icon code
  */
 function renderMinusIcon(size) {
@@ -3538,7 +3538,7 @@ function renderMinusIcon(size) {
 
 /**
  * Function that formats number (price) to format 123 456.78
- * @param {number} price 
+ * @param {number} price
  * @returns A formatted string number
  */
 function formatPrice(price) {
@@ -3562,10 +3562,10 @@ function phoneFormat(input) {//returns (###) ###-####
 function updatePage() {
   console.log(getCart());
   const totalPrice = (getCart().length === 0)
-    ? 0 
+    ? 0
     : getCart().reduce((sum, item) => {
-        return sum + item.price * localStorage.getItem(item.id);
-      }, 0);
+      return sum + item.price * localStorage.getItem(item.id);
+    }, 0);
   if (totalPrice === 0) {
     document.getElementById('delivery_info').setAttribute('style', 'visibility: hidden');
     document.getElementById('empty').setAttribute('style', 'visibility: visible');
@@ -3592,12 +3592,5 @@ function showSnackbar() {
 // --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
 
 document.addEventListener("DOMContentLoaded", function() {
-  getCart().forEach((product) => { 
-    localStorage.setItem(
-      product['id'], (localStorage.getItem(product['id']) === 'null') 
-        ? '0' : localStorage.getItem(product['id'])
-      ); 
-  });
-  getCart().forEach(addProductToPage);
   updatePage(); updateCartIcon();
 });

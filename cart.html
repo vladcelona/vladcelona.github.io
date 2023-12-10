@@ -12,7 +12,7 @@
     <link href="./styles/cart.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="./scripts/cart.js" type="text/javascript" defer></script>
-    <title>Cart</title>
+    <title>Корзина</title>
   </head>
   <body>
     <!-- Notifying user that they/them have to enable JavaScript -->
@@ -52,35 +52,42 @@
       <div class="section-header" id="products">Ваша корзина</div>
       <div class="section-header" id="empty">У вас пустая корзина</div>
       <div class="product-list-container"></div>
+      <div class="legal-notice" id="legal_notice">
+        <div class="section-header">Внимание!</div>
+        <p style="text-align: center; font-size: 12px">
+          Нажимая кнопку <strong>"Оплатить"</strong>, Вы соглашаетесь с условиями договора купли-продажи, соглашаетесь на обработку
+          персональных данных в соответствии с Положением об обработке персональных данных и Правилами обработки персональных
+          данных, а также даёте согласие на получение информации о специальных предложениях, о новых товарах и рекламных акциях
+          включая, но не ограничиваясь e-mail-рассылками, телефонией, сетью Интернет и мобильными устройствами.
+        </p>
+      </div>
       <div class=".delivery-info" id="delivery_info">
         <h2>Контактные данные</h2>
         <form class=".info-form">
-          <div><label for="name" class="inform">Имя <strong>(обязательно)</strong></label></div>
+          <div class="label-div"><label for="name" class="inform">Имя <strong>(обязательно)</strong></label></div>
           <div><input type="text" placeholder="Имя" name="name" required="" pattern="[A-Za-zА-Яа-яЁё]+"></div>
-          <div><label for="surname" class="inform">Фамилия</label></div>
+          <div class="label-div"><label for="surname" class="inform">Фамилия</label></div>
           <div><input type="text" placeholder="Фамилия" name="surname" required="" pattern="[A-Za-zА-Яа-яЁё]+"></div>
-          <div><label for="tel">Телефон <strong>(обязательно)</strong></label></div>
+          <div class="label-div"><label for="tel">Телефон <strong>(обязательно)</strong></label></div>
           <div class="phone-input">
             <div style="margin-right: 16px"><span class="input-group-text">+7</span></div>
             <div id="phone_input">
               <input id="phone" type="tel" aria-label="phone" onInput="this.value = phoneFormat(this.value)">
             </div>
           </div>
-          <div><label for="mail" class="inform">Электронная почта <strong>(обязательно)</strong></label></div>
+          <div class="label-div"><label for="mail" class="inform">Электронная почта <strong>(обязательно)</strong></label></div>
           <div><input type="email" placeholder="Электронная почта" name="mail" required="" /></div>
         </form>
         <h2>Адрес доставки</h2>
         <form>
           <div class="home">
-            <label for="address" class="inform">Адрес доставки <strong>(обязательно)</strong>
-            <input type="text" placeholder="Улица, дом" name="address" required="" pattern="[A-Za-zА-Яа-яЁё0-9]+" />
-            </label>
-            <label for="address1" class="inform">Квартира/офис
-            <input type="text" name="address" required="" />
-            </label>
+            <div class="label-div"><label class="label-div" for="address">Адрес доставки <strong>(обязательно)</strong></label></div>
+            <div><input type="text" placeholder="Улица, дом" name="address" required="" pattern="[A-Za-zА-Яа-яЁё0-9]+" /></div>
+            <div class="label-div"><label class="label-div" for="address1">Квартира/офис</label></div>
+            <div><input type="text" name="address" required="" /></div>
           </div>
-          <label for="story">Комментарии</label>
-          <textarea id="story" name="story" rows="5" cols="33"></textarea>
+          <div class="label-div"><label for="story">Комментарии</label></div>
+          <div><textarea id="story" name="story" rows="5" cols="33"></textarea></div>
         </form>
       </div>
     </main>
@@ -126,7 +133,7 @@
         <div class="footer-column" id="right">
           <p class="column-header">Местоположение</p>
           <div class="map-responsive">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36012.489472513786!2d37.50065467674408!3d55.658025023837034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54dc1d23b51c3%3A0x74763ed59c81ccb6!2z0KDQotCjINCc0JjQoNCt0JA!5e0!3m2!1sru!2sru!4v1695895615462!5m2!1sru!2sru" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36012.489472513786!2d37.50065467674408!3d55.658025023837034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54dc1d23b51c3%3A0x74763ed59c81ccb6!2z0KDQotCjINCc0JjQoNCt0JA!5e0!3m2!1sru!2sru!4v1695895615462!5m2!1sru!2sru"
               style="border:0; border-radius: 16px; width: 100% !important;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
@@ -140,11 +147,14 @@
           </p>
         </div>
         <div class="header-menu">
-          <button style="height: 100%;">
+          <button style="height: 100%;" onclick="showSnackbar()">
             Оплатить
           </button>
         </div>
       </div>
+    </div>
+    <div id="snackbar">
+      Информация о покупке принята! Спасибо за вашу покупку!
     </div>
   </body>
 </html>

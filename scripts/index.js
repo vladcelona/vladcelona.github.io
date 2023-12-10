@@ -3545,13 +3545,16 @@ function openModal(item) {
         `<div>${renderMinusIcon(24)}</div>`
       );
       const itemCount = createAndSetAttributes(
-        'div', {'class': 'item-count-modal'}, localStorage.getItem(item['id'])
+        'div', {'class': 'item-count-modal'}
       );
+      itemCount.textContent = localStorage.getItem(item['id']);
       const itemButtonAdd = createButton(
         'item-button-add', 
         () => { handleAddToCart(item); openModal(item); }, 
         `<div>${renderPlusIcon(24)}</div>`
       );
+      
+      console.log(localStorage.getItem(item['id']))
 
       const descriptionHeader = createAndSetAttributes(
         'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}

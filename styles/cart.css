@@ -266,7 +266,7 @@ button:hover, button:focus {
   border-radius: 8px;
 }
 
-.product-list-container > div {
+.product-list-container>div {
   flex: 45%; /* or - flex: 0 50% - or - flex-basis: 50% - */
   /*demo*/
   margin: 8px 4px;
@@ -304,7 +304,7 @@ button:hover, button:focus {
     flex-wrap: wrap;
   }
   
-  .product-list-container > div {
+  .product-list-container>div {
     flex: 30%; /* or - flex: 0 50% - or - flex-basis: 50% - */
     /*demo*/
     margin: 8px 4px;
@@ -352,7 +352,7 @@ button:hover, button:focus {
   border-radius: 8px;
 }
 
-.news-list-container > div {
+.news-list-container>div {
   flex: 100%; /* or - flex: 0 50% - or - flex-basis: 50% - */
   /*demo*/
   margin: 8px 4px;
@@ -383,15 +383,14 @@ button:hover, button:focus {
     padding: 8px;
     border-radius: 8px;
   }
-  
+
   .news-list-container {
     display: flex;
     flex-wrap: wrap;
   }
-  
-  .news-list-container > div {
-    flex: 48%; /* or - flex: 0 50% - or - flex-basis: 50% - */
-    /*demo*/
+
+  .news-list-container>div {
+    flex: 48%;
     margin: 8px 4px;
   }
 }
@@ -447,7 +446,7 @@ input, textarea {
   width: calc(100%);
 }
 
-.phone-input > div {
+.phone-input>div {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -458,4 +457,50 @@ input, textarea {
 
 #phone_input {
   width: 50% !important;
+}
+
+.label-div {
+  margin: 8px 0px;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  width: 90%; /* Set a default minimum width */
+  margin-left: -45%; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 8px; /* Rounded borders */
+  padding: 8px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 300; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 70px; /* 30px from the bottom */
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 70px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 70px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 70px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
 }
