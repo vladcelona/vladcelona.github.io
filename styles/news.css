@@ -27,7 +27,7 @@ main {
 
 .global-header-content {
   color: white;
-  font-size: bold;
+  font-weight: bold;
 }
 
 .global-header {

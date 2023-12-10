@@ -64,26 +64,26 @@
       <div class=".delivery-info" id="delivery_info">
         <h2>Контактные данные</h2>
         <form class=".info-form">
-          <div class="label-div"><label for="name" class="inform">Имя <strong>(обязательно)</strong></label></div>
+          <div class="label-div"><label class="inform">Имя <strong>(обязательно)</strong></label></div>
           <div><input type="text" placeholder="Имя" name="name" required="" pattern="[A-Za-zА-Яа-яЁё]+"></div>
-          <div class="label-div"><label for="surname" class="inform">Фамилия</label></div>
+          <div class="label-div"><label class="inform">Фамилия</label></div>
           <div><input type="text" placeholder="Фамилия" name="surname" required="" pattern="[A-Za-zА-Яа-яЁё]+"></div>
-          <div class="label-div"><label for="tel">Телефон <strong>(обязательно)</strong></label></div>
+          <div class="label-div"><label>Телефон <strong>(обязательно)</strong></label></div>
           <div class="phone-input">
             <div style="margin-right: 16px"><span class="input-group-text">+7</span></div>
             <div id="phone_input">
               <input id="phone" type="tel" aria-label="phone" onInput="this.value = phoneFormat(this.value)">
             </div>
           </div>
-          <div class="label-div"><label for="mail" class="inform">Электронная почта <strong>(обязательно)</strong></label></div>
+          <div class="label-div"><label class="inform">Электронная почта <strong>(обязательно)</strong></label></div>
           <div><input type="email" placeholder="Электронная почта" name="mail" required="" /></div>
         </form>
         <h2>Адрес доставки</h2>
         <form>
           <div class="home">
-            <div class="label-div"><label class="label-div" for="address">Адрес доставки <strong>(обязательно)</strong></label></div>
+            <div class="label-div"><label class="label-div">Адрес доставки <strong>(обязательно)</strong></label></div>
             <div><input type="text" placeholder="Улица, дом" name="address" required="" pattern="[A-Za-zА-Яа-яЁё0-9]+" /></div>
-            <div class="label-div"><label class="label-div" for="address1">Квартира/офис</label></div>
+            <div class="label-div"><label class="label-div">Квартира/офис</label></div>
             <div><input type="text" name="address" required="" /></div>
           </div>
           <div class="label-div"><label for="story">Комментарии</label></div>
