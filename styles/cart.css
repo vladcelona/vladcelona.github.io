@@ -27,7 +27,7 @@ main {
 
 .global-header-content {
   color: white;
-  font-size: bold;
+  font-weight: bold;
 }
 
 .global-header {
@@ -282,7 +282,7 @@ button:hover, button:focus {
 
 .item-title {
   font-weight: bold;
-  height: 40px;
+  height: 64px;
 }
 
 .product-item>button.item-button {
@@ -415,7 +415,7 @@ input, textarea {
 
 .cart-info-content {
   color: white;
-  font-size: bold;
+  font-weight: bold;
 }
 
 .cart-info {
@@ -439,4 +439,23 @@ input, textarea {
   /* position: fixed; */
   display: flex;
   flex-direction: row;
+}
+
+.phone-input {
+  display: flex;
+  flex-direction: row;
+  width: calc(100%);
+}
+
+.phone-input > div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#phone_input {
+  width: 50% !important;
 }

@@ -3180,7 +3180,8 @@ function addProductToPage(product) {
     
     const itemButtonRemove = createButton(
       'item-button-remove', 
-      () => handleRemoveFromCart(product), `<div>${renderMinusIcon(24)}</div>`
+      () => handleRemoveFromCart(product),
+      `<div>${renderMinusIcon(24)}</div>`
     );
     const itemCount = createAndSetAttributes(
       'div', {'class': 'item-count'}, localStorage.getItem(product['id'])
@@ -3562,7 +3563,12 @@ function formatPrice(price) {
 
 // Rendering preview card items for news and products
 document.addEventListener("DOMContentLoaded", function() {
-  products.forEach((product) => { localStorage.setItem(product['id'], '0'); });
-  console.log(localStorage);
+  products.forEach((product) => {
+    localStorage.setItem(product['id'], (localStorage.getItem(product['id']) !== null)
+      ? localStorage.getItem(product['id'])
+      : '0'
+    );
+  });
   products.forEach(addProductToPage);
+  updateCartIcon();
 });

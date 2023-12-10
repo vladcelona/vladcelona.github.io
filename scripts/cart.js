@@ -3514,7 +3514,7 @@ function renderPlusIcon(size) {
 function renderMinusIcon(size) {
   return `  
 <svg 
-  style="width: ${size}px; height: ${size}px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+  style="width: ${size}px; height: ${size}px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   fill="#FFFFFF" version="1.1" id="Capa_1" viewBox="0 0 330 330" xml:space="preserve"
 >
   <g>
@@ -3556,6 +3556,9 @@ function phoneFormat(input) {//returns (###) ###-####
   return input;
 }
 
+/**
+ * Function that updates page on every action received
+ */
 function updatePage() {
   console.log(getCart());
   const totalPrice = (getCart().length === 0)
@@ -3583,5 +3586,5 @@ document.addEventListener("DOMContentLoaded", function() {
       ); 
   });
   getCart().forEach(addProductToPage);
-  updatePage();
+  updatePage(); updateCartIcon();
 });

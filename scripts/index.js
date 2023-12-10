@@ -3390,24 +3390,26 @@ function addProductToPage(product) {
  * @param {any} news 
  */
 function addNewsToPage(news) {
-  var newsList = document.querySelector('.news-list-container');
+  const newsList = document.querySelector('.news-list-container');
 
-  var listItem = document.createElement('div');
+  const listItem = document.createElement('div');
   listItem.setAttribute('class', 'news-item');
 
-  var itemImage = document.createElement('img');
+  const itemImage = document.createElement('img');
   itemImage.addEventListener('click', () => { openModal(news); });
   itemImage.src = news.image;
 
-  var itemTitle = document.createElement('p');
+  const itemTitle = document.createElement('p');
   itemTitle.setAttribute('class', 'news-title');
+  itemTitle.setAttribute('style', 'height: 48px;');
   itemTitle.textContent = news.title;
 
-  var itemContent = document.createElement('p');
+  const itemContent = document.createElement('p');
   itemContent.setAttribute('class', 'item-content');
+  itemContent.setAttribute('style', 'height: 210px');
   itemContent.textContent = news.content.split(/(\s+)/).slice(0, 100).join(' ');
 
-  var itemButton = document.createElement('button');
+  const itemButton = document.createElement('button');
   itemButton.setAttribute('class', 'item-button');
   itemButton.addEventListener('click', () => { openModal(news); });
   itemButton.innerHTML = `
@@ -3757,9 +3759,14 @@ function formatPrice(price) {
 
 // Rendering preview card items for news and products
 document.addEventListener("DOMContentLoaded", function() {
-  products.forEach((product) => { localStorage.setItem(product['id'], '0'); });
-  console.log(localStorage);
-
+  products.forEach((product) => {
+    localStorage.setItem(product['id'], (localStorage.getItem(product['id']) !== null)
+      ? localStorage.getItem(product['id'])
+      : '0'
+    );
+  });
   products.slice(0, 3).forEach(addProductToPage);
   news.slice(0, 3).forEach(addNewsToPage);
+  
+  updateCartIcon();
 });
