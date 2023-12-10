@@ -4068,7 +4068,6 @@ function addNewsToPage(news) {
   listItem.appendChild(itemTitle);
   listItem.appendChild(itemContent);
   listItem.appendChild(itemButton);
-
   newsList.appendChild(listItem);
 }
 
@@ -4139,11 +4138,17 @@ function openModal(item) {
   const modalHeader = createAndSetAttributes(
     'h3', {'class': 'modal-header', 'style': 'font-weight: bold'}
   );
+  
+  const modalImageDiv = createAndSetAttributes('div', {
+    'class': 'modal-image-div',
+    'style': 'text-align: center'
+  });
   const modalImage = createAndSetAttributes('img', {'class': 'modal-image'});
 
   if (item.id !== undefined) {
     modalHeader.textContent = item.name;
     modalImage.src = item.image;
+    modalImageDiv.appendChild(modalImage);
 
     const modalPrice = createAndSetAttributes(
       'p', {'class': 'modal-item-price', 'style': 'font-weight: bold; font-size: 20px'}
@@ -4180,7 +4185,7 @@ function openModal(item) {
       );
 
       appendToModalContent([
-        modalHeader, modalImage, modalPrice, itemButton, descriptionHeader, 
+        modalHeader, modalImageDiv, modalPrice, itemButton, descriptionHeader,
         description, propertiesHeader, properties
       ]);
     } else {
@@ -4220,7 +4225,7 @@ function openModal(item) {
       );
 
       appendToModalContent([
-        modalHeader, modalImage, modalPrice, buttonsDiv, descriptionHeader, 
+        modalHeader, modalImageDiv, modalPrice, buttonsDiv, descriptionHeader,
         description, propertiesHeader, properties
       ]);
       appendToButtonsDiv([itemButtonRemove, itemCount, itemButtonAdd]);
@@ -4228,6 +4233,7 @@ function openModal(item) {
   } else {
     modalHeader.textContent = item.title;
     modalImage.src = item.image;
+    modalImageDiv.appendChild(modalImage);
 
     const contentHeader = createAndSetAttributes(
       'h3', {'class': 'modal-content-header', 'style': 'font-weight: bold; margin-top: 16px'}
@@ -4237,7 +4243,7 @@ function openModal(item) {
     const content = createAndSetAttributes('div', {'style': 'white-space: pre-line; margin-top: 16px'});
     content.textContent = `${item.content}`;
 
-    appendToModalContent([modalHeader, modalImage, contentHeader, content]);
+    appendToModalContent([modalHeader, modalImageDiv, contentHeader, content]);
   }
 
   setTimeout(() => {

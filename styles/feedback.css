@@ -503,3 +503,8 @@ input, textarea {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
 }
+
+.creator-info {
+  text-align: center;
+  margin: 16px 0px;
+}

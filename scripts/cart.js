@@ -1,252 +1,323 @@
 const products = [
   {
-    "id": "003fdf00-700d-54e2-859d-c749b98d8492",
-    "privateId": "418430089-739",
-    "name": "Пальто утепленное",
-    "model": "Пальто утепленное",
-    "typePrefix": "Верхняя одежда",
-    "description": "Двубортное пальто выглядит одновременно строгим и расслабленным, поэтому его можно сочетать с casual стилем или с городскими образами. Плотный текстиль из вирджинской шерсти обладает прочностью и не вытягивается со временем. Пальто свободного кроя подходит для сезона еврозима: модель утеплена легкой синтепоновой подстежкой.\n\nРекомендованный температурный режим от +5°C до -10°C.\n\n- Прямой крой\n- Длина до колена\n- Двубортная застежка на пуговицы\n- Рукава-реглан\n- Паты на манжетах\n- Синтепоновый утеплитель не отстегивается\n- Боковые карманы \n- Сзади шлица \n- Изделие на подкладе\n\nРост модели 175 см, размер 42 (российский).\nСостав ткани: 100% Вирджинская шерсть",
+    "id": "0003fb3e-438f-5207-ac1c-1941f961f987",
+    "privateId": "1787P70250-340",
+    "name": "\u041f\u043b\u0430\u0442\u044c\u0435-\u0440\u0443\u0431\u0430\u0448\u043a\u0430 \u0441 \u0440\u0430\u0437\u0440\u0435\u0437\u0430\u043c\u0438",
+    "model": "\u041f\u043b\u0430\u0442\u044c\u0435-\u0440\u0443\u0431\u0430\u0448\u043a\u0430 \u0441 \u0440\u0430\u0437\u0440\u0435\u0437\u0430\u043c\u0438",
+    "typePrefix": "\u041f\u043b\u0430\u0442\u044c\u044f",
+    "description": "\u041c\u043e\u0434\u0435\u043b\u044c \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u0430 \u0434\u043b\u044f \u043c\u0438\u043d\u0438\u0430\u0442\u044e\u0440\u043d\u044b\u0445 \u0434\u0435\u0432\u0443\u0448\u0435\u043a \u0438 \u0436\u0435\u043d\u0449\u0438\u043d \u0441 \u0443\u0447\u0435\u0442\u043e\u043c \u0440\u043e\u0441\u0442\u0430 \u0434\u043e 160 \u0441\u043c.\n\n\u0420\u0430\u0441\u043a\u043b\u0435\u0448\u0435\u043d\u043d\u043e\u0435 \u043f\u043b\u0430\u0442\u044c\u0435-\u0440\u0443\u0431\u0430\u0448\u043a\u0430 \u0432\u0438\u0440\u0442\u0443\u043e\u0437\u043d\u043e \u0431\u0430\u043b\u0430\u043d\u0441\u0438\u0440\u0443\u0435\u0442 \u043c\u0435\u0436\u0434\u0443 \u043e\u0444\u0438\u0441\u043d\u044b\u043c\u0438 \u0438 \u043f\u043e\u0432\u0441\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u043c\u0438 \u043e\u0431\u0440\u0430\u0437\u0430\u043c\u0438. \u0423\u0434\u043e\u0431\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430 \u0438 \u0434\u043b\u0438\u043d\u0430 \u0438\u0437\u0434\u0435\u043b\u0438\u044f \u043f\u043e\u0434\u0447\u0435\u0440\u043a\u0438\u0432\u0430\u044e\u0442 \u0444\u0438\u0433\u0443\u0440\u0443, \u0441\u043e\u0437\u0434\u0430\u0432\u0430\u044f \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u0447\u043d\u044b\u0439 \u0441\u0438\u043b\u0443\u044d\u0442. \u041f\u0440\u0438\u044f\u0442\u043d\u044b\u0439 \u043d\u0430 \u043e\u0449\u0443\u043f\u044c \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u0438\u0437 \u0432\u0438\u0441\u043a\u043e\u0437\u044b \u0441\u0442\u0440\u0443\u0438\u0442\u0441\u044f \u043f\u0440\u0438 \u043a\u0430\u0436\u0434\u043e\u043c \u0448\u0430\u0433\u0435.\n\n-\u00a0\u00a0\u00a0\u00a0\u041f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n-\u00a0\u00a0\u00a0\u00a0\u0414\u043b\u0438\u043d\u0430 \u043c\u0438\u0434\u0430\u043a\u0441\u0438\n-\u00a0\u00a0\u00a0\u00a0\u0417\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u044b \u043f\u043e \u0432\u0441\u0435\u0439 \u0434\u043b\u0438\u043d\u0435\n-\u00a0\u00a0\u00a0\u00a0V-\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0439 \u0432\u044b\u0440\u0435\u0437 \u0441 \u043e\u0442\u043b\u043e\u0436\u043d\u044b\u043c \u0432\u043e\u0440\u043e\u0442\u043d\u0438\u043a\u043e\u043c\n-\u00a0\u00a0\u00a0\u00a0\u0414\u043b\u0438\u043d\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0430 \u0441 \u043c\u0430\u043d\u0436\u0435\u0442\u0430\u043c\u0438 \u043d\u0430 \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430\u0445\n-\u00a0\u00a0\u00a0\u00a0\u0420\u0430\u0441\u043a\u043b\u0435\u0448\u0435\u043d\u043d\u0430\u044f \u044e\u0431\u043a\u0430\n-\u00a0\u00a0\u00a0\u00a0\u041f\u043e \u0431\u043e\u043a\u0430\u043c \u0440\u0430\u0437\u0440\u0435\u0437\u044b\n-\u00a0\u00a0\u00a0\u00a0\u041a\u043e\u043a\u0435\u0442\u043a\u0430 \u043d\u0430 \u0441\u043f\u0438\u043d\u043a\u0435 \n-\u00a0\u00a0\u00a0\u00a0\u0418\u0437\u0434\u0435\u043b\u0438\u0435 \u043d\u0430 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u043a\u0435 100% \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 168 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 100%\u0412\u0438\u0441\u043a\u043e\u0437\u0430",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 39990,
+    "price": 14990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
-    "vendorCode": "418430089-739",
-    "preDiscountPrice": null,
+    "vendorCode": "1787P70250-340",
+    "preDiscountPrice": 19990,
     "currencyName": "₽",
     "currencyLabel": "₽",
     "barcode": null,
     "barcodes": [],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
-    "image": "https://charuel.ru/upload/iblock/032/ho0whw8miecb83x7g8s3ichg892r34f0.jpg",
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_844/",
+    "image": "https://charuel.ru/upload/iblock/172/u2i29jfq9pcd8pzzesiu3vbmmp9mget3.jpg",
     "images": [
-      "https://charuel.ru/upload/iblock/fcb/l1ef7lqv9eivqoea3xazy18xq02duzn3.jpg",
-      "https://charuel.ru/upload/iblock/98f/xmtytzz9kq4s57fxbl5beusq5c960p78.jpg",
-      "https://charuel.ru/upload/iblock/a68/cmp82mm7fo2wzeujlpnswouzs0f46yfl.jpg",
-      "https://charuel.ru/upload/iblock/ef4/72f69zcv534ljvl0qxw7547pqq1ukizi.jpg",
-      "https://charuel.ru/upload/iblock/890/vrkmqr2szmsw6sjfatvi9km3hm9q9js2.jpg",
-      "https://charuel.ru/upload/iblock/e81/8dfqglvi3ury4i9tapxm4r11hb9h6fpq.jpg",
-      "https://charuel.ru/upload/iblock/a16/6h7dmqausbo7sj1davzawp6umzdhp55f.jpg"
+      "https://charuel.ru/upload/iblock/172/u2i29jfq9pcd8pzzesiu3vbmmp9mget3.jpg",
+      "https://charuel.ru/upload/iblock/7e8/m06vug2nzujiky1waswjdw2ndcgbufau.jpg",
+      "https://charuel.ru/upload/iblock/ee6/hd07qsqgeov35jyh9drb9gqtjgxvz3i8.jpg",
+      "https://charuel.ru/upload/iblock/c07/8cvqox8ijq7ztwa3myuys34t2y0ffuvq.jpg",
+      "https://charuel.ru/upload/iblock/a93/hzu0bi0xtw5sme56wnmwuuhit21jbcic.jpg",
+      "https://charuel.ru/upload/iblock/136/q0hqwkecnkwifc43bwzg2nno4jnqu6ye.jpg"
     ],
     "categories": [
-      "2059998c-0b88-56f3-8bd7-64cd5ff6127a",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c"
+      "400cc287-445a-5489-bc2d-71850e00af4c",
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610",
+      "1456a943-2119-5051-9dea-cbe135bf350e"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Зеленый"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
       },
       {
-        "name": "Размер",
-        "value": "42, 44, 46, 48"
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "42, 44, 46, 48, 50"
       },
       {
-        "name": "Состав",
-        "value": "100% Вирджинская шерсть"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "100%\u0412\u0438\u0441\u043a\u043e\u0437\u0430"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Новые поступления"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Sale, \u0420158 \u2014 \u0434\u043b\u044f \u043d\u0435\u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430"
       }
     ],
     "fraction": null,
     "configurations": {
       "order": [
-        "418430089-739#418430089-739-42",
-        "418430089-739#418430089-739-44",
-        "418430089-739#418430089-739-46",
-        "418430089-739#418430089-739-48"
+        "1787P70250-340#1787P70250-340-42",
+        "1787P70250-340#1787P70250-340-44",
+        "1787P70250-340#1787P70250-340-46",
+        "1787P70250-340#1787P70250-340-48",
+        "1787P70250-340#1787P70250-340-50"
       ],
       "all": [
-        "418430089-739#418430089-739-42",
-        "418430089-739#418430089-739-44",
-        "418430089-739#418430089-739-46",
-        "418430089-739#418430089-739-48"
+        "1787P70250-340#1787P70250-340-42",
+        "1787P70250-340#1787P70250-340-44",
+        "1787P70250-340#1787P70250-340-46",
+        "1787P70250-340#1787P70250-340-48",
+        "1787P70250-340#1787P70250-340-50"
       ],
       "data": {
-        "418430089-739#418430089-739-42": [
+        "1787P70250-340#1787P70250-340-42": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "42"
           }
         ],
-        "418430089-739#418430089-739-44": [
+        "1787P70250-340#1787P70250-340-44": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "44"
           }
         ],
-        "418430089-739#418430089-739-46": [
+        "1787P70250-340#1787P70250-340-46": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "46"
           }
         ],
-        "418430089-739#418430089-739-48": [
+        "1787P70250-340#1787P70250-340-48": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "48"
+          }
+        ],
+        "1787P70250-340#1787P70250-340-50": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "50"
           }
         ]
       },
       "metadata": {
-        "418430089-739#418430089-739-42": {
-          "id": "418430089-739#418430089-739-42",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
-          "guid": "418430089-739#418430089-739-42",
-          "price": 39990,
+        "1787P70250-340#1787P70250-340-42": {
+          "id": "1787P70250-340#1787P70250-340-42",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_844/",
+          "guid": "1787P70250-340#1787P70250-340-42",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "418430089-739#418430089-739-42",
+          "privateId": "1787P70250-340#1787P70250-340-42",
           "paramNames": [
             {
-              "hex": "#008000",
-              "name": "Цвет",
-              "value": "Зеленый"
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "42"
             },
             {
-              "name": "Состав",
-              "value": "100% Вирджинская шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100%\u0412\u0438\u0441\u043a\u043e\u0437\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0420158 \u2014 \u0434\u043b\u044f \u043d\u0435\u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "418430089-739",
+          "vendorCode": "1787P70250-340",
+          "preDiscountPrice": 19990,
           "configurationImages": null
         },
-        "418430089-739#418430089-739-44": {
-          "id": "418430089-739#418430089-739-44",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
-          "guid": "418430089-739#418430089-739-44",
-          "price": 39990,
+        "1787P70250-340#1787P70250-340-44": {
+          "id": "1787P70250-340#1787P70250-340-44",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_844/",
+          "guid": "1787P70250-340#1787P70250-340-44",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "418430089-739#418430089-739-44",
+          "privateId": "1787P70250-340#1787P70250-340-44",
           "paramNames": [
             {
-              "hex": "#008000",
-              "name": "Цвет",
-              "value": "Зеленый"
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "44"
             },
             {
-              "name": "Состав",
-              "value": "100% Вирджинская шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100%\u0412\u0438\u0441\u043a\u043e\u0437\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0420158 \u2014 \u0434\u043b\u044f \u043d\u0435\u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "418430089-739",
+          "vendorCode": "1787P70250-340",
+          "preDiscountPrice": 19990,
           "configurationImages": null
         },
-        "418430089-739#418430089-739-46": {
-          "id": "418430089-739#418430089-739-46",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
-          "guid": "418430089-739#418430089-739-46",
-          "price": 39990,
+        "1787P70250-340#1787P70250-340-46": {
+          "id": "1787P70250-340#1787P70250-340-46",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_844/",
+          "guid": "1787P70250-340#1787P70250-340-46",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "418430089-739#418430089-739-46",
+          "privateId": "1787P70250-340#1787P70250-340-46",
           "paramNames": [
             {
-              "hex": "#008000",
-              "name": "Цвет",
-              "value": "Зеленый"
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "46"
             },
             {
-              "name": "Состав",
-              "value": "100% Вирджинская шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100%\u0412\u0438\u0441\u043a\u043e\u0437\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0420158 \u2014 \u0434\u043b\u044f \u043d\u0435\u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "418430089-739",
+          "vendorCode": "1787P70250-340",
+          "preDiscountPrice": 19990,
           "configurationImages": null
         },
-        "418430089-739#418430089-739-48": {
-          "id": "418430089-739#418430089-739-48",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
-          "guid": "418430089-739#418430089-739-48",
-          "price": 39990,
+        "1787P70250-340#1787P70250-340-48": {
+          "id": "1787P70250-340#1787P70250-340-48",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_844/",
+          "guid": "1787P70250-340#1787P70250-340-48",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "418430089-739#418430089-739-48",
+          "privateId": "1787P70250-340#1787P70250-340-48",
           "paramNames": [
             {
-              "hex": "#008000",
-              "name": "Цвет",
-              "value": "Зеленый"
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "48"
             },
             {
-              "name": "Состав",
-              "value": "100% Вирджинская шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100%\u0412\u0438\u0441\u043a\u043e\u0437\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0420158 \u2014 \u0434\u043b\u044f \u043d\u0435\u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "418430089-739",
+          "vendorCode": "1787P70250-340",
+          "preDiscountPrice": 19990,
+          "configurationImages": null
+        },
+        "1787P70250-340#1787P70250-340-50": {
+          "id": "1787P70250-340#1787P70250-340-50",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_844/",
+          "guid": "1787P70250-340#1787P70250-340-50",
+          "price": 14990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "1787P70250-340#1787P70250-340-50",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "50"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100%\u0412\u0438\u0441\u043a\u043e\u0437\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0420158 \u2014 \u0434\u043b\u044f \u043d\u0435\u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0440\u043e\u0441\u0442\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "1787P70250-340",
+          "preDiscountPrice": 19990,
           "configurationImages": null
         }
       }
@@ -264,7 +335,15 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -281,25 +360,7 @@ const products = [
     "convertedPrices": {},
     "itemPreviewUrl": null,
     "sizeGridPageUrl": null,
-    "linking": [
-      {
-        "list": [
-          {
-            "id": "003fdf00-700d-54e2-859d-c749b98d8492",
-            "color": "#008000",
-            "value": "Зеленый",
-            "imageUrl": null
-          },
-          {
-            "id": "15e92a4e-4af0-562f-8a01-ade70a40a6ef",
-            "color": "#063971",
-            "value": "Синий",
-            "imageUrl": null
-          }
-        ],
-        "name": "Цвет"
-      }
-    ],
+    "linking": [],
     "priceUnits": null,
     "listPrices": [],
     "imageComparisonOptions": [],
@@ -307,384 +368,394 @@ const products = [
     "cashback": null
   },
   {
-    "id": "00d18351-e30c-5cf3-902b-80ed6a1d7954",
-    "privateId": "16785145M-167",
-    "name": "Брюки на завязках",
-    "model": "Брюки на завязках",
-    "typePrefix": "Трикотаж",
-    "description": "Расслабленная посадка джоггеров и лаконичный дизайн без декора - такая комбинация делает брюки универсальными и открывает множество вариантов для сочетаний с другими элементами гардероба. Плотный гладкий трикотаж с содержанием эластичных волокон слегка тянется, поэтому зауженные брюки удобно садятся по фигуре и не сковывают движения.\n\n-    Стандартная посадка\n-    Зауженный крой\n-    Пояс на резинке с завязками\n-    Стрелки заутюжены\n-    Боковые карманы\n\nРост модели 175 см, размер 42 (российский).\nСостав ткани: 60%Рэйон, 35%Нейлон, 5%Спандекс",
+    "id": "0024bedc-14e3-5bc0-b593-b4ae33571935",
+    "privateId": "423240129M-374",
+    "name": "\u0416\u0430\u043a\u0435\u0442 \u043f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u044b\u0439 \u0432 \u043f\u043e\u043b\u043e\u0441\u043a\u0443",
+    "model": "\u0416\u0430\u043a\u0435\u0442 \u043f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u044b\u0439 \u0432 \u043f\u043e\u043b\u043e\u0441\u043a\u0443",
+    "typePrefix": "\u0416\u0430\u043a\u0435\u0442\u044b",
+    "description": "\u0416\u0430\u043a\u0435\u0442 \u0432 \u043f\u043e\u043b\u043e\u0441\u043a\u0443 \u0438\u0437 \u043b\u0438\u043d\u0438\u0438 Business \u2014 \u043a\u043b\u044e\u0447\u0435\u0432\u043e\u0439 \u044d\u043b\u0435\u043c\u0435\u043d\u0442 \u043c\u043d\u043e\u0433\u043e\u0441\u043b\u043e\u0439\u043d\u044b\u0445 \u043e\u0431\u0440\u0430\u0437\u043e\u0432 \u0432 \u043a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u043e\u043c \u0441\u0442\u0438\u043b\u0435. \u041c\u043e\u0434\u0435\u043b\u044c \u043f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043a\u0440\u043e\u044f \u0441\u0448\u0438\u043b\u0438 \u0438\u0437 \u0442\u043e\u043d\u043a\u043e\u0433\u043e \u043a\u043e\u0441\u0442\u044e\u043c\u043d\u043e\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0438\u043b\u044f \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0432\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043e\u0442\u043b\u0438\u0447\u0430\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0438 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u043a\u043e\u043c\u0444\u043e\u0440\u0442. \u0414\u043b\u044f \u0431\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u043e\u0433\u043e \u043a\u043e\u0441\u0442\u044e\u043c\u0430 \u043f\u043e\u0434\u0431\u0435\u0440\u0438\u0442\u0435 \u043a \u043f\u0438\u0434\u0436\u0430\u043a\u0443 \u043f\u0430\u0440\u043d\u044b\u0435 \u0431\u0440\u044e\u043a\u0438 \u0438 \u0436\u0438\u043b\u0435\u0442, \u0430 \u0434\u043b\u044f \u043f\u043e\u0432\u0441\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0445 \u043e\u0431\u0440\u0430\u0437\u043e\u0432 \u0441\u043e\u0447\u0435\u0442\u0430\u0439\u0442\u0435 \u0441 \u0434\u0436\u0438\u043d\u0441\u0430\u043c\u0438. \n\n- \u041f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n- \u0417\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0443\n- \u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u043a\u0430\u0440\u043c\u0430\u043d\u044b \u0441 \u043a\u043b\u0430\u043f\u0430\u043d\u0430\u043c\u0438\n- \u041f\u043e\u0434\u043f\u043b\u0435\u0447\u043d\u0438\u043a\u0438\n- \u0421\u0437\u0430\u0434\u0438 \u0448\u043b\u0438\u0446\u0430\n- \u0412 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435 \u0437\u0430\u043f\u0430\u0441\u043d\u0430\u044f \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430\n- \u0418\u0437\u0434\u0435\u043b\u0438\u0435 \u043d\u0430 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u043a\u0435 100% \u0432\u0438\u0441\u043a\u043e\u0437\u0430\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 9990,
+    "price": 27990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
-    "vendorCode": "16785145M-167",
+    "vendorCode": "423240129M-374",
     "preDiscountPrice": null,
     "currencyName": "₽",
     "currencyLabel": "₽",
-    "barcode": "2000399098853",
-    "barcodes": [
-      "2000399098853",
-      "2000399098860",
-      "2000399098877",
-      "2000399098884",
-      "2000399098891"
-    ],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
-    "image": "https://charuel.ru/upload/iblock/4af/kjbroaz6g23thhh3b3p22309ghct0k60.jpg",
+    "barcode": null,
+    "barcodes": [],
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/zhakety/zhaket-zhenskiy-_547/",
+    "image": "https://charuel.ru/upload/iblock/c0c/ybcpvb350622xk3bgvqd33wz2ap1xoey.jpg",
     "images": [
-      "https://charuel.ru/upload/iblock/4af/kjbroaz6g23thhh3b3p22309ghct0k60.jpg",
-      "https://charuel.ru/upload/iblock/bb5/cc8fbxkso6yw0fhviz9ktw6a9cxytihi.jpg",
-      "https://charuel.ru/upload/iblock/032/ho0whw8miecb83x7g8s3ichg892r34f0.jpg",
-      "https://charuel.ru/upload/iblock/7d7/0i39aecqsmhmjhiuy2l42g2lwndniv65.jpg",
-      "https://charuel.ru/upload/iblock/0a8/68fk1l7y052xjd05hx3g04zbf4ohbu23.jpg",
-      "https://charuel.ru/upload/iblock/7ee/vol5wjvcm5htcc1ufuzj51mq9356f7n1.jpg",
-      "https://charuel.ru/upload/iblock/57b/94izpc59pbd42hrtxpy7ising2uw9l1g.jpg"
+      "https://charuel.ru/upload/iblock/c0c/ybcpvb350622xk3bgvqd33wz2ap1xoey.jpg",
+      "https://charuel.ru/upload/iblock/eb9/itwhh4e0b8a5q07e7uzi1hi7uqlbo0mv.jpg",
+      "https://charuel.ru/upload/iblock/952/arw89d5nch0kgc24lps7j8u99cuf3i80.jpg",
+      "https://charuel.ru/upload/iblock/736/j6c8ip2v9415yids3aql7b2t3b181m3w.jpg",
+      "https://charuel.ru/upload/iblock/27f/eif18nwoua0mb8sn2chkkya34yosicyw.jpg",
+      "https://charuel.ru/upload/iblock/899/v3odt0f1l86lpg3qu2rhpdcxxp1kojl7.jpg"
     ],
     "categories": [
-      "0f9f0ff9-7dc6-5df3-920d-64b878e791ef"
+      "800e69d8-62d4-51b1-9936-efbf806354d3",
+      "92e2fb5c-192c-5be3-9fbc-91658bcf245c",
+      "73f49f29-8ac2-5ed8-943b-3acbc52d7af3",
+      "730208fa-a2ee-5216-b96d-f2f36f0a18e8"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Черный"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
       },
       {
-        "name": "Размер",
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
         "value": "40, 42, 44, 46, 48, 50"
       },
       {
-        "name": "Состав",
-        "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Midseason sale, Sport"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c, \u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, \u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
       }
     ],
     "fraction": null,
     "configurations": {
       "order": [
-        "16785145M-167#16785145M-167-40",
-        "16785145M-167#16785145M-167-42",
-        "16785145M-167#16785145M-167-44",
-        "16785145M-167#16785145M-167-46",
-        "16785145M-167#16785145M-167-48",
-        "16785145M-167#16785145M-167-50"
+        "423240129M-374#423240129M-374-40",
+        "423240129M-374#423240129M-374-42",
+        "423240129M-374#423240129M-374-44",
+        "423240129M-374#423240129M-374-46",
+        "423240129M-374#423240129M-374-48",
+        "423240129M-374#423240129M-374-50"
       ],
       "all": [
-        "16785145M-167#16785145M-167-40",
-        "16785145M-167#16785145M-167-42",
-        "16785145M-167#16785145M-167-44",
-        "16785145M-167#16785145M-167-46",
-        "16785145M-167#16785145M-167-48",
-        "16785145M-167#16785145M-167-50"
+        "423240129M-374#423240129M-374-40",
+        "423240129M-374#423240129M-374-42",
+        "423240129M-374#423240129M-374-44",
+        "423240129M-374#423240129M-374-46",
+        "423240129M-374#423240129M-374-48",
+        "423240129M-374#423240129M-374-50"
       ],
       "data": {
-        "16785145M-167#16785145M-167-40": [
+        "423240129M-374#423240129M-374-40": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "40"
           }
         ],
-        "16785145M-167#16785145M-167-42": [
+        "423240129M-374#423240129M-374-42": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "42"
           }
         ],
-        "16785145M-167#16785145M-167-44": [
+        "423240129M-374#423240129M-374-44": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "44"
           }
         ],
-        "16785145M-167#16785145M-167-46": [
+        "423240129M-374#423240129M-374-46": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "46"
           }
         ],
-        "16785145M-167#16785145M-167-48": [
+        "423240129M-374#423240129M-374-48": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "48"
           }
         ],
-        "16785145M-167#16785145M-167-50": [
+        "423240129M-374#423240129M-374-50": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "50"
           }
         ]
       },
       "metadata": {
-        "16785145M-167#16785145M-167-40": {
-          "id": "16785145M-167#16785145M-167-40",
-          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
-          "guid": "16785145M-167#16785145M-167-40",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [
-            "2000399098853"
-          ],
-          "available": true,
-          "privateId": "16785145M-167#16785145M-167-40",
-          "paramNames": [
-            {
-              "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
-            },
-            {
-              "name": "Размер",
-              "value": "40"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Midseason sale"
-            }
-          ],
-          "vendorCode": "16785145M-167",
-          "configurationImages": null
-        },
-        "16785145M-167#16785145M-167-42": {
-          "id": "16785145M-167#16785145M-167-42",
-          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
-          "guid": "16785145M-167#16785145M-167-42",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [
-            "2000399098860"
-          ],
-          "available": true,
-          "privateId": "16785145M-167#16785145M-167-42",
-          "paramNames": [
-            {
-              "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
-            },
-            {
-              "name": "Размер",
-              "value": "42"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Midseason sale"
-            }
-          ],
-          "vendorCode": "16785145M-167",
-          "configurationImages": null
-        },
-        "16785145M-167#16785145M-167-44": {
-          "id": "16785145M-167#16785145M-167-44",
-          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
-          "guid": "16785145M-167#16785145M-167-44",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [
-            "2000399098877"
-          ],
-          "available": true,
-          "privateId": "16785145M-167#16785145M-167-44",
-          "paramNames": [
-            {
-              "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
-            },
-            {
-              "name": "Размер",
-              "value": "44"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Midseason sale"
-            }
-          ],
-          "vendorCode": "16785145M-167",
-          "configurationImages": null
-        },
-        "16785145M-167#16785145M-167-46": {
-          "id": "16785145M-167#16785145M-167-46",
-          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
-          "guid": "16785145M-167#16785145M-167-46",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [
-            "2000399098884"
-          ],
-          "available": true,
-          "privateId": "16785145M-167#16785145M-167-46",
-          "paramNames": [
-            {
-              "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
-            },
-            {
-              "name": "Размер",
-              "value": "46"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Midseason sale"
-            }
-          ],
-          "vendorCode": "16785145M-167",
-          "configurationImages": null
-        },
-        "16785145M-167#16785145M-167-48": {
-          "id": "16785145M-167#16785145M-167-48",
-          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
-          "guid": "16785145M-167#16785145M-167-48",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [
-            "2000399098891"
-          ],
-          "available": true,
-          "privateId": "16785145M-167#16785145M-167-48",
-          "paramNames": [
-            {
-              "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
-            },
-            {
-              "name": "Размер",
-              "value": "48"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Midseason sale"
-            }
-          ],
-          "vendorCode": "16785145M-167",
-          "configurationImages": null
-        },
-        "16785145M-167#16785145M-167-50": {
-          "id": "16785145M-167#16785145M-167-50",
-          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
-          "guid": "16785145M-167#16785145M-167-50",
-          "price": 9990,
+        "423240129M-374#423240129M-374-40": {
+          "id": "423240129M-374#423240129M-374-40",
+          "url": "https://charuel.ru/catalogue/odezhda/zhakety/zhaket-zhenskiy-_547/",
+          "guid": "423240129M-374#423240129M-374-40",
+          "price": 27990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "16785145M-167#16785145M-167-50",
+          "privateId": "423240129M-374#423240129M-374-40",
           "paramNames": [
             {
               "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "40"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "423240129M-374",
+          "configurationImages": null
+        },
+        "423240129M-374#423240129M-374-42": {
+          "id": "423240129M-374#423240129M-374-42",
+          "url": "https://charuel.ru/catalogue/odezhda/zhakety/zhaket-zhenskiy-_547/",
+          "guid": "423240129M-374#423240129M-374-42",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "423240129M-374#423240129M-374-42",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "42"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "423240129M-374",
+          "configurationImages": null
+        },
+        "423240129M-374#423240129M-374-44": {
+          "id": "423240129M-374#423240129M-374-44",
+          "url": "https://charuel.ru/catalogue/odezhda/zhakety/zhaket-zhenskiy-_547/",
+          "guid": "423240129M-374#423240129M-374-44",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "423240129M-374#423240129M-374-44",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "44"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "423240129M-374",
+          "configurationImages": null
+        },
+        "423240129M-374#423240129M-374-46": {
+          "id": "423240129M-374#423240129M-374-46",
+          "url": "https://charuel.ru/catalogue/odezhda/zhakety/zhaket-zhenskiy-_547/",
+          "guid": "423240129M-374#423240129M-374-46",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "423240129M-374#423240129M-374-46",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "46"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "423240129M-374",
+          "configurationImages": null
+        },
+        "423240129M-374#423240129M-374-48": {
+          "id": "423240129M-374#423240129M-374-48",
+          "url": "https://charuel.ru/catalogue/odezhda/zhakety/zhaket-zhenskiy-_547/",
+          "guid": "423240129M-374#423240129M-374-48",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "423240129M-374#423240129M-374-48",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "48"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "423240129M-374",
+          "configurationImages": null
+        },
+        "423240129M-374#423240129M-374-50": {
+          "id": "423240129M-374#423240129M-374-50",
+          "url": "https://charuel.ru/catalogue/odezhda/zhakety/zhaket-zhenskiy-_547/",
+          "guid": "423240129M-374#423240129M-374-50",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "423240129M-374#423240129M-374-50",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "50"
             },
             {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "75%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c,20%\u041f\u043e\u043b\u0438\u0430\u043c\u0438\u0434,5%\u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Sport"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
             },
             {
-              "name": "Коллекция",
-              "value": "Midseason sale"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "16785145M-167",
+          "vendorCode": "423240129M-374",
           "configurationImages": null
         }
       }
@@ -702,7 +773,633 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "NEW",
+        "textColor": "#949495",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
+    "videos": [],
+    "videosTitle": null,
+    "colorOptionHex": null,
+    "colorOptionImage": null,
+    "colorOptionValue": null,
+    "recs": [],
+    "upsell": [],
+    "preorder": false,
+    "limited": false,
+    "earlyAccess": false,
+    "payment": true,
+    "paymentRequired": false,
+    "files": [],
+    "convertedPrices": {},
+    "itemPreviewUrl": null,
+    "sizeGridPageUrl": null,
+    "linking": [],
+    "priceUnits": null,
+    "listPrices": [],
+    "imageComparisonOptions": [],
+    "reviewsCounters": null,
+    "cashback": null
+  },
+  {
+    "id": "003fdf00-700d-54e2-859d-c749b98d8492",
+    "privateId": "418430089-739",
+    "name": "\u041f\u0430\u043b\u044c\u0442\u043e \u0443\u0442\u0435\u043f\u043b\u0435\u043d\u043d\u043e\u0435",
+    "model": "\u041f\u0430\u043b\u044c\u0442\u043e \u0443\u0442\u0435\u043f\u043b\u0435\u043d\u043d\u043e\u0435",
+    "typePrefix": "\u0412\u0435\u0440\u0445\u043d\u044f\u044f \u043e\u0434\u0435\u0436\u0434\u0430",
+    "description": "\u0414\u0432\u0443\u0431\u043e\u0440\u0442\u043d\u043e\u0435 \u043f\u0430\u043b\u044c\u0442\u043e \u0432\u044b\u0433\u043b\u044f\u0434\u0438\u0442 \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0441\u0442\u0440\u043e\u0433\u0438\u043c \u0438 \u0440\u0430\u0441\u0441\u043b\u0430\u0431\u043b\u0435\u043d\u043d\u044b\u043c, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0435\u0433\u043e \u043c\u043e\u0436\u043d\u043e \u0441\u043e\u0447\u0435\u0442\u0430\u0442\u044c \u0441 casual \u0441\u0442\u0438\u043b\u0435\u043c \u0438\u043b\u0438 \u0441 \u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u043c\u0438 \u043e\u0431\u0440\u0430\u0437\u0430\u043c\u0438. \u041f\u043b\u043e\u0442\u043d\u044b\u0439 \u0442\u0435\u043a\u0441\u0442\u0438\u043b\u044c \u0438\u0437 \u0432\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438 \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u043f\u0440\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0438 \u043d\u0435 \u0432\u044b\u0442\u044f\u0433\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c. \u041f\u0430\u043b\u044c\u0442\u043e \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u0440\u043e\u044f \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0434\u043b\u044f \u0441\u0435\u0437\u043e\u043d\u0430 \u0435\u0432\u0440\u043e\u0437\u0438\u043c\u0430: \u043c\u043e\u0434\u0435\u043b\u044c \u0443\u0442\u0435\u043f\u043b\u0435\u043d\u0430 \u043b\u0435\u0433\u043a\u043e\u0439 \u0441\u0438\u043d\u0442\u0435\u043f\u043e\u043d\u043e\u0432\u043e\u0439 \u043f\u043e\u0434\u0441\u0442\u0435\u0436\u043a\u043e\u0439.\n\n\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u043e\u0442 +5\u00b0C \u0434\u043e -10\u00b0C.\n\n- \u041f\u0440\u044f\u043c\u043e\u0439 \u043a\u0440\u043e\u0439\n- \u0414\u043b\u0438\u043d\u0430 \u0434\u043e \u043a\u043e\u043b\u0435\u043d\u0430\n- \u0414\u0432\u0443\u0431\u043e\u0440\u0442\u043d\u0430\u044f \u0437\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u044b\n- \u0420\u0443\u043a\u0430\u0432\u0430-\u0440\u0435\u0433\u043b\u0430\u043d\n- \u041f\u0430\u0442\u044b \u043d\u0430 \u043c\u0430\u043d\u0436\u0435\u0442\u0430\u0445\n- \u0421\u0438\u043d\u0442\u0435\u043f\u043e\u043d\u043e\u0432\u044b\u0439 \u0443\u0442\u0435\u043f\u043b\u0438\u0442\u0435\u043b\u044c \u043d\u0435 \u043e\u0442\u0441\u0442\u0435\u0433\u0438\u0432\u0430\u0435\u0442\u0441\u044f\n- \u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u043a\u0430\u0440\u043c\u0430\u043d\u044b \n- \u0421\u0437\u0430\u0434\u0438 \u0448\u043b\u0438\u0446\u0430 \n- \u0412 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435 \u0437\u0430\u043f\u0430\u0441\u043d\u0430\u044f \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430\n- \u0418\u0437\u0434\u0435\u043b\u0438\u0435 \u043d\u0430 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u043a\u0435\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 100% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c",
+    "priceLabel": null,
+    "collapsibleDescription": {},
+    "saleEndsDateIso": null,
+    "price": 27990,
+    "priceByCard": null,
+    "retailPrice": null,
+    "vendor": "Charuel",
+    "vendorCode": "418430089-739",
+    "preDiscountPrice": 39990,
+    "currencyName": "₽",
+    "currencyLabel": "₽",
+    "barcode": null,
+    "barcodes": [],
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
+    "image": "https://charuel.ru/upload/iblock/0af/mscqhhc42jp0i1e6769azy7jcdjb72zq.jpg",
+    "images": [
+      "https://charuel.ru/upload/iblock/0af/mscqhhc42jp0i1e6769azy7jcdjb72zq.jpg",
+      "https://charuel.ru/upload/iblock/dd9/2zdofia925c2x5wh21eftrdtf69qk0mn.jpg",
+      "https://charuel.ru/upload/iblock/d27/vzejnisr92vz7vs1rp1vu4wc4vb3ejj8.jpg",
+      "https://charuel.ru/upload/iblock/785/w50hg32yxtd7ry4qqhxbxvg9fg0i78lw.jpg",
+      "https://charuel.ru/upload/iblock/2f8/xrf5x4bq6qndgk2x78w3vah7ov6tzx1i.jpg",
+      "https://charuel.ru/upload/iblock/d50/9qjc9ev7cfzpv1y80tsrw8qs65oz5uj1.jpg",
+      "https://charuel.ru/upload/iblock/d19/u4tporwt1e0yy1tyr7yl9frv5xa47uec.jpg",
+      "https://charuel.ru/upload/iblock/668/1n6a70bmbs7gfrr4eii5hry539fp8imo.jpg"
+    ],
+    "categories": [
+      "2059998c-0b88-56f3-8bd7-64cd5ff6127a",
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610"
+    ],
+    "properties": [
+      {
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439"
+      },
+      {
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "42, 44, 46"
+      },
+      {
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "100% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+      },
+      {
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+      },
+      {
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Sale"
+      }
+    ],
+    "fraction": null,
+    "configurations": {
+      "order": [
+        "418430089-739#418430089-739-42",
+        "418430089-739#418430089-739-44",
+        "418430089-739#418430089-739-46"
+      ],
+      "all": [
+        "418430089-739#418430089-739-42",
+        "418430089-739#418430089-739-44",
+        "418430089-739#418430089-739-46"
+      ],
+      "data": {
+        "418430089-739#418430089-739-42": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "42"
+          }
+        ],
+        "418430089-739#418430089-739-44": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "44"
+          }
+        ],
+        "418430089-739#418430089-739-46": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "46"
+          }
+        ]
+      },
+      "metadata": {
+        "418430089-739#418430089-739-42": {
+          "id": "418430089-739#418430089-739-42",
+          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
+          "guid": "418430089-739#418430089-739-42",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "418430089-739#418430089-739-42",
+          "paramNames": [
+            {
+              "hex": "#008000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "42"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "418430089-739",
+          "preDiscountPrice": 39990,
+          "configurationImages": null
+        },
+        "418430089-739#418430089-739-44": {
+          "id": "418430089-739#418430089-739-44",
+          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
+          "guid": "418430089-739#418430089-739-44",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "418430089-739#418430089-739-44",
+          "paramNames": [
+            {
+              "hex": "#008000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "44"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "418430089-739",
+          "preDiscountPrice": 39990,
+          "configurationImages": null
+        },
+        "418430089-739#418430089-739-46": {
+          "id": "418430089-739#418430089-739-46",
+          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_132/",
+          "guid": "418430089-739#418430089-739-46",
+          "price": 27990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "418430089-739#418430089-739-46",
+          "paramNames": [
+            {
+              "hex": "#008000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0417\u0435\u043b\u0435\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "46"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "418430089-739",
+          "preDiscountPrice": 39990,
+          "configurationImages": null
+        }
+      }
+    },
+    "configurationImages": [],
+    "availability": true,
+    "internalProperties": {},
+    "full": true,
+    "sourceName": "",
+    "sizeGridImage": null,
+    "xmlId": "",
+    "vat": 20,
+    "useBonuses": true,
+    "overSized": false,
+    "active": true,
+    "deliveryNote": null,
+    "credit": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
+    "videos": [],
+    "videosTitle": null,
+    "colorOptionHex": null,
+    "colorOptionImage": null,
+    "colorOptionValue": null,
+    "recs": [],
+    "upsell": [],
+    "preorder": false,
+    "limited": false,
+    "earlyAccess": false,
+    "payment": true,
+    "paymentRequired": false,
+    "files": [],
+    "convertedPrices": {},
+    "itemPreviewUrl": null,
+    "sizeGridPageUrl": null,
+    "linking": [],
+    "priceUnits": null,
+    "listPrices": [],
+    "imageComparisonOptions": [],
+    "reviewsCounters": null,
+    "cashback": null
+  },
+  {
+    "id": "00d18351-e30c-5cf3-902b-80ed6a1d7954",
+    "privateId": "16785145M-167",
+    "name": "\u0411\u0440\u044e\u043a\u0438 \u043d\u0430 \u0437\u0430\u0432\u044f\u0437\u043a\u0430\u0445",
+    "model": "\u0411\u0440\u044e\u043a\u0438 \u043d\u0430 \u0437\u0430\u0432\u044f\u0437\u043a\u0430\u0445",
+    "typePrefix": "\u0422\u0440\u0438\u043a\u043e\u0442\u0430\u0436",
+    "description": "\u0420\u0430\u0441\u0441\u043b\u0430\u0431\u043b\u0435\u043d\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430 \u0434\u0436\u043e\u0433\u0433\u0435\u0440\u043e\u0432 \u0438 \u043b\u0430\u043a\u043e\u043d\u0438\u0447\u043d\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u0431\u0435\u0437 \u0434\u0435\u043a\u043e\u0440\u0430 - \u0442\u0430\u043a\u0430\u044f \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u044f \u0434\u0435\u043b\u0430\u0435\u0442 \u0431\u0440\u044e\u043a\u0438 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u0438 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432 \u0434\u043b\u044f \u0441\u043e\u0447\u0435\u0442\u0430\u043d\u0438\u0439 \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043c\u0438 \u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0430. \u041f\u043b\u043e\u0442\u043d\u044b\u0439 \u0433\u043b\u0430\u0434\u043a\u0438\u0439 \u0442\u0440\u0438\u043a\u043e\u0442\u0430\u0436 \u0441 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435\u043c \u044d\u043b\u0430\u0441\u0442\u0438\u0447\u043d\u044b\u0445 \u0432\u043e\u043b\u043e\u043a\u043e\u043d \u0441\u043b\u0435\u0433\u043a\u0430 \u0442\u044f\u043d\u0435\u0442\u0441\u044f, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0437\u0430\u0443\u0436\u0435\u043d\u043d\u044b\u0435 \u0431\u0440\u044e\u043a\u0438 \u0443\u0434\u043e\u0431\u043d\u043e \u0441\u0430\u0434\u044f\u0442\u0441\u044f \u043f\u043e \u0444\u0438\u0433\u0443\u0440\u0435 \u0438 \u043d\u0435 \u0441\u043a\u043e\u0432\u044b\u0432\u0430\u044e\u0442 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f.\n\n-\u00a0\u00a0\u00a0\u00a0\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430\n-\u00a0\u00a0\u00a0\u00a0\u0417\u0430\u0443\u0436\u0435\u043d\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n-\u00a0\u00a0\u00a0\u00a0\u041f\u043e\u044f\u0441 \u043d\u0430 \u0440\u0435\u0437\u0438\u043d\u043a\u0435 \u0441 \u0437\u0430\u0432\u044f\u0437\u043a\u0430\u043c\u0438\n-\u00a0\u00a0\u00a0\u00a0\u0421\u0442\u0440\u0435\u043b\u043a\u0438 \u0437\u0430\u0443\u0442\u044e\u0436\u0435\u043d\u044b\n-\u00a0\u00a0\u00a0\u00a0\u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u043a\u0430\u0440\u043c\u0430\u043d\u044b\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441",
+    "priceLabel": null,
+    "collapsibleDescription": {},
+    "saleEndsDateIso": null,
+    "price": 7990,
+    "priceByCard": null,
+    "retailPrice": null,
+    "vendor": "Charuel",
+    "vendorCode": "16785145M-167",
+    "preDiscountPrice": 9990,
+    "currencyName": "₽",
+    "currencyLabel": "₽",
+    "barcode": "2000399098853",
+    "barcodes": [
+      "2000399098853",
+      "2000399098860",
+      "2000399098877",
+      "2000399098884"
+    ],
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
+    "image": "https://charuel.ru/upload/iblock/4af/kjbroaz6g23thhh3b3p22309ghct0k60.jpg",
+    "images": [
+      "https://charuel.ru/upload/iblock/4af/kjbroaz6g23thhh3b3p22309ghct0k60.jpg",
+      "https://charuel.ru/upload/iblock/bb5/cc8fbxkso6yw0fhviz9ktw6a9cxytihi.jpg",
+      "https://charuel.ru/upload/iblock/032/ho0whw8miecb83x7g8s3ichg892r34f0.jpg",
+      "https://charuel.ru/upload/iblock/7d7/0i39aecqsmhmjhiuy2l42g2lwndniv65.jpg",
+      "https://charuel.ru/upload/iblock/0a8/68fk1l7y052xjd05hx3g04zbf4ohbu23.jpg",
+      "https://charuel.ru/upload/iblock/7ee/vol5wjvcm5htcc1ufuzj51mq9356f7n1.jpg",
+      "https://charuel.ru/upload/iblock/57b/94izpc59pbd42hrtxpy7ising2uw9l1g.jpg"
+    ],
+    "categories": [
+      "0f9f0ff9-7dc6-5df3-920d-64b878e791ef",
+      "1b0f55fd-154e-5cd6-8db6-5cdda60dc016",
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610"
+    ],
+    "properties": [
+      {
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+      },
+      {
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "40, 42, 44, 46"
+      },
+      {
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+      },
+      {
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+      },
+      {
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Midseason sale, Officecore, Sale, Sport"
+      }
+    ],
+    "fraction": null,
+    "configurations": {
+      "order": [
+        "16785145M-167#16785145M-167-40",
+        "16785145M-167#16785145M-167-42",
+        "16785145M-167#16785145M-167-44",
+        "16785145M-167#16785145M-167-46"
+      ],
+      "all": [
+        "16785145M-167#16785145M-167-40",
+        "16785145M-167#16785145M-167-42",
+        "16785145M-167#16785145M-167-44",
+        "16785145M-167#16785145M-167-46"
+      ],
+      "data": {
+        "16785145M-167#16785145M-167-40": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "40"
+          }
+        ],
+        "16785145M-167#16785145M-167-42": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "42"
+          }
+        ],
+        "16785145M-167#16785145M-167-44": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "44"
+          }
+        ],
+        "16785145M-167#16785145M-167-46": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "46"
+          }
+        ]
+      },
+      "metadata": {
+        "16785145M-167#16785145M-167-40": {
+          "id": "16785145M-167#16785145M-167-40",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
+          "guid": "16785145M-167#16785145M-167-40",
+          "price": 7990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [
+            "2000399098853"
+          ],
+          "available": true,
+          "privateId": "16785145M-167#16785145M-167-40",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "40"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Midseason sale"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "16785145M-167",
+          "preDiscountPrice": 9990,
+          "configurationImages": null
+        },
+        "16785145M-167#16785145M-167-42": {
+          "id": "16785145M-167#16785145M-167-42",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
+          "guid": "16785145M-167#16785145M-167-42",
+          "price": 7990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [
+            "2000399098860"
+          ],
+          "available": true,
+          "privateId": "16785145M-167#16785145M-167-42",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "42"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Midseason sale"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "16785145M-167",
+          "preDiscountPrice": 9990,
+          "configurationImages": null
+        },
+        "16785145M-167#16785145M-167-44": {
+          "id": "16785145M-167#16785145M-167-44",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
+          "guid": "16785145M-167#16785145M-167-44",
+          "price": 7990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [
+            "2000399098877"
+          ],
+          "available": true,
+          "privateId": "16785145M-167#16785145M-167-44",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "44"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Midseason sale"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "16785145M-167",
+          "preDiscountPrice": 9990,
+          "configurationImages": null
+        },
+        "16785145M-167#16785145M-167-46": {
+          "id": "16785145M-167#16785145M-167-46",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie-_478/",
+          "guid": "16785145M-167#16785145M-167-46",
+          "price": 7990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [
+            "2000399098884"
+          ],
+          "available": true,
+          "privateId": "16785145M-167#16785145M-167-46",
+          "paramNames": [
+            {
+              "hex": "#000000",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0427\u0435\u0440\u043d\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "46"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Midseason sale"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "16785145M-167",
+          "preDiscountPrice": 9990,
+          "configurationImages": null
+        }
+      }
+    },
+    "configurationImages": [],
+    "availability": true,
+    "internalProperties": {},
+    "full": true,
+    "sourceName": "",
+    "sizeGridImage": null,
+    "xmlId": "",
+    "vat": 20,
+    "useBonuses": true,
+    "overSized": false,
+    "active": true,
+    "deliveryNote": null,
+    "credit": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -729,19 +1426,19 @@ const products = [
   {
     "id": "0111be04-8d97-57c7-b354-b4dc7fc7f57c",
     "privateId": "167820132M-191",
-    "name": "Рубашка из трикотажа",
-    "model": "Рубашка из трикотажа",
-    "typePrefix": "Блузы",
-    "description": "Рубашка оверсайз стильно смотрится как самостоятельный вариант или в многослойных образах. Плотный гладкий трикотаж хорошо тянется и не сковывает движения. Заниженная линия плеча и застежка на молнию создают расслабленную посадку. \n\n- Свободный крой\n- Застежка на двухходовую молнию\n- Длина до середины бедра\n- Заниженная линия плеча\n- Отложной воротник\n- Манжеты на кнопках\n- Нагрудный карман\n- Разрезы в боковых швах\n\nРост модели 175 см, размер 42 (российский).\nСостав ткани: 60%Рэйон, 35%Нейлон, 5%Спандекс",
+    "name": "\u0420\u0443\u0431\u0430\u0448\u043a\u0430 \u0438\u0437 \u0442\u0440\u0438\u043a\u043e\u0442\u0430\u0436\u0430",
+    "model": "\u0420\u0443\u0431\u0430\u0448\u043a\u0430 \u0438\u0437 \u0442\u0440\u0438\u043a\u043e\u0442\u0430\u0436\u0430",
+    "typePrefix": "\u0411\u043b\u0443\u0437\u044b",
+    "description": "\u0420\u0443\u0431\u0430\u0448\u043a\u0430 \u043e\u0432\u0435\u0440\u0441\u0430\u0439\u0437 \u0441\u0442\u0438\u043b\u044c\u043d\u043e \u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0441\u044f \u043a\u0430\u043a \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442 \u0438\u043b\u0438 \u0432 \u043c\u043d\u043e\u0433\u043e\u0441\u043b\u043e\u0439\u043d\u044b\u0445 \u043e\u0431\u0440\u0430\u0437\u0430\u0445. \u041f\u043b\u043e\u0442\u043d\u044b\u0439 \u0433\u043b\u0430\u0434\u043a\u0438\u0439 \u0442\u0440\u0438\u043a\u043e\u0442\u0430\u0436 \u0445\u043e\u0440\u043e\u0448\u043e \u0442\u044f\u043d\u0435\u0442\u0441\u044f \u0438 \u043d\u0435 \u0441\u043a\u043e\u0432\u044b\u0432\u0430\u0435\u0442 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f. \u0417\u0430\u043d\u0438\u0436\u0435\u043d\u043d\u0430\u044f \u043b\u0438\u043d\u0438\u044f \u043f\u043b\u0435\u0447\u0430 \u0438 \u0437\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043c\u043e\u043b\u043d\u0438\u044e \u0441\u043e\u0437\u0434\u0430\u044e\u0442 \u0440\u0430\u0441\u0441\u043b\u0430\u0431\u043b\u0435\u043d\u043d\u0443\u044e \u043f\u043e\u0441\u0430\u0434\u043a\u0443. \n\n- \u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n- \u0417\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u0434\u0432\u0443\u0445\u0445\u043e\u0434\u043e\u0432\u0443\u044e \u043c\u043e\u043b\u043d\u0438\u044e\n- \u0414\u043b\u0438\u043d\u0430 \u0434\u043e \u0441\u0435\u0440\u0435\u0434\u0438\u043d\u044b \u0431\u0435\u0434\u0440\u0430\n- \u0417\u0430\u043d\u0438\u0436\u0435\u043d\u043d\u0430\u044f \u043b\u0438\u043d\u0438\u044f \u043f\u043b\u0435\u0447\u0430\n- \u041e\u0442\u043b\u043e\u0436\u043d\u043e\u0439 \u0432\u043e\u0440\u043e\u0442\u043d\u0438\u043a\n- \u041c\u0430\u043d\u0436\u0435\u0442\u044b \u043d\u0430 \u043a\u043d\u043e\u043f\u043a\u0430\u0445\n- \u041d\u0430\u0433\u0440\u0443\u0434\u043d\u044b\u0439 \u043a\u0430\u0440\u043c\u0430\u043d\n- \u0420\u0430\u0437\u0440\u0435\u0437\u044b \u0432 \u0431\u043e\u043a\u043e\u0432\u044b\u0445 \u0448\u0432\u0430\u0445\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 9990,
+    "price": 7990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
     "vendorCode": "167820132M-191",
-    "preDiscountPrice": null,
+    "preDiscountPrice": 9990,
     "currencyName": "₽",
     "currencyLabel": "₽",
     "barcode": null,
@@ -758,130 +1455,62 @@ const products = [
     "categories": [
       "1a18f44b-ff97-5bc6-87bf-1baad9567b8d",
       "0f9f0ff9-7dc6-5df3-920d-64b878e791ef",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c"
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Бежевый"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439"
       },
       {
-        "name": "Размер",
-        "value": "L, M, S, XL, XS"
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "M, S"
       },
       {
-        "name": "Состав",
-        "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Sport, Новые поступления"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Sale, Sport"
       }
     ],
     "fraction": null,
     "configurations": {
       "order": [
-        "167820132M-191#167820132M-191-XS",
         "167820132M-191#167820132M-191-S",
-        "167820132M-191#167820132M-191-M",
-        "167820132M-191#167820132M-191-L",
-        "167820132M-191#167820132M-191-XL"
+        "167820132M-191#167820132M-191-M"
       ],
       "all": [
-        "167820132M-191#167820132M-191-XS",
         "167820132M-191#167820132M-191-S",
-        "167820132M-191#167820132M-191-M",
-        "167820132M-191#167820132M-191-L",
-        "167820132M-191#167820132M-191-XL"
+        "167820132M-191#167820132M-191-M"
       ],
       "data": {
-        "167820132M-191#167820132M-191-XS": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "XS"
-          }
-        ],
         "167820132M-191#167820132M-191-S": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "S"
           }
         ],
         "167820132M-191#167820132M-191-M": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "M"
-          }
-        ],
-        "167820132M-191#167820132M-191-L": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "L"
-          }
-        ],
-        "167820132M-191#167820132M-191-XL": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "XL"
           }
         ]
       },
       "metadata": {
-        "167820132M-191#167820132M-191-XS": {
-          "id": "167820132M-191#167820132M-191-XS",
-          "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/rubashka-zhenskaya-_80/",
-          "guid": "167820132M-191#167820132M-191-XS",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "167820132M-191#167820132M-191-XS",
-          "paramNames": [
-            {
-              "hex": "#cdb891",
-              "name": "Цвет",
-              "value": "Бежевый"
-            },
-            {
-              "name": "Размер",
-              "value": "XS"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            }
-          ],
-          "vendorCode": "167820132M-191",
-          "configurationImages": null
-        },
         "167820132M-191#167820132M-191-S": {
           "id": "167820132M-191#167820132M-191-S",
           "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/rubashka-zhenskaya-_80/",
           "guid": "167820132M-191#167820132M-191-S",
-          "price": 9990,
+          "price": 7990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
@@ -891,38 +1520,39 @@ const products = [
           "paramNames": [
             {
               "hex": "#cdb891",
-              "name": "Цвет",
-              "value": "Бежевый"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "S"
             },
             {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            },
-            {
-              "name": "Коллекция",
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
               "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
           "vendorCode": "167820132M-191",
+          "preDiscountPrice": 9990,
           "configurationImages": null
         },
         "167820132M-191#167820132M-191-M": {
           "id": "167820132M-191#167820132M-191-M",
           "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/rubashka-zhenskaya-_80/",
           "guid": "167820132M-191#167820132M-191-M",
-          "price": 9990,
+          "price": 7990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
@@ -932,113 +1562,32 @@ const products = [
           "paramNames": [
             {
               "hex": "#cdb891",
-              "name": "Цвет",
-              "value": "Бежевый"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "M"
             },
             {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            },
-            {
-              "name": "Коллекция",
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
               "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
           "vendorCode": "167820132M-191",
-          "configurationImages": null
-        },
-        "167820132M-191#167820132M-191-L": {
-          "id": "167820132M-191#167820132M-191-L",
-          "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/rubashka-zhenskaya-_80/",
-          "guid": "167820132M-191#167820132M-191-L",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "167820132M-191#167820132M-191-L",
-          "paramNames": [
-            {
-              "hex": "#cdb891",
-              "name": "Цвет",
-              "value": "Бежевый"
-            },
-            {
-              "name": "Размер",
-              "value": "L"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            }
-          ],
-          "vendorCode": "167820132M-191",
-          "configurationImages": null
-        },
-        "167820132M-191#167820132M-191-XL": {
-          "id": "167820132M-191#167820132M-191-XL",
-          "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/rubashka-zhenskaya-_80/",
-          "guid": "167820132M-191#167820132M-191-XL",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "167820132M-191#167820132M-191-XL",
-          "paramNames": [
-            {
-              "hex": "#cdb891",
-              "name": "Цвет",
-              "value": "Бежевый"
-            },
-            {
-              "name": "Размер",
-              "value": "XL"
-            },
-            {
-              "name": "Состав",
-              "value": "60%Рэйон, 35%Нейлон, 5%Спандекс"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Sport"
-            }
-          ],
-          "vendorCode": "167820132M-191",
+          "preDiscountPrice": 9990,
           "configurationImages": null
         }
       }
@@ -1056,7 +1605,15 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -1079,17 +1636,17 @@ const products = [
           {
             "id": "0111be04-8d97-57c7-b354-b4dc7fc7f57c",
             "color": "#cdb891",
-            "value": "Бежевый",
+            "value": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
             "imageUrl": null
           },
           {
-            "id": "dcfd5348-4cb7-5942-93f3-2ce2f1debecf",
-            "color": "#503d33",
-            "value": "Коричневый",
+            "id": "b111e379-1f4d-56a7-85b6-dd72b83391a7",
+            "color": "#fcfcf4",
+            "value": "\u0411\u0435\u043b\u044b\u0439",
             "imageUrl": null
           }
         ],
-        "name": "Цвет"
+        "name": "\u0426\u0432\u0435\u0442"
       }
     ],
     "priceUnits": null,
@@ -1099,575 +1656,226 @@ const products = [
     "cashback": null
   },
   {
-    "id": "01813334-ad58-5ff7-8dd8-e6d2696804de",
-    "privateId": "404970215-533",
-    "name": "Вязаное платье с воротником на молнии",
-    "model": "Вязаное платье с воротником на молнии",
-    "typePrefix": "Платья",
-    "description": "Теплое платье с длинными рукавами создано для прогулок в прохладные дни. Приталенную модель связали из 100% шерсти мериноса - такая пряжа плотная, мягкая и не колючая. Объемный воротник на металлической молнии можно расстегнуть или наоборот, сделать образ более сдержанным и уютным, закрыв горло.  \n\n- Приталенный крой\n- Длина миди\n- Расклешенная юбка\n- Отложной воротник на молнии\n- Изделие без подклада\n\nРост модели 175 см, размер 42 (российский).\n\nСостав ткани: 100% Шерсть Мериноса",
+    "id": "036f8d06-41d8-5dba-87f4-d75570f7a0b8",
+    "privateId": "424930003-140",
+    "name": "\u041f\u0430\u043b\u044c\u0442\u043e \u0434\u0440\u0430\u043f\u043e\u0432\u043e\u0435 \u0434\u0432\u0443\u0431\u043e\u0440\u0442\u043d\u043e\u0435",
+    "model": "\u041f\u0430\u043b\u044c\u0442\u043e \u0434\u0440\u0430\u043f\u043e\u0432\u043e\u0435 \u0434\u0432\u0443\u0431\u043e\u0440\u0442\u043d\u043e\u0435",
+    "typePrefix": "\u0412\u0435\u0440\u0445\u043d\u044f\u044f \u043e\u0434\u0435\u0436\u0434\u0430",
+    "description": "\u0414\u0440\u0430\u043f\u043e\u0432\u043e\u0435 \u043f\u0430\u043b\u044c\u0442\u043e \u043f\u043e\u0434\u043e\u0439\u0434\u0435\u0442 \u0434\u043b\u044f \u043b\u044e\u0431\u043e\u0433\u043e \u0441\u0442\u0438\u043b\u044f \u043e\u0434\u0435\u0436\u0434\u044b: \u043e\u0442 \u043a\u043b\u0430\u0441\u0441\u0438\u043a\u0438 \u0434\u043e \u0441\u0442\u0440\u0438\u0442. \u041f\u0430\u043b\u044c\u0442\u043e \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u043e\u0433\u043e \u043a\u0440\u043e\u044f \u0441 \u0448\u0438\u0440\u043e\u043a\u0438\u043c\u0438 \u0440\u0443\u043a\u0430\u0432\u0430\u043c\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442 \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u043c\u043e\u0434\u043d\u044b\u0435 \u043c\u043d\u043e\u0433\u043e\u0441\u043b\u043e\u0439\u043d\u044b\u0435 \u043e\u0431\u0440\u0430\u0437\u044b \u043d\u0430 \u043e\u0441\u0435\u043d\u044c \u0438 \u0432\u0435\u0441\u043d\u0443. \u041c\u044f\u0433\u043a\u0438\u0439 \u0434\u0440\u0430\u043f \u0441 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435\u043c \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438 \u0445\u043e\u0440\u043e\u0448\u043e \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u0442 \u0442\u0435\u043f\u043b\u043e \u0438 \u0437\u0430\u0449\u0438\u0449\u0430\u0435\u0442 \u043e\u0442 \u0445\u043e\u043b\u043e\u0434\u043d\u043e\u0433\u043e \u0432\u0435\u0442\u0440\u0430. \u0427\u0442\u043e\u0431\u044b \u043f\u0430\u043b\u044c\u0442\u043e \u043d\u0438\u0436\u0435 \u043a\u043e\u043b\u0435\u043d\u0430 \u043d\u0435 \u0441\u043a\u043e\u0432\u044b\u0432\u0430\u043b\u043e \u0448\u0430\u0433, \u043f\u043e \u0431\u043e\u043a\u0430\u043c \u043f\u0440\u0435\u0434\u0443\u0441\u043c\u043e\u0442\u0440\u0435\u043b\u0438 \u0440\u0430\u0437\u0440\u0435\u0437\u044b.\n\n\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u043e\u0442 0 \u00b0C \u0434\u043e +10 \u00b0C.\n\n- \u0421\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n- \u0414\u043b\u0438\u043d\u0430 \u043d\u0438\u0436\u0435 \u043a\u043e\u043b\u0435\u043d\u0430\n- \u0421\u043f\u0443\u0449\u0435\u043d\u043d\u0430\u044f \u043b\u0438\u043d\u0438\u044f \u043f\u043b\u0435\u0447\u0430\n- \u0414\u0432\u0443\u0431\u043e\u0440\u0442\u043d\u0430\u044f \u0437\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u044b\n- \u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u043a\u0430\u0440\u043c\u0430\u043d\u044b\n- \u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0439 \u043a\u0430\u0440\u043c\u0430\u043d\n- \u0420\u0430\u0437\u0440\u0435\u0437\u044b \u0432 \u0431\u043e\u043a\u043e\u0432\u044b\u0445 \u0448\u0432\u0430\u0445 \n- \u0412 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435 \u0437\u0430\u043f\u0430\u0441\u043d\u0430\u044f \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430\n- \u0418\u0437\u0434\u0435\u043b\u0438\u0435 \u043d\u0430 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u043a\u0435\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 60% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 40% \u0428\u0435\u0440\u0441\u0442\u044c",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 19990,
+    "price": 24990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
-    "vendorCode": "404970215-533",
-    "preDiscountPrice": null,
+    "vendorCode": "424930003-140",
+    "preDiscountPrice": 29990,
     "currencyName": "₽",
     "currencyLabel": "₽",
     "barcode": null,
     "barcodes": [],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_924/",
-    "image": "https://charuel.ru/upload/iblock/db1/vilxufsfzb2hfk1cav81wo223afgrzlv.jpg",
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
+    "image": "https://charuel.ru/upload/iblock/4f6/3hw7bb5ayjj8tgj8sx1r7qosobssa5et.jpg",
     "images": [
-      "https://charuel.ru/upload/iblock/cbe/3wos570o9jtmug0mpn0p1z88y71k61tf.jpg",
-      "https://charuel.ru/upload/iblock/25d/efdy45c0ebef0gv2kfh8r8stbke6kgjf.jpg",
-      "https://charuel.ru/upload/iblock/bd6/09vee72gx6gmm0rbppm2z7o2vdpp4ejf.jpg",
-      "https://charuel.ru/upload/iblock/5f3/xbcd8pnosqvshtxshit4un5kp2dcwvar.jpg",
-      "https://charuel.ru/upload/iblock/9d3/qqr5u9l6a6wvxoyeqqmfe8y18elrcpnn.jpg",
-      "https://charuel.ru/upload/iblock/9c1/frn20paqfwd4wk62q89qstdovv8lgw29.jpg"
+      "https://charuel.ru/upload/iblock/4f6/3hw7bb5ayjj8tgj8sx1r7qosobssa5et.jpg",
+      "https://charuel.ru/upload/iblock/c73/8uv8tni4bhfvvhfkdwurky2nk179mfzo.jpg",
+      "https://charuel.ru/upload/iblock/0ff/lwydo9sc843kt8ctt9dhdopxhzom24up.jpg",
+      "https://charuel.ru/upload/iblock/93a/5q2lunjb1t6p1yzu5ravit1lccnnux2a.jpg",
+      "https://charuel.ru/upload/iblock/bbb/6m0qw6f1n5cg2n7pu3w2jjp8lnao525g.jpg",
+      "https://charuel.ru/upload/iblock/e13/m7370lptmf89e76j915x0ybx450b7nc6.jpg",
+      "https://charuel.ru/upload/iblock/d76/zzb2lnjkah0ixi32jp5cst3n1gawq1yr.jpg",
+      "https://charuel.ru/upload/iblock/d9c/a5cq7c5uzlbanco2sacs5pg046jawont.jpg",
+      "https://charuel.ru/upload/iblock/7ea/7hl946hy5b07y51lw0szp0c33y0s51mk.jpg",
+      "https://charuel.ru/upload/iblock/ea5/cjvu926c49vjx9lwkt4ltbmw6jfng1xi.jpg"
     ],
     "categories": [
-      "400cc287-445a-5489-bc2d-71850e00af4c",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c"
-    ],
-    "properties": [
-      {
-        "name": "Цвет",
-        "value": "Бордовый"
-      },
-      {
-        "name": "Размер",
-        "value": "L, M, S, XL"
-      },
-      {
-        "name": "Состав",
-        "value": "100% Шерсть Мериноса"
-      },
-      {
-        "name": "Сезон",
-        "value": "Осень/зима"
-      },
-      {
-        "name": "Коллекция",
-        "value": "Новые поступления"
-      }
-    ],
-    "fraction": null,
-    "configurations": {
-      "order": [
-        "404970215-533#404970215-533-XL",
-        "404970215-533#404970215-533-L",
-        "404970215-533#404970215-533-M",
-        "404970215-533#404970215-533-S"
-      ],
-      "all": [
-        "404970215-533#404970215-533-XL",
-        "404970215-533#404970215-533-L",
-        "404970215-533#404970215-533-M",
-        "404970215-533#404970215-533-S"
-      ],
-      "data": {
-        "404970215-533#404970215-533-XL": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "XL"
-          }
-        ],
-        "404970215-533#404970215-533-L": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "L"
-          }
-        ],
-        "404970215-533#404970215-533-M": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "M"
-          }
-        ],
-        "404970215-533#404970215-533-S": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "S"
-          }
-        ]
-      },
-      "metadata": {
-        "404970215-533#404970215-533-XL": {
-          "id": "404970215-533#404970215-533-XL",
-          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_924/",
-          "guid": "404970215-533#404970215-533-XL",
-          "price": 19990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "404970215-533#404970215-533-XL",
-          "paramNames": [
-            {
-              "hex": "#5e2129",
-              "name": "Цвет",
-              "value": "Бордовый"
-            },
-            {
-              "name": "Размер",
-              "value": "XL"
-            },
-            {
-              "name": "Состав",
-              "value": "100% Шерсть Мериноса"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            }
-          ],
-          "vendorCode": "404970215-533",
-          "configurationImages": null
-        },
-        "404970215-533#404970215-533-L": {
-          "id": "404970215-533#404970215-533-L",
-          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_924/",
-          "guid": "404970215-533#404970215-533-L",
-          "price": 19990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "404970215-533#404970215-533-L",
-          "paramNames": [
-            {
-              "hex": "#5e2129",
-              "name": "Цвет",
-              "value": "Бордовый"
-            },
-            {
-              "name": "Размер",
-              "value": "L"
-            },
-            {
-              "name": "Состав",
-              "value": "100% Шерсть Мериноса"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            }
-          ],
-          "vendorCode": "404970215-533",
-          "configurationImages": null
-        },
-        "404970215-533#404970215-533-M": {
-          "id": "404970215-533#404970215-533-M",
-          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_924/",
-          "guid": "404970215-533#404970215-533-M",
-          "price": 19990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "404970215-533#404970215-533-M",
-          "paramNames": [
-            {
-              "hex": "#5e2129",
-              "name": "Цвет",
-              "value": "Бордовый"
-            },
-            {
-              "name": "Размер",
-              "value": "M"
-            },
-            {
-              "name": "Состав",
-              "value": "100% Шерсть Мериноса"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            }
-          ],
-          "vendorCode": "404970215-533",
-          "configurationImages": null
-        },
-        "404970215-533#404970215-533-S": {
-          "id": "404970215-533#404970215-533-S",
-          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_924/",
-          "guid": "404970215-533#404970215-533-S",
-          "price": 19990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "404970215-533#404970215-533-S",
-          "paramNames": [
-            {
-              "hex": "#5e2129",
-              "name": "Цвет",
-              "value": "Бордовый"
-            },
-            {
-              "name": "Размер",
-              "value": "S"
-            },
-            {
-              "name": "Состав",
-              "value": "100% Шерсть Мериноса"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            }
-          ],
-          "vendorCode": "404970215-533",
-          "configurationImages": null
-        }
-      }
-    },
-    "configurationImages": [],
-    "availability": true,
-    "internalProperties": {},
-    "full": true,
-    "sourceName": "",
-    "sizeGridImage": null,
-    "xmlId": "",
-    "vat": 20,
-    "useBonuses": true,
-    "overSized": false,
-    "active": true,
-    "deliveryNote": null,
-    "credit": [],
-    "badges": [],
-    "videos": [],
-    "videosTitle": null,
-    "colorOptionHex": null,
-    "colorOptionImage": null,
-    "colorOptionValue": null,
-    "recs": [],
-    "upsell": [],
-    "preorder": false,
-    "limited": false,
-    "earlyAccess": false,
-    "payment": true,
-    "paymentRequired": false,
-    "files": [],
-    "convertedPrices": {},
-    "itemPreviewUrl": null,
-    "sizeGridPageUrl": null,
-    "linking": [
-      {
-        "list": [
-          {
-            "id": "01813334-ad58-5ff7-8dd8-e6d2696804de",
-            "color": "#5e2129",
-            "value": "Бордовый",
-            "imageUrl": null
-          },
-          {
-            "id": "a8163b26-6520-58de-bc6f-68b0fa6001f3",
-            "color": "#503d33",
-            "value": "Коричневый",
-            "imageUrl": null
-          }
-        ],
-        "name": "Цвет"
-      }
-    ],
-    "priceUnits": null,
-    "listPrices": [],
-    "imageComparisonOptions": [],
-    "reviewsCounters": null,
-    "cashback": null
-  },
-  {
-    "id": "01a46463-6f98-58b8-8203-5f8223034fd0",
-    "privateId": "178590206-712",
-    "name": "Блуза из легкого крепа",
-    "model": "Блуза из легкого крепа",
-    "typePrefix": "Блузы",
-    "description": "Легкая и воздушная блуза прямого кроя с мягкой линией плеч делает силуэт женственным и хрупким. Тонкая креповая ткань с едва заметной фактурой почти не просвечивает и приятно прилегает к телу. Пуговицы из натуральной ракушки гармонируют с принтом цвета морской волны.\n\n- Прямой крой\n- Длина до бедра\n- Застежка на пуговицы\n- Длинные рукава\n- V-вырез горловины\n- Манжеты на пуговицах\n\nРост модели 175 см, размер 42 (российский).\nСостав ткани: 100%Вискоза",
-    "priceLabel": null,
-    "collapsibleDescription": {},
-    "saleEndsDateIso": null,
-    "price": 9990,
-    "priceByCard": null,
-    "retailPrice": null,
-    "vendor": "Charuel",
-    "vendorCode": "178590206-712",
-    "preDiscountPrice": null,
-    "currencyName": "₽",
-    "currencyLabel": "₽",
-    "barcode": null,
-    "barcodes": [],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/bluza-zhenskaya-_604/",
-    "image": "https://charuel.ru/upload/iblock/ba4/updbcqe2gufqzd03wwnrltuqb4ecdk0c.jpg",
-    "images": [
-      "https://charuel.ru/upload/iblock/560/szl3gj70pp1h2b64vx982pdo1ua59zhp.jpg",
-      "https://charuel.ru/upload/iblock/143/a01tylssw6ur8uaxkbfjii9fu72ilhc0.jpg",
-      "https://charuel.ru/upload/iblock/e80/e21cm9q13nt5bf3grk1i0oncn27r6ss6.jpg",
-      "https://charuel.ru/upload/iblock/f25/x90kqepn14mts01n762x6x6hljiscemt.jpg",
-      "https://charuel.ru/upload/iblock/6ff/z0604j3oeilmnr50lww4ohgf3vd6wdy3.jpg",
-      "https://charuel.ru/upload/iblock/331/0oohvk9qeze65hg4g58nzhjpxqzoc23h.jpg"
-    ],
-    "categories": [
-      "1a18f44b-ff97-5bc6-87bf-1baad9567b8d",
+      "2059998c-0b88-56f3-8bd7-64cd5ff6127a",
       "1b0f55fd-154e-5cd6-8db6-5cdda60dc016",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c"
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Синий"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0421\u0438\u043d\u0438\u0439"
       },
       {
-        "name": "Размер",
-        "value": "42, 44, 46, 48"
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "44, 46, 48"
       },
       {
-        "name": "Состав",
-        "value": "100%Вискоза"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "60% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 40% \u0428\u0435\u0440\u0441\u0442\u044c"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Клетка - тренд осени, Новые поступления"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Officecore, Sale"
       }
     ],
     "fraction": null,
     "configurations": {
       "order": [
-        "178590206-712#178590206-712-42",
-        "178590206-712#178590206-712-44",
-        "178590206-712#178590206-712-46",
-        "178590206-712#178590206-712-48"
+        "424930003-140#424930003-140-44",
+        "424930003-140#424930003-140-46",
+        "424930003-140#424930003-140-48"
       ],
       "all": [
-        "178590206-712#178590206-712-42",
-        "178590206-712#178590206-712-44",
-        "178590206-712#178590206-712-46",
-        "178590206-712#178590206-712-48"
+        "424930003-140#424930003-140-44",
+        "424930003-140#424930003-140-46",
+        "424930003-140#424930003-140-48"
       ],
       "data": {
-        "178590206-712#178590206-712-42": [
+        "424930003-140#424930003-140-44": [
           {
-            "name": "Размер",
-            "unit": "",
-            "value": "42"
-          }
-        ],
-        "178590206-712#178590206-712-44": [
-          {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "44"
           }
         ],
-        "178590206-712#178590206-712-46": [
+        "424930003-140#424930003-140-46": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "46"
           }
         ],
-        "178590206-712#178590206-712-48": [
+        "424930003-140#424930003-140-48": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "48"
           }
         ]
       },
       "metadata": {
-        "178590206-712#178590206-712-42": {
-          "id": "178590206-712#178590206-712-42",
-          "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/bluza-zhenskaya-_604/",
-          "guid": "178590206-712#178590206-712-42",
-          "price": 9990,
+        "424930003-140#424930003-140-44": {
+          "id": "424930003-140#424930003-140-44",
+          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
+          "guid": "424930003-140#424930003-140-44",
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "178590206-712#178590206-712-42",
+          "privateId": "424930003-140#424930003-140-44",
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
-              "value": "42"
-            },
-            {
-              "name": "Состав",
-              "value": "100%Вискоза"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Новые поступления"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
-            }
-          ],
-          "vendorCode": "178590206-712",
-          "configurationImages": null
-        },
-        "178590206-712#178590206-712-44": {
-          "id": "178590206-712#178590206-712-44",
-          "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/bluza-zhenskaya-_604/",
-          "guid": "178590206-712#178590206-712-44",
-          "price": 9990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "178590206-712#178590206-712-44",
-          "paramNames": [
-            {
-              "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
-            },
-            {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "44"
             },
             {
-              "name": "Состав",
-              "value": "100%Вискоза"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 40% \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "178590206-712",
+          "vendorCode": "424930003-140",
+          "preDiscountPrice": 29990,
           "configurationImages": null
         },
-        "178590206-712#178590206-712-46": {
-          "id": "178590206-712#178590206-712-46",
-          "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/bluza-zhenskaya-_604/",
-          "guid": "178590206-712#178590206-712-46",
-          "price": 9990,
+        "424930003-140#424930003-140-46": {
+          "id": "424930003-140#424930003-140-46",
+          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
+          "guid": "424930003-140#424930003-140-46",
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "178590206-712#178590206-712-46",
+          "privateId": "424930003-140#424930003-140-46",
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "46"
             },
             {
-              "name": "Состав",
-              "value": "100%Вискоза"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 40% \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "178590206-712",
+          "vendorCode": "424930003-140",
+          "preDiscountPrice": 29990,
           "configurationImages": null
         },
-        "178590206-712#178590206-712-48": {
-          "id": "178590206-712#178590206-712-48",
-          "url": "https://charuel.ru/catalogue/odezhda/bluzy/bluza/bluza-zhenskaya-_604/",
-          "guid": "178590206-712#178590206-712-48",
-          "price": 9990,
+        "424930003-140#424930003-140-48": {
+          "id": "424930003-140#424930003-140-48",
+          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
+          "guid": "424930003-140#424930003-140-48",
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "178590206-712#178590206-712-48",
+          "privateId": "424930003-140#424930003-140-48",
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "48"
             },
             {
-              "name": "Состав",
-              "value": "100%Вискоза"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 40% \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "178590206-712",
+          "vendorCode": "424930003-140",
+          "preDiscountPrice": 29990,
           "configurationImages": null
         }
       }
@@ -1685,7 +1893,15 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -1710,253 +1926,395 @@ const products = [
     "cashback": null
   },
   {
-    "id": "036f8d06-41d8-5dba-87f4-d75570f7a0b8",
-    "privateId": "424930003-140",
-    "name": "Пальто драповое двубортное",
-    "model": "Пальто драповое двубортное",
-    "typePrefix": "Верхняя одежда",
-    "description": "Драповое пальто подойдет для любого стиля одежды: от классики до стрит. Пальто свободного кроя с широкими рукавами позволит создать модные многослойные образы на осень и весну. Мягкий драп с содержанием натуральной шерсти хорошо сохраняет тепло и защищает от холодного ветра. Чтобы пальто ниже колена не сковывало шаг, по бокам предусмотрели разрезы.\n\nРекомендованный температурный режим от 0 °C до +10 °C.\n\n- Свободный крой\n- Длина ниже колена\n- Спущенная линия плеча\n- Двубортная застежка на пуговицы\n- Боковые карманы\n- Внутренний карман\n- Разрезы в боковых швах \n- Изделие на подкладе\n\nРост модели 175 см, размер 42 (российский).\nСостав ткани: 60% Полиэстер, 40% Шерсть",
+    "id": "06714b29-b7d4-5c44-a284-2f05550ae9d3",
+    "privateId": "409170251-285",
+    "name": "\u041f\u043b\u0430\u0442\u044c\u0435 \u0438\u0437 \u0441\u043c\u0435\u0441\u043e\u0432\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438",
+    "model": "\u041f\u043b\u0430\u0442\u044c\u0435 \u0438\u0437 \u0441\u043c\u0435\u0441\u043e\u0432\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438",
+    "typePrefix": "\u041f\u043b\u0430\u0442\u044c\u044f",
+    "description": "\u0421\u0438\u043b\u0443\u044d\u0442\u043d\u043e\u0435 \u043f\u043b\u0430\u0442\u044c\u0435-\u043c\u0438\u0434\u0438 \u0443\u043a\u0440\u0430\u0441\u0438\u0442 \u0432 \u043b\u044e\u0431\u043e\u0439 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438 \u2013 \u044d\u0442\u043e \u0441\u043e\u0447\u0435\u0442\u0430\u043d\u0438\u0435 \u0443\u043c\u0435\u0440\u0435\u043d\u043d\u043e\u0439 \u0441\u0442\u0440\u043e\u0433\u043e\u0441\u0442\u0438 \u0438 \u043b\u0430\u043a\u043e\u043d\u0438\u0447\u043d\u043e\u0441\u0442\u0438. \u041a\u043e\u0441\u0442\u044e\u043c\u043d\u044b\u0439 \u0442\u0435\u043a\u0441\u0442\u0438\u043b\u044c \u0441\u0440\u0435\u0434\u043d\u0435\u0439 \u043f\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u0438 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u0432\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0443\u044e \u0448\u0435\u0440\u0441\u0442\u044c, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043c\u044f\u0433\u0447\u0435 \u0438 \u043f\u0440\u043e\u0447\u043d\u0435\u0435 \u043e\u0431\u044b\u0447\u043d\u043e\u0439. \u041a\u0440\u0443\u0433\u043b\u044b\u0439 \u0432\u044b\u0440\u0435\u0437 \u0438 \u043a\u043e\u0440\u043e\u0442\u043a\u0438\u0435 \u0440\u0443\u043a\u0430\u0432\u0430 \u043f\u0440\u0438\u0434\u0430\u044e\u0442 \u043f\u043b\u0430\u0442\u044c\u044e \u0438\u0437\u044f\u0449\u043d\u043e\u0441\u0442\u044c, \u0430 \u0440\u0430\u0441\u043a\u043b\u0435\u0448\u0435\u043d\u043d\u0430\u044f \u044e\u0431\u043a\u0430 \u0441 \u0440\u0430\u0437\u0440\u0435\u0437\u043e\u043c \u043f\u043e\u0434\u0447\u0435\u0440\u043a\u0438\u0432\u0430\u0435\u0442 \u0436\u0435\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c. \n\n-\u00a0\u00a0\u00a0\u00a0\u041f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n-\u00a0\u00a0\u00a0\u00a0\u0414\u043b\u0438\u043d\u0430 \u043c\u0438\u0434\u0438\n-\u00a0\u00a0\u00a0\u00a0\u0420\u0430\u0441\u043a\u043b\u0435\u0448\u0435\u043d\u043d\u0430\u044f \u044e\u0431\u043a\u0430 \u0441 \u0440\u0430\u0437\u0440\u0435\u0437\u043e\u043c\n-\u00a0\u00a0\u00a0\u00a0\u0421\u0437\u0430\u0434\u0438 \u0437\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043f\u043e\u0442\u0430\u0439\u043d\u0443\u044e \u043c\u043e\u043b\u043d\u0438\u044e\n-\u00a0\u00a0\u00a0\u00a0\u041a\u043e\u0440\u043e\u0442\u043a\u0438\u0435 \u0440\u0443\u043a\u0430\u0432\u0430\n-\u00a0\u00a0\u00a0\u00a0\u041a\u0440\u0443\u0433\u043b\u044b\u0439 \u0432\u044b\u0440\u0435\u0437\n-\u00a0\u00a0\u00a0\u00a0\u0412 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435 \u043f\u043e\u044f\u0441 \u0438\u0437 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0442\u043a\u0430\u043d\u0438 \u0441 \u043f\u0440\u044f\u0436\u043a\u043e\u0439\n-\u00a0\u00a0\u00a0\u00a0\u0418\u0437\u0434\u0435\u043b\u0438\u0435 \u043d\u0430 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u043a\u0435 100% \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 29990,
+    "price": 21990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
-    "vendorCode": "424930003-140",
+    "vendorCode": "409170251-285",
     "preDiscountPrice": null,
     "currencyName": "₽",
     "currencyLabel": "₽",
     "barcode": null,
     "barcodes": [],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
-    "image": "https://www.pompa.ru/upload/resize_cache/webp/iblock/f8d/xr3mpet6f90r97n9aj5idckh8a9agjnz/500_665_1/1014222p90090_i1.webp",
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_801/",
+    "image": "https://charuel.ru/upload/iblock/70d/fjzw0s3ptyqzuvpmm0lkke0pp19ysmm2.jpg",
     "images": [
-      "https://charuel.ru/upload/iblock/76b/cuktcamsrt4x2m0mkfz7bsp11965n1rg.jpg",
-      "https://charuel.ru/upload/iblock/bc9/y8tvdckf07sz2l8v02vb3be8xcg6ts7m.jpg",
-      "https://charuel.ru/upload/iblock/dc8/qvfrm796aiieyuljl19g6yvr6ezhj4nh.jpg",
-      "https://charuel.ru/upload/iblock/f00/5wulo93ntglgtiisw364z9ndi8maoydp.jpg",
-      "https://charuel.ru/upload/iblock/871/6maj8vx63sc63xdg0c5ii4jhjmsf9y04.jpg",
-      "https://charuel.ru/upload/iblock/502/ze1rlagi7ycnkrgxnu4qed1if73b0u87.jpg",
-      "https://charuel.ru/upload/iblock/d97/krkpcmc9mbx35tn440m9o2kvfsmnm8rl.jpg"
+      "https://charuel.ru/upload/iblock/70d/fjzw0s3ptyqzuvpmm0lkke0pp19ysmm2.jpg",
+      "https://charuel.ru/upload/iblock/636/zmnsi168quyag93vkaad1tzhm6emjgzg.jpg",
+      "https://charuel.ru/upload/iblock/ae4/m34601n3v23nk9oo2pm123r04qfwlds9.jpg",
+      "https://charuel.ru/upload/iblock/c63/c3u3yn60filgowpz642kzqeefn392537.jpg",
+      "https://charuel.ru/upload/iblock/43f/lcth5h7otnm3rsfji19r2ca0ajv5ju5u.jpg",
+      "https://charuel.ru/upload/iblock/adc/vvs5hhezzdbbq41l3xgi6f2nlkhiyaxy.jpg",
+      "https://charuel.ru/upload/iblock/23c/9bc254pzsm6wx3p76tmi4adtktvlkv0c.jpg"
     ],
     "categories": [
-      "2059998c-0b88-56f3-8bd7-64cd5ff6127a",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c"
+      "400cc287-445a-5489-bc2d-71850e00af4c",
+      "92e2fb5c-192c-5be3-9fbc-91658bcf245c",
+      "73f49f29-8ac2-5ed8-943b-3acbc52d7af3",
+      "730208fa-a2ee-5216-b96d-f2f36f0a18e8"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Синий"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0421\u0438\u043d\u0438\u0439"
       },
       {
-        "name": "Размер",
-        "value": "42, 44, 46, 48"
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "42, 44, 46, 48, 50, 52"
       },
       {
-        "name": "Состав",
-        "value": "60% Полиэстер, 40% Шерсть"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Новые поступления"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c, \u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, \u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
       }
     ],
     "fraction": null,
     "configurations": {
       "order": [
-        "424930003-140#424930003-140-42",
-        "424930003-140#424930003-140-44",
-        "424930003-140#424930003-140-46",
-        "424930003-140#424930003-140-48"
+        "409170251-285#409170251-285-42",
+        "409170251-285#409170251-285-44",
+        "409170251-285#409170251-285-46",
+        "409170251-285#409170251-285-48",
+        "409170251-285#409170251-285-50",
+        "409170251-285#409170251-285-52"
       ],
       "all": [
-        "424930003-140#424930003-140-42",
-        "424930003-140#424930003-140-44",
-        "424930003-140#424930003-140-46",
-        "424930003-140#424930003-140-48"
+        "409170251-285#409170251-285-42",
+        "409170251-285#409170251-285-44",
+        "409170251-285#409170251-285-46",
+        "409170251-285#409170251-285-48",
+        "409170251-285#409170251-285-50",
+        "409170251-285#409170251-285-52"
       ],
       "data": {
-        "424930003-140#424930003-140-42": [
+        "409170251-285#409170251-285-42": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "42"
           }
         ],
-        "424930003-140#424930003-140-44": [
+        "409170251-285#409170251-285-44": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "44"
           }
         ],
-        "424930003-140#424930003-140-46": [
+        "409170251-285#409170251-285-46": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "46"
           }
         ],
-        "424930003-140#424930003-140-48": [
+        "409170251-285#409170251-285-48": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "48"
+          }
+        ],
+        "409170251-285#409170251-285-50": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "50"
+          }
+        ],
+        "409170251-285#409170251-285-52": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "52"
           }
         ]
       },
       "metadata": {
-        "424930003-140#424930003-140-42": {
-          "id": "424930003-140#424930003-140-42",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
-          "guid": "424930003-140#424930003-140-42",
-          "price": 29990,
+        "409170251-285#409170251-285-42": {
+          "id": "409170251-285#409170251-285-42",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_801/",
+          "guid": "409170251-285#409170251-285-42",
+          "price": 21990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "424930003-140#424930003-140-42",
+          "privateId": "409170251-285#409170251-285-42",
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "42"
             },
             {
-              "name": "Состав",
-              "value": "60% Полиэстер, 40% Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "424930003-140",
+          "vendorCode": "409170251-285",
           "configurationImages": null
         },
-        "424930003-140#424930003-140-44": {
-          "id": "424930003-140#424930003-140-44",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
-          "guid": "424930003-140#424930003-140-44",
-          "price": 29990,
+        "409170251-285#409170251-285-44": {
+          "id": "409170251-285#409170251-285-44",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_801/",
+          "guid": "409170251-285#409170251-285-44",
+          "price": 21990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "424930003-140#424930003-140-44",
+          "privateId": "409170251-285#409170251-285-44",
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "44"
             },
             {
-              "name": "Состав",
-              "value": "60% Полиэстер, 40% Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "424930003-140",
+          "vendorCode": "409170251-285",
           "configurationImages": null
         },
-        "424930003-140#424930003-140-46": {
-          "id": "424930003-140#424930003-140-46",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
-          "guid": "424930003-140#424930003-140-46",
-          "price": 29990,
+        "409170251-285#409170251-285-46": {
+          "id": "409170251-285#409170251-285-46",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_801/",
+          "guid": "409170251-285#409170251-285-46",
+          "price": 21990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "424930003-140#424930003-140-46",
+          "privateId": "409170251-285#409170251-285-46",
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "46"
             },
             {
-              "name": "Состав",
-              "value": "60% Полиэстер, 40% Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "424930003-140",
+          "vendorCode": "409170251-285",
           "configurationImages": null
         },
-        "424930003-140#424930003-140-48": {
-          "id": "424930003-140#424930003-140-48",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_131/",
-          "guid": "424930003-140#424930003-140-48",
-          "price": 29990,
+        "409170251-285#409170251-285-48": {
+          "id": "409170251-285#409170251-285-48",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_801/",
+          "guid": "409170251-285#409170251-285-48",
+          "price": 21990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "424930003-140#424930003-140-48",
+          "privateId": "409170251-285#409170251-285-48",
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "48"
             },
             {
-              "name": "Состав",
-              "value": "60% Полиэстер, 40% Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "424930003-140",
+          "vendorCode": "409170251-285",
+          "configurationImages": null
+        },
+        "409170251-285#409170251-285-50": {
+          "id": "409170251-285#409170251-285-50",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_801/",
+          "guid": "409170251-285#409170251-285-50",
+          "price": 21990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "409170251-285#409170251-285-50",
+          "paramNames": [
+            {
+              "hex": "#063971",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "50"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "409170251-285",
+          "configurationImages": null
+        },
+        "409170251-285#409170251-285-52": {
+          "id": "409170251-285#409170251-285-52",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_801/",
+          "guid": "409170251-285#409170251-285-52",
+          "price": 21990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "409170251-285#409170251-285-52",
+          "paramNames": [
+            {
+              "hex": "#063971",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "52"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "48%\u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c, 48%\u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0440, 4%\u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u0414\u0435\u043b\u043e\u0432\u043e\u0439 \u0441\u0442\u0438\u043b\u044c"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "409170251-285",
           "configurationImages": null
         }
       }
@@ -1974,7 +2332,15 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "NEW",
+        "textColor": "#949495",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -2001,19 +2367,19 @@ const products = [
   {
     "id": "073d036e-9309-548b-bb43-560f86dbab04",
     "privateId": "424530057-140",
-    "name": "Пальто из мериносовой шерсти",
-    "model": "Пальто из мериносовой шерсти",
-    "typePrefix": "Верхняя одежда",
-    "description": "Классическое пальто из 100% шерсти австралийского мериноса обладает особой мягкостью. Пружинистая структура волокон тонкорунной шерсти ягненка удерживает тепло, обладает водоотталкивающим эффектом и способна к самоочищению. Лацканы, клапаны карманов, борты и низ изделия обработаны вручную бесшовным способом. Такое пальто без подкладка дольше сохраняет презентабельный вид и станет универсальной моделью на демисезон.\n\nРекомендованный температурный режим от 0°C до +10°C.\n\n- Прямой крой\n- Длина ниже колена\n- Отложной воротник с лацканами\n- Функциональные боковые карманы с клапанами\n- Застежка на кнопки\n- Стежки, швы и отделочная строчка выполнены вручную\n- Шлица сзади\n- Изделие из двухсторонней шерсти без подклада\n\nРост модели 175 см, размер 42 (российский).Состав ткани: 100% Австралийская Шерсть",
+    "name": "\u041f\u0430\u043b\u044c\u0442\u043e \u0438\u0437 \u043c\u0435\u0440\u0438\u043d\u043e\u0441\u043e\u0432\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438",
+    "model": "\u041f\u0430\u043b\u044c\u0442\u043e \u0438\u0437 \u043c\u0435\u0440\u0438\u043d\u043e\u0441\u043e\u0432\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438",
+    "typePrefix": "\u0412\u0435\u0440\u0445\u043d\u044f\u044f \u043e\u0434\u0435\u0436\u0434\u0430",
+    "description": "\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043f\u0430\u043b\u044c\u0442\u043e \u0438\u0437 100% \u0448\u0435\u0440\u0441\u0442\u0438 \u0430\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u043e\u0433\u043e \u043c\u0435\u0440\u0438\u043d\u043e\u0441\u0430 \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u043e\u0441\u043e\u0431\u043e\u0439 \u043c\u044f\u0433\u043a\u043e\u0441\u0442\u044c\u044e. \u041f\u0440\u0443\u0436\u0438\u043d\u0438\u0441\u0442\u0430\u044f \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430 \u0432\u043e\u043b\u043e\u043a\u043e\u043d \u0442\u043e\u043d\u043a\u043e\u0440\u0443\u043d\u043d\u043e\u0439 \u0448\u0435\u0440\u0441\u0442\u0438 \u044f\u0433\u043d\u0435\u043d\u043a\u0430 \u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0442\u0435\u043f\u043b\u043e, \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u0432\u043e\u0434\u043e\u043e\u0442\u0442\u0430\u043b\u043a\u0438\u0432\u0430\u044e\u0449\u0438\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u043c \u0438 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u0430 \u043a \u0441\u0430\u043c\u043e\u043e\u0447\u0438\u0449\u0435\u043d\u0438\u044e. \u041b\u0430\u0446\u043a\u0430\u043d\u044b, \u043a\u043b\u0430\u043f\u0430\u043d\u044b \u043a\u0430\u0440\u043c\u0430\u043d\u043e\u0432, \u0431\u043e\u0440\u0442\u044b \u0438 \u043d\u0438\u0437 \u0438\u0437\u0434\u0435\u043b\u0438\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u044b \u0432\u0440\u0443\u0447\u043d\u0443\u044e \u0431\u0435\u0441\u0448\u043e\u0432\u043d\u044b\u043c \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u043c. \u0422\u0430\u043a\u043e\u0435 \u043f\u0430\u043b\u044c\u0442\u043e \u0431\u0435\u0437 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u043a\u0430 \u0434\u043e\u043b\u044c\u0448\u0435 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u0442 \u043f\u0440\u0435\u0437\u0435\u043d\u0442\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0438\u0434 \u0438 \u0441\u0442\u0430\u043d\u0435\u0442 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u044c\u044e \u043d\u0430 \u0434\u0435\u043c\u0438\u0441\u0435\u0437\u043e\u043d.\n\n\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u043e\u0442 0\u00b0C \u0434\u043e +10\u00b0C.\n\n- \u041f\u0440\u044f\u043c\u043e\u0439 \u043a\u0440\u043e\u0439\n- \u0414\u043b\u0438\u043d\u0430 \u043d\u0438\u0436\u0435 \u043a\u043e\u043b\u0435\u043d\u0430\n- \u041e\u0442\u043b\u043e\u0436\u043d\u043e\u0439 \u0432\u043e\u0440\u043e\u0442\u043d\u0438\u043a \u0441 \u043b\u0430\u0446\u043a\u0430\u043d\u0430\u043c\u0438\n- \u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0431\u043e\u043a\u043e\u0432\u044b\u0435 \u043a\u0430\u0440\u043c\u0430\u043d\u044b \u0441 \u043a\u043b\u0430\u043f\u0430\u043d\u0430\u043c\u0438\n- \u0417\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043a\u043d\u043e\u043f\u043a\u0438\n- \u0421\u0442\u0435\u0436\u043a\u0438, \u0448\u0432\u044b \u0438 \u043e\u0442\u0434\u0435\u043b\u043e\u0447\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u0447\u043a\u0430 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u044b \u0432\u0440\u0443\u0447\u043d\u0443\u044e\n- \u0428\u043b\u0438\u0446\u0430 \u0441\u0437\u0430\u0434\u0438\n- \u0412 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0435 \u0437\u0430\u043f\u0430\u0441\u043d\u0430\u044f \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u0430\n- \u0418\u0437\u0434\u0435\u043b\u0438\u0435 \u0438\u0437 \u0434\u0432\u0443\u0445\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0435\u0439 \u0448\u0435\u0440\u0441\u0442\u0438 \u0431\u0435\u0437 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u0430\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 100% \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 35990,
+    "price": 24990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
     "vendorCode": "424530057-140",
-    "preDiscountPrice": null,
+    "preDiscountPrice": 35990,
     "currencyName": "₽",
     "currencyLabel": "₽",
     "barcode": null,
@@ -2033,28 +2399,28 @@ const products = [
     "categories": [
       "2059998c-0b88-56f3-8bd7-64cd5ff6127a",
       "1b0f55fd-154e-5cd6-8db6-5cdda60dc016",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c"
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Синий"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0421\u0438\u043d\u0438\u0439"
       },
       {
-        "name": "Размер",
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
         "value": "40, 42, 44, 46, 48"
       },
       {
-        "name": "Состав",
-        "value": "100% Австралийская Шерсть"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "100% \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Клетка - тренд осени, Новые поступления"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Officecore, Sale"
       }
     ],
     "fraction": null,
@@ -2076,35 +2442,35 @@ const products = [
       "data": {
         "424530057-140#424530057-140-40": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "40"
           }
         ],
         "424530057-140#424530057-140-42": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "42"
           }
         ],
         "424530057-140#424530057-140-44": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "44"
           }
         ],
         "424530057-140#424530057-140-46": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "46"
           }
         ],
         "424530057-140#424530057-140-48": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "48"
           }
@@ -2115,7 +2481,7 @@ const products = [
           "id": "424530057-140#424530057-140-40",
           "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_119/",
           "guid": "424530057-140#424530057-140-40",
-          "price": 35990,
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
@@ -2125,38 +2491,39 @@ const products = [
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "40"
             },
             {
-              "name": "Состав",
-              "value": "100% Австралийская Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
           "vendorCode": "424530057-140",
+          "preDiscountPrice": 35990,
           "configurationImages": null
         },
         "424530057-140#424530057-140-42": {
           "id": "424530057-140#424530057-140-42",
           "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_119/",
           "guid": "424530057-140#424530057-140-42",
-          "price": 35990,
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
@@ -2166,38 +2533,39 @@ const products = [
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "42"
             },
             {
-              "name": "Состав",
-              "value": "100% Австралийская Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
           "vendorCode": "424530057-140",
+          "preDiscountPrice": 35990,
           "configurationImages": null
         },
         "424530057-140#424530057-140-44": {
           "id": "424530057-140#424530057-140-44",
           "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_119/",
           "guid": "424530057-140#424530057-140-44",
-          "price": 35990,
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
@@ -2207,38 +2575,39 @@ const products = [
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "44"
             },
             {
-              "name": "Состав",
-              "value": "100% Австралийская Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
           "vendorCode": "424530057-140",
+          "preDiscountPrice": 35990,
           "configurationImages": null
         },
         "424530057-140#424530057-140-46": {
           "id": "424530057-140#424530057-140-46",
           "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_119/",
           "guid": "424530057-140#424530057-140-46",
-          "price": 35990,
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
@@ -2248,38 +2617,39 @@ const products = [
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "46"
             },
             {
-              "name": "Состав",
-              "value": "100% Австралийская Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
           "vendorCode": "424530057-140",
+          "preDiscountPrice": 35990,
           "configurationImages": null
         },
         "424530057-140#424530057-140-48": {
           "id": "424530057-140#424530057-140-48",
           "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_119/",
           "guid": "424530057-140#424530057-140-48",
-          "price": 35990,
+          "price": 24990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
@@ -2289,31 +2659,32 @@ const products = [
           "paramNames": [
             {
               "hex": "#063971",
-              "name": "Цвет",
-              "value": "Синий"
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "48"
             },
             {
-              "name": "Состав",
-              "value": "100% Австралийская Шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "100% \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0430\u044f \u0428\u0435\u0440\u0441\u0442\u044c"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
             },
             {
-              "name": "Коллекция",
-              "value": "Клетка - тренд осени"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
           "vendorCode": "424530057-140",
+          "preDiscountPrice": 35990,
           "configurationImages": null
         }
       }
@@ -2331,7 +2702,15 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -2354,17 +2733,17 @@ const products = [
           {
             "id": "ec22ff14-fa18-52f2-9647-31648074c942",
             "color": "#cdb891",
-            "value": "Бежевый",
+            "value": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
             "imageUrl": null
           },
           {
             "id": "073d036e-9309-548b-bb43-560f86dbab04",
             "color": "#063971",
-            "value": "Синий",
+            "value": "\u0421\u0438\u043d\u0438\u0439",
             "imageUrl": null
           }
         ],
-        "name": "Цвет"
+        "name": "\u0426\u0432\u0435\u0442"
       }
     ],
     "priceUnits": null,
@@ -2374,169 +2753,344 @@ const products = [
     "cashback": null
   },
   {
-    "id": "07dd4f47-20e5-5f0b-aa1a-f34555a417f8",
-    "privateId": "4184P30069-167",
-    "name": "Пальто из вирджинской шерсти",
-    "model": "Пальто из вирджинской шерсти",
-    "typePrefix": "Верхняя одежда",
-    "description": "Модель разработана для миниатюрных девушек и женщин с учетом роста до 160 см.\n\nДвубортный фасон пальто с острыми лацканами впишется в стильные кэжуал образы. За комфортную температуру отвечает плотный непродуваемый текстиль из вирджинской шерсти, которая менее колючая. К тому же, такой материал прочный и не скатывается со временем, поэтому прослужит много сезонов. Отсутствие подплечников смягчает линию плеч и делает силуэт немного расслабленным, а для акцентирования талии можно воспользоваться поясом.  \n\nРекомендованный температурный режим от +5°C до +10°C.\n\n- Прямой крой\n- Длина ниже колена\n- Двубортная застежка на пуговицы\n- Функциональные боковые карманы\n- Внутренний карман\n- Шлица сзади\n- В комплекте пояс из основной ткани без пряжки\n- Изделие на подкладке 100% вискоза\n\nРост модели 165 см, размер 42 (российский).\nСостав ткани: 100% Вирджинская шерсть",
+    "id": "08ae344f-f5d9-5d69-aeb8-b4cdcbd3fcb9",
+    "privateId": "16785145M-170",
+    "name": "\u0411\u0440\u044e\u043a\u0438 \u043d\u0430 \u0437\u0430\u0432\u044f\u0437\u043a\u0430\u0445",
+    "model": "\u0411\u0440\u044e\u043a\u0438 \u043d\u0430 \u0437\u0430\u0432\u044f\u0437\u043a\u0430\u0445",
+    "typePrefix": "\u0422\u0440\u0438\u043a\u043e\u0442\u0430\u0436",
+    "description": "\u0420\u0430\u0441\u0441\u043b\u0430\u0431\u043b\u0435\u043d\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430 \u0434\u0436\u043e\u0433\u0433\u0435\u0440\u043e\u0432 \u0438 \u043b\u0430\u043a\u043e\u043d\u0438\u0447\u043d\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u0431\u0435\u0437 \u0434\u0435\u043a\u043e\u0440\u0430 - \u0442\u0430\u043a\u0430\u044f \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u044f \u0434\u0435\u043b\u0430\u0435\u0442 \u0431\u0440\u044e\u043a\u0438 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u0438 \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432 \u0434\u043b\u044f \u0441\u043e\u0447\u0435\u0442\u0430\u043d\u0438\u0439 \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043c\u0438 \u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0430. \u041f\u043b\u043e\u0442\u043d\u044b\u0439 \u0433\u043b\u0430\u0434\u043a\u0438\u0439 \u0442\u0440\u0438\u043a\u043e\u0442\u0430\u0436 \u0441 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u0435\u043c \u044d\u043b\u0430\u0441\u0442\u0438\u0447\u043d\u044b\u0445 \u0432\u043e\u043b\u043e\u043a\u043e\u043d \u0441\u043b\u0435\u0433\u043a\u0430 \u0442\u044f\u043d\u0435\u0442\u0441\u044f, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0437\u0430\u0443\u0436\u0435\u043d\u043d\u044b\u0435 \u0431\u0440\u044e\u043a\u0438 \u0443\u0434\u043e\u0431\u043d\u043e \u0441\u0430\u0434\u044f\u0442\u0441\u044f \u043f\u043e \u0444\u0438\u0433\u0443\u0440\u0435 \u0438 \u043d\u0435 \u0441\u043a\u043e\u0432\u044b\u0432\u0430\u044e\u0442 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f.\n\n-\u00a0\u00a0\u00a0\u00a0\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430\n-\u00a0\u00a0\u00a0\u00a0\u0417\u0430\u0443\u0436\u0435\u043d\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n-\u00a0\u00a0\u00a0\u00a0\u041f\u043e\u044f\u0441 \u043d\u0430 \u0440\u0435\u0437\u0438\u043d\u043a\u0435 \u0441 \u0437\u0430\u0432\u044f\u0437\u043a\u0430\u043c\u0438\n-\u00a0\u00a0\u00a0\u00a0\u0421\u0442\u0440\u0435\u043b\u043a\u0438 \u0437\u0430\u0443\u0442\u044e\u0436\u0435\u043d\u044b\n-\u00a0\u00a0\u00a0\u00a0\u0411\u043e\u043a\u043e\u0432\u044b\u0435 \u043a\u0430\u0440\u043c\u0430\u043d\u044b\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 39990,
+    "price": 7990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
-    "vendorCode": "4184P30069-167",
-    "preDiscountPrice": null,
+    "vendorCode": "16785145M-170",
+    "preDiscountPrice": 9990,
     "currencyName": "₽",
     "currencyLabel": "₽",
     "barcode": null,
     "barcodes": [],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_126/",
-    "image": "https://www.charuel.ru/upload/resize_cache/iblock/903/525_702_1/eo2ucbk3x3gtlfyq6d9z2k5336xb9pjd.jpg",
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie_58/",
+    "image": "https://charuel.ru/upload/iblock/4b5/hlwl5o2dwuo9u9639nnl6spe29t5p78e.jpg",
     "images": [
-      "https://charuel.ru/upload/iblock/f2a/ophb3xzs5o5642c0uyfv7256izi573k0.jpg",
-      "https://charuel.ru/upload/iblock/18e/41n2nwo6yrrfcsv2dfeemdamvofnvlxe.jpg",
-      "https://charuel.ru/upload/iblock/9d3/6aynqravgp5jkh3bcwrot6hsd0kspcv7.jpg",
-      "https://charuel.ru/upload/iblock/8f8/o7w453jqzeq03cwz3xltwubndok7bf7t.jpg",
-      "https://charuel.ru/upload/iblock/532/0cntlfko8r1fescmjs36gy7r0xk8548m.jpg",
-      "https://charuel.ru/upload/iblock/005/imft2msibvc78zmr8epox40uz183zrxo.jpg"
+      "https://charuel.ru/upload/iblock/4b5/hlwl5o2dwuo9u9639nnl6spe29t5p78e.jpg",
+      "https://charuel.ru/upload/iblock/853/resx7jxysr4fhqnp095gy4x0brwr4e9f.jpg",
+      "https://charuel.ru/upload/iblock/c10/tblrabc7jowgdkav6hunti2c1slae0lz.jpg",
+      "https://charuel.ru/upload/iblock/b91/hy0j23v8kkpe5hg850ubeqp0ovsi1l28.jpg",
+      "https://charuel.ru/upload/iblock/6dc/xtx0m1p2fiikowxfsacgm229v1x69izh.jpg",
+      "https://charuel.ru/upload/iblock/432/800hjx7gtqapyzmg7qzigeg5icii51sv.jpg"
     ],
     "categories": [
-      "2059998c-0b88-56f3-8bd7-64cd5ff6127a",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c",
-      "1456a943-2119-5051-9dea-cbe135bf350e"
+      "0f9f0ff9-7dc6-5df3-920d-64b878e791ef",
+      "1b0f55fd-154e-5cd6-8db6-5cdda60dc016",
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Черный"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"
       },
       {
-        "name": "Размер",
-        "value": "44, 46"
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "42, 44, 46, 48, 50"
       },
       {
-        "name": "Состав",
-        "value": "100% Вирджинская шерсть"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Новые поступления, Р158 — для невысокого роста"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Officecore, Sale, Sport"
       }
     ],
     "fraction": null,
     "configurations": {
       "order": [
-        "4184P30069-167#4184P30069-167-44",
-        "4184P30069-167#4184P30069-167-46"
+        "16785145M-170#16785145M-170-42",
+        "16785145M-170#16785145M-170-44",
+        "16785145M-170#16785145M-170-46",
+        "16785145M-170#16785145M-170-48",
+        "16785145M-170#16785145M-170-50"
       ],
       "all": [
-        "4184P30069-167#4184P30069-167-44",
-        "4184P30069-167#4184P30069-167-46"
+        "16785145M-170#16785145M-170-42",
+        "16785145M-170#16785145M-170-44",
+        "16785145M-170#16785145M-170-46",
+        "16785145M-170#16785145M-170-48",
+        "16785145M-170#16785145M-170-50"
       ],
       "data": {
-        "4184P30069-167#4184P30069-167-44": [
+        "16785145M-170#16785145M-170-42": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "42"
+          }
+        ],
+        "16785145M-170#16785145M-170-44": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "44"
           }
         ],
-        "4184P30069-167#4184P30069-167-46": [
+        "16785145M-170#16785145M-170-46": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "46"
+          }
+        ],
+        "16785145M-170#16785145M-170-48": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "48"
+          }
+        ],
+        "16785145M-170#16785145M-170-50": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "50"
           }
         ]
       },
       "metadata": {
-        "4184P30069-167#4184P30069-167-44": {
-          "id": "4184P30069-167#4184P30069-167-44",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_126/",
-          "guid": "4184P30069-167#4184P30069-167-44",
-          "price": 39990,
+        "16785145M-170#16785145M-170-42": {
+          "id": "16785145M-170#16785145M-170-42",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie_58/",
+          "guid": "16785145M-170#16785145M-170-42",
+          "price": 7990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "4184P30069-167#4184P30069-167-44",
+          "privateId": "16785145M-170#16785145M-170-42",
           "paramNames": [
             {
-              "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
+              "hex": "#503d33",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "42"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "16785145M-170",
+          "preDiscountPrice": 9990,
+          "configurationImages": null
+        },
+        "16785145M-170#16785145M-170-44": {
+          "id": "16785145M-170#16785145M-170-44",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie_58/",
+          "guid": "16785145M-170#16785145M-170-44",
+          "price": 7990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "16785145M-170#16785145M-170-44",
+          "paramNames": [
+            {
+              "hex": "#503d33",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "44"
             },
             {
-              "name": "Состав",
-              "value": "100% Вирджинская шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
             },
             {
-              "name": "Коллекция",
-              "value": "Р158 — для невысокого роста"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "4184P30069-167",
+          "vendorCode": "16785145M-170",
+          "preDiscountPrice": 9990,
           "configurationImages": null
         },
-        "4184P30069-167#4184P30069-167-46": {
-          "id": "4184P30069-167#4184P30069-167-46",
-          "url": "https://charuel.ru/catalogue/odezhda/verkhnyaya-odezhda/palto/palto-zhenskoe-_126/",
-          "guid": "4184P30069-167#4184P30069-167-46",
-          "price": 39990,
+        "16785145M-170#16785145M-170-46": {
+          "id": "16785145M-170#16785145M-170-46",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie_58/",
+          "guid": "16785145M-170#16785145M-170-46",
+          "price": 7990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "4184P30069-167#4184P30069-167-46",
+          "privateId": "16785145M-170#16785145M-170-46",
           "paramNames": [
             {
-              "hex": "#000000",
-              "name": "Цвет",
-              "value": "Черный"
+              "hex": "#503d33",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "46"
             },
             {
-              "name": "Состав",
-              "value": "100% Вирджинская шерсть"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
             },
             {
-              "name": "Коллекция",
-              "value": "Р158 — для невысокого роста"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             }
           ],
-          "vendorCode": "4184P30069-167",
+          "vendorCode": "16785145M-170",
+          "preDiscountPrice": 9990,
+          "configurationImages": null
+        },
+        "16785145M-170#16785145M-170-48": {
+          "id": "16785145M-170#16785145M-170-48",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie_58/",
+          "guid": "16785145M-170#16785145M-170-48",
+          "price": 7990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "16785145M-170#16785145M-170-48",
+          "paramNames": [
+            {
+              "hex": "#503d33",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "48"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "16785145M-170",
+          "preDiscountPrice": 9990,
+          "configurationImages": null
+        },
+        "16785145M-170#16785145M-170-50": {
+          "id": "16785145M-170#16785145M-170-50",
+          "url": "https://charuel.ru/catalogue/odezhda/trikotazh/bryuki_2/bryuki-zhenskie_58/",
+          "guid": "16785145M-170#16785145M-170-50",
+          "price": 7990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "16785145M-170#16785145M-170-50",
+          "paramNames": [
+            {
+              "hex": "#503d33",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "50"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "60%\u0420\u044d\u0439\u043e\u043d, 35%\u041d\u0435\u0439\u043b\u043e\u043d, 5%\u0421\u043f\u0430\u043d\u0434\u0435\u043a\u0441"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sport"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Officecore"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            }
+          ],
+          "vendorCode": "16785145M-170",
+          "preDiscountPrice": 9990,
           "configurationImages": null
         }
       }
@@ -2554,7 +3108,15 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -2575,19 +3137,19 @@ const products = [
       {
         "list": [
           {
-            "id": "65c7b336-18cb-5c45-b6c0-0059c567fc06",
+            "id": "e297ebbc-d076-5893-b6d1-6b005841f2c8",
             "color": "#cdb891",
-            "value": "Бежевый",
+            "value": "\u0411\u0435\u0436\u0435\u0432\u044b\u0439",
             "imageUrl": null
           },
           {
-            "id": "07dd4f47-20e5-5f0b-aa1a-f34555a417f8",
-            "color": "#000000",
-            "value": "Черный",
+            "id": "08ae344f-f5d9-5d69-aeb8-b4cdcbd3fcb9",
+            "color": "#503d33",
+            "value": "\u041a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439",
             "imageUrl": null
           }
         ],
-        "name": "Цвет"
+        "name": "\u0426\u0432\u0435\u0442"
       }
     ],
     "priceUnits": null,
@@ -2597,510 +3159,324 @@ const products = [
     "cashback": null
   },
   {
-    "id": "09482cc5-ab41-5e91-a6d5-7fbbae1ac461",
-    "privateId": "409170207-155",
-    "name": "Платье с двубортной застежкой",
-    "model": "Платье с двубортной застежкой",
-    "typePrefix": "Платья",
-    "description": "Элегантное платье на запах умело сочетает формальность кроя с расслабленными линями и деталями. Струящаяся костюмная ткань средней плотности содержит вирджинскую шерсть, поэтому менее колючая. Глубина изящного декольте подчеркнута широкими лацканами. Платье с отрезным лифом дополнено ремнем в тон.\n\n- Приталенный крой\n- Длина ниже колена\n- Сзади потайная молния\n- Двубортная застежка на пуговицы\n- V-вырез с лацканами\n- Расклешенная юбка\n- Короткие рукава\n- В комплекте пояс из основной ткани с пряжкой\n- Изделие на подкладе\n\nРост модели 175 см, размер 42 (российский).Состав ткани: 48%Вирджинская Шерсть, 48%Полиэстр, 4%Лайкра",
+    "id": "08f4f6db-cd6f-5fe5-8548-12bb24246f95",
+    "privateId": "418370262-140",
+    "name": "\u041f\u043b\u0430\u0442\u044c\u0435-\u0436\u0430\u043a\u0435\u0442 \u043f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043a\u0440\u043e\u044f",
+    "model": "\u041f\u043b\u0430\u0442\u044c\u0435-\u0436\u0430\u043a\u0435\u0442 \u043f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043a\u0440\u043e\u044f",
+    "typePrefix": "\u041f\u043b\u0430\u0442\u044c\u044f",
+    "description": "\u041f\u043b\u0430\u0442\u044c\u0435 \u043f\u0438\u0434\u0436\u0430\u0447\u043d\u043e\u0433\u043e \u043a\u0440\u043e\u044f \u2013 \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u0432 \u043e\u0441\u0442\u0430\u0432\u0430\u0442\u044c\u0441\u044f \u0436\u0435\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u0432 \u043b\u044e\u0431\u043e\u043c \u0430\u043c\u043f\u043b\u0443\u0430. \u041e\u0434\u043d\u043e\u0431\u043e\u0440\u0442\u043d\u0443\u044e \u043c\u043e\u0434\u0435\u043b\u044c \u0432\u044b\u043f\u043e\u043b\u043d\u0438\u043b\u0438 \u0438\u0437 \u043f\u043b\u043e\u0442\u043d\u043e\u0433\u043e \u043a\u043e\u0441\u0442\u044e\u043c\u043d\u043e\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0438\u043b\u044f, \u0433\u0434\u0435 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0430\u043a\u0446\u0435\u043d\u0442\u043d\u044b\u0445 \u0434\u0435\u0442\u0430\u043b\u0435\u0439 \u0432\u044b\u0441\u0442\u0443\u043f\u0430\u044e\u0442 \u0431\u0440\u0435\u043d\u0434\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u044b \u0437\u043e\u043b\u043e\u0442\u043e\u0433\u043e \u0446\u0432\u0435\u0442\u0430. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043f\u043e\u0434\u043f\u043b\u0435\u0447\u043d\u0438\u043a\u0430\u043c \u0438\u0437\u0434\u0435\u043b\u0438\u0435 \u0431\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u043e \u0434\u0435\u0440\u0436\u0438\u0442 \u0444\u043e\u0440\u043c\u0443. \n\n\n- \u041f\u0440\u0438\u0442\u0430\u043b\u0435\u043d\u043d\u044b\u0439 \u043a\u0440\u043e\u0439\n- \u0414\u043b\u0438\u043d\u0430 \u043c\u0438\u0434\u0438\n- \u0417\u0430\u0441\u0442\u0435\u0436\u043a\u0430 \u043d\u0430 \u043f\u0443\u0433\u043e\u0432\u0438\u0446\u044b\n- \u0414\u043b\u0438\u043d\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0430\n- \u041d\u0430\u0433\u0440\u0443\u0434\u043d\u044b\u0435 \u0438 \u0431\u043e\u043a\u043e\u0432\u044b\u0435 \u043a\u0430\u0440\u043c\u0430\u043d\u044b \u0441 \u043a\u043b\u0430\u043f\u0430\u043d\u0430\u043c\u0438\n- \u041f\u043e\u0434\u043f\u043b\u0435\u0447\u043d\u0438\u043a\u0438\n- \u0418\u0437\u0434\u0435\u043b\u0438\u0435 \u043d\u0430 \u043f\u043e\u0434\u043a\u043b\u0430\u0434\u043a\u0435 100% \u043f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440\n\n\u0420\u043e\u0441\u0442 \u043c\u043e\u0434\u0435\u043b\u0438 175 \u0441\u043c, \u0440\u0430\u0437\u043c\u0435\u0440 42 (\u0440\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439).\n\u0421\u043e\u0441\u0442\u0430\u0432 \u0442\u043a\u0430\u043d\u0438: 74% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 24% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, 2% \u041b\u0430\u0439\u043a\u0440\u0430",
     "priceLabel": null,
     "collapsibleDescription": {},
     "saleEndsDateIso": null,
-    "price": 21990,
+    "price": 14990,
     "priceByCard": null,
     "retailPrice": null,
     "vendor": "Charuel",
-    "vendorCode": "409170207-155",
-    "preDiscountPrice": null,
+    "vendorCode": "418370262-140",
+    "preDiscountPrice": 24990,
     "currencyName": "₽",
     "currencyLabel": "₽",
     "barcode": null,
     "barcodes": [],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_881/",
-    "image": "https://charuel.ru/upload/iblock/4d4/4xfnghn66mbtoe29jrgq0gpgb4sp6oll.jpg",
+    "externalUrl": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_814/",
+    "image": "https://charuel.ru/upload/iblock/a4e/3zbi21il69m9xfc3uqxl32beuaypfav1.jpg",
     "images": [
-      "https://charuel.ru/upload/iblock/4d4/4xfnghn66mbtoe29jrgq0gpgb4sp6oll.jpg",
-      "https://charuel.ru/upload/iblock/3d3/nrrtmqvgg4m8orxc57ve9ir0m1ajag0s.jpg",
-      "https://charuel.ru/upload/iblock/e95/i2lqj78s0gn5r2o5invoqze8xsg12zeg.jpg",
-      "https://charuel.ru/upload/iblock/8b1/dlby1z5pfonscdmg6saamkt6y3yf13bb.jpg",
-      "https://charuel.ru/upload/iblock/ba4/updbcqe2gufqzd03wwnrltuqb4ecdk0c.jpg",
-      "https://charuel.ru/upload/iblock/f33/h2lpmtfqq3prcqytpcchin6vrpn9hly3.jpg"
+      "https://charuel.ru/upload/iblock/a4e/3zbi21il69m9xfc3uqxl32beuaypfav1.jpg",
+      "https://charuel.ru/upload/iblock/0b3/82eobax3pbh8w8et5wxwi1flzia09ogl.jpg",
+      "https://charuel.ru/upload/iblock/2ae/di39hwyta6gpmzoozwumpfux1ewwf8in.jpg",
+      "https://charuel.ru/upload/iblock/602/gb8mveil9jfd2wtc8k3mu1zk3x55f1l0.jpg",
+      "https://charuel.ru/upload/iblock/966/gzl05kxa9a0h01a84767zlv3vo9yqnj3.jpg",
+      "https://charuel.ru/upload/iblock/f00/3p7pelvgqs2obfwgp2tgvw7y2127xfi1.jpg"
     ],
     "categories": [
       "400cc287-445a-5489-bc2d-71850e00af4c",
-      "73f49f29-8ac2-5ed8-943b-3acbc52d7af3"
+      "3c9a9dea-7138-5b1f-9c29-9b74b19de610",
+      "730208fa-a2ee-5216-b96d-f2f36f0a18e8"
     ],
     "properties": [
       {
-        "name": "Цвет",
-        "value": "Зеленый"
+        "name": "\u0426\u0432\u0435\u0442",
+        "value": "\u0421\u0438\u043d\u0438\u0439"
       },
       {
-        "name": "Размер",
-        "value": "42, 44, 46"
+        "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+        "value": "42, 44, 46, 48, 50"
       },
       {
-        "name": "Состав",
-        "value": "48%Вирджинская Шерсть, 48%Полиэстр, 4%Лайкра"
+        "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+        "value": "74% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 24% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, 2% \u041b\u0430\u0439\u043a\u0440\u0430"
       },
       {
-        "name": "Сезон",
-        "value": "Осень/зима"
+        "name": "\u0421\u0435\u0437\u043e\u043d",
+        "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
       },
       {
-        "name": "Коллекция",
-        "value": "Деловой стиль"
+        "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+        "value": "Sale, \u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
       }
     ],
     "fraction": null,
     "configurations": {
       "order": [
-        "409170207-155#409170207-155-42",
-        "409170207-155#409170207-155-44",
-        "409170207-155#409170207-155-46"
+        "418370262-140#418370262-140-42",
+        "418370262-140#418370262-140-44",
+        "418370262-140#418370262-140-46",
+        "418370262-140#418370262-140-48",
+        "418370262-140#418370262-140-50"
       ],
       "all": [
-        "409170207-155#409170207-155-42",
-        "409170207-155#409170207-155-44",
-        "409170207-155#409170207-155-46"
+        "418370262-140#418370262-140-42",
+        "418370262-140#418370262-140-44",
+        "418370262-140#418370262-140-46",
+        "418370262-140#418370262-140-48",
+        "418370262-140#418370262-140-50"
       ],
       "data": {
-        "409170207-155#409170207-155-42": [
+        "418370262-140#418370262-140-42": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "42"
           }
         ],
-        "409170207-155#409170207-155-44": [
+        "418370262-140#418370262-140-44": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "44"
           }
         ],
-        "409170207-155#409170207-155-46": [
+        "418370262-140#418370262-140-46": [
           {
-            "name": "Размер",
-            "unit": "",
-            "value": "46"
-          }
-        ]
-      },
-      "metadata": {
-        "409170207-155#409170207-155-42": {
-          "id": "409170207-155#409170207-155-42",
-          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_881/",
-          "guid": "409170207-155#409170207-155-42",
-          "price": 21990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "409170207-155#409170207-155-42",
-          "paramNames": [
-            {
-              "hex": "#008000",
-              "name": "Цвет",
-              "value": "Зеленый"
-            },
-            {
-              "name": "Размер",
-              "value": "42"
-            },
-            {
-              "name": "Состав",
-              "value": "48%Вирджинская Шерсть, 48%Полиэстр, 4%Лайкра"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Деловой стиль"
-            }
-          ],
-          "vendorCode": "409170207-155",
-          "configurationImages": null
-        },
-        "409170207-155#409170207-155-44": {
-          "id": "409170207-155#409170207-155-44",
-          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_881/",
-          "guid": "409170207-155#409170207-155-44",
-          "price": 21990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "409170207-155#409170207-155-44",
-          "paramNames": [
-            {
-              "hex": "#008000",
-              "name": "Цвет",
-              "value": "Зеленый"
-            },
-            {
-              "name": "Размер",
-              "value": "44"
-            },
-            {
-              "name": "Состав",
-              "value": "48%Вирджинская Шерсть, 48%Полиэстр, 4%Лайкра"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Деловой стиль"
-            }
-          ],
-          "vendorCode": "409170207-155",
-          "configurationImages": null
-        },
-        "409170207-155#409170207-155-46": {
-          "id": "409170207-155#409170207-155-46",
-          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_881/",
-          "guid": "409170207-155#409170207-155-46",
-          "price": 21990,
-          "sapId": "",
-          "xmlId": "",
-          "weight": "",
-          "barcodes": [],
-          "available": true,
-          "privateId": "409170207-155#409170207-155-46",
-          "paramNames": [
-            {
-              "hex": "#008000",
-              "name": "Цвет",
-              "value": "Зеленый"
-            },
-            {
-              "name": "Размер",
-              "value": "46"
-            },
-            {
-              "name": "Состав",
-              "value": "48%Вирджинская Шерсть, 48%Полиэстр, 4%Лайкра"
-            },
-            {
-              "name": "Сезон",
-              "value": "Осень/зима"
-            },
-            {
-              "name": "Коллекция",
-              "value": "Деловой стиль"
-            }
-          ],
-          "vendorCode": "409170207-155",
-          "configurationImages": null
-        }
-      }
-    },
-    "configurationImages": [],
-    "availability": true,
-    "internalProperties": {},
-    "full": true,
-    "sourceName": "",
-    "sizeGridImage": null,
-    "xmlId": "",
-    "vat": 20,
-    "useBonuses": true,
-    "overSized": false,
-    "active": true,
-    "deliveryNote": null,
-    "credit": [],
-    "badges": [],
-    "videos": [],
-    "videosTitle": null,
-    "colorOptionHex": null,
-    "colorOptionImage": null,
-    "colorOptionValue": null,
-    "recs": [],
-    "upsell": [],
-    "preorder": false,
-    "limited": false,
-    "earlyAccess": false,
-    "payment": true,
-    "paymentRequired": false,
-    "files": [],
-    "convertedPrices": {},
-    "itemPreviewUrl": null,
-    "sizeGridPageUrl": null,
-    "linking": [],
-    "priceUnits": null,
-    "listPrices": [],
-    "imageComparisonOptions": [],
-    "reviewsCounters": null,
-    "cashback": null
-  },
-  {
-    "id": "0a53ca1e-2e16-5edd-b4dd-c39a5f4967a1",
-    "privateId": "423950214M-294",
-    "name": "Шорты из шерсти",
-    "model": "Шорты из шерсти",
-    "typePrefix": "Брюки",
-    "description": "Шерстяные шорты станут альтернативой офисным юбкам в демисезон. Комфортная длина и ширина шага делают эту модель базой делового гардероба с нестрогим дресс-кодом. Очень плотный текстиль на основе шерсти хорошо сохраняет тепло и не мнется в течение всего дня. \n\n- Прямой крой\n- Высокая посадка\n- Застежка на молнию и крючок\n- Боковые карманы\n- Сзади декоративные карманы\n- Притачной пояс со шлевками\n- Заутюженные стрелки \n\nРост модели 175 см, размер 42 (российский).\n\n\n\nСостав ткани: 70%Шерсть,30%Полиамид",
-    "priceLabel": null,
-    "collapsibleDescription": {},
-    "saleEndsDateIso": null,
-    "price": 12990,
-    "priceByCard": null,
-    "retailPrice": null,
-    "vendor": "Charuel",
-    "vendorCode": "423950214M-294",
-    "preDiscountPrice": null,
-    "currencyName": "₽",
-    "currencyLabel": "₽",
-    "barcode": null,
-    "barcodes": [],
-    "externalUrl": "https://charuel.ru/catalogue/odezhda/bryuki/shorty/shorty-zhenskie-_46/",
-    "image": "https://a.lmcdn.ru/img389x562/M/P/MP002XW19XNC_21431378_2_v1_2x.jpg",
-    "images": [
-      "https://charuel.ru/upload/iblock/8b6/so3xt7bz2d91injx6ofkfni81jbol8hr.jpg",
-      "https://charuel.ru/upload/iblock/6e8/sx2pfuoh3fy9z1oufd8p7ch0km4i2zcv.jpg",
-      "https://charuel.ru/upload/iblock/e53/a1a1zg4lrk2hfem9r0d4jhtbokxalppy.jpg",
-      "https://charuel.ru/upload/iblock/ceb/zjseeo294gn0zifmvrujgnkih9qn7tei.jpg",
-      "https://charuel.ru/upload/iblock/763/zygkw599k5js2206v4qbqone5go199fj.jpg"
-    ],
-    "categories": [
-      "c2cb3d83-dcd4-5e55-8847-2bce7224a938",
-      "92e2fb5c-192c-5be3-9fbc-91658bcf245c",
-      "73f49f29-8ac2-5ed8-943b-3acbc52d7af3"
-    ],
-    "properties": [
-      {
-        "name": "Цвет",
-        "value": "Голубой"
-      },
-      {
-        "name": "Размер",
-        "value": "42, 44, 46, 48"
-      },
-      {
-        "name": "Состав",
-        "value": "70%Шерсть,30%Полиамид"
-      },
-      {
-        "name": "Сезон",
-        "value": "Осень/зима"
-      },
-      {
-        "name": "Коллекция",
-        "value": "Деловой стиль, Новые поступления"
-      }
-    ],
-    "fraction": null,
-    "configurations": {
-      "order": [
-        "423950214M-294#423950214M-294-42",
-        "423950214M-294#423950214M-294-44",
-        "423950214M-294#423950214M-294-46",
-        "423950214M-294#423950214M-294-48"
-      ],
-      "all": [
-        "423950214M-294#423950214M-294-42",
-        "423950214M-294#423950214M-294-44",
-        "423950214M-294#423950214M-294-46",
-        "423950214M-294#423950214M-294-48"
-      ],
-      "data": {
-        "423950214M-294#423950214M-294-42": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "42"
-          }
-        ],
-        "423950214M-294#423950214M-294-44": [
-          {
-            "name": "Размер",
-            "unit": "",
-            "value": "44"
-          }
-        ],
-        "423950214M-294#423950214M-294-46": [
-          {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "46"
           }
         ],
-        "423950214M-294#423950214M-294-48": [
+        "418370262-140#418370262-140-48": [
           {
-            "name": "Размер",
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
             "unit": "",
             "value": "48"
           }
+        ],
+        "418370262-140#418370262-140-50": [
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "unit": "",
+            "value": "50"
+          }
         ]
       },
       "metadata": {
-        "423950214M-294#423950214M-294-42": {
-          "id": "423950214M-294#423950214M-294-42",
-          "url": "https://charuel.ru/catalogue/odezhda/bryuki/shorty/shorty-zhenskie-_46/",
-          "guid": "423950214M-294#423950214M-294-42",
-          "price": 12990,
+        "418370262-140#418370262-140-42": {
+          "id": "418370262-140#418370262-140-42",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_814/",
+          "guid": "418370262-140#418370262-140-42",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "423950214M-294#423950214M-294-42",
+          "privateId": "418370262-140#418370262-140-42",
           "paramNames": [
             {
-              "hex": "#A6CAF0",
-              "name": "Цвет",
-              "value": "Голубой"
+              "hex": "#063971",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "42"
             },
             {
-              "name": "Состав",
-              "value": "70%Шерсть,30%Полиамид"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "74% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 24% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, 2% \u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             },
             {
-              "name": "Коллекция",
-              "value": "Деловой стиль"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "423950214M-294",
+          "vendorCode": "418370262-140",
+          "preDiscountPrice": 24990,
           "configurationImages": null
         },
-        "423950214M-294#423950214M-294-44": {
-          "id": "423950214M-294#423950214M-294-44",
-          "url": "https://charuel.ru/catalogue/odezhda/bryuki/shorty/shorty-zhenskie-_46/",
-          "guid": "423950214M-294#423950214M-294-44",
-          "price": 12990,
+        "418370262-140#418370262-140-44": {
+          "id": "418370262-140#418370262-140-44",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_814/",
+          "guid": "418370262-140#418370262-140-44",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "423950214M-294#423950214M-294-44",
+          "privateId": "418370262-140#418370262-140-44",
           "paramNames": [
             {
-              "hex": "#A6CAF0",
-              "name": "Цвет",
-              "value": "Голубой"
+              "hex": "#063971",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "44"
             },
             {
-              "name": "Состав",
-              "value": "70%Шерсть,30%Полиамид"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "74% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 24% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, 2% \u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             },
             {
-              "name": "Коллекция",
-              "value": "Деловой стиль"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "423950214M-294",
+          "vendorCode": "418370262-140",
+          "preDiscountPrice": 24990,
           "configurationImages": null
         },
-        "423950214M-294#423950214M-294-46": {
-          "id": "423950214M-294#423950214M-294-46",
-          "url": "https://charuel.ru/catalogue/odezhda/bryuki/shorty/shorty-zhenskie-_46/",
-          "guid": "423950214M-294#423950214M-294-46",
-          "price": 12990,
+        "418370262-140#418370262-140-46": {
+          "id": "418370262-140#418370262-140-46",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_814/",
+          "guid": "418370262-140#418370262-140-46",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "423950214M-294#423950214M-294-46",
+          "privateId": "418370262-140#418370262-140-46",
           "paramNames": [
             {
-              "hex": "#A6CAF0",
-              "name": "Цвет",
-              "value": "Голубой"
+              "hex": "#063971",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "46"
             },
             {
-              "name": "Состав",
-              "value": "70%Шерсть,30%Полиамид"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "74% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 24% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, 2% \u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             },
             {
-              "name": "Коллекция",
-              "value": "Деловой стиль"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "423950214M-294",
+          "vendorCode": "418370262-140",
+          "preDiscountPrice": 24990,
           "configurationImages": null
         },
-        "423950214M-294#423950214M-294-48": {
-          "id": "423950214M-294#423950214M-294-48",
-          "url": "https://charuel.ru/catalogue/odezhda/bryuki/shorty/shorty-zhenskie-_46/",
-          "guid": "423950214M-294#423950214M-294-48",
-          "price": 12990,
+        "418370262-140#418370262-140-48": {
+          "id": "418370262-140#418370262-140-48",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_814/",
+          "guid": "418370262-140#418370262-140-48",
+          "price": 14990,
           "sapId": "",
           "xmlId": "",
           "weight": "",
           "barcodes": [],
           "available": true,
-          "privateId": "423950214M-294#423950214M-294-48",
+          "privateId": "418370262-140#418370262-140-48",
           "paramNames": [
             {
-              "hex": "#A6CAF0",
-              "name": "Цвет",
-              "value": "Голубой"
+              "hex": "#063971",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
             },
             {
-              "name": "Размер",
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
               "value": "48"
             },
             {
-              "name": "Состав",
-              "value": "70%Шерсть,30%Полиамид"
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "74% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 24% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, 2% \u041b\u0430\u0439\u043a\u0440\u0430"
             },
             {
-              "name": "Сезон",
-              "value": "Осень/зима"
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
             },
             {
-              "name": "Коллекция",
-              "value": "Новые поступления"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
             },
             {
-              "name": "Коллекция",
-              "value": "Деловой стиль"
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
             }
           ],
-          "vendorCode": "423950214M-294",
+          "vendorCode": "418370262-140",
+          "preDiscountPrice": 24990,
+          "configurationImages": null
+        },
+        "418370262-140#418370262-140-50": {
+          "id": "418370262-140#418370262-140-50",
+          "url": "https://charuel.ru/catalogue/odezhda/platya/plate-zhenskoe-_814/",
+          "guid": "418370262-140#418370262-140-50",
+          "price": 14990,
+          "sapId": "",
+          "xmlId": "",
+          "weight": "",
+          "barcodes": [],
+          "available": true,
+          "privateId": "418370262-140#418370262-140-50",
+          "paramNames": [
+            {
+              "hex": "#063971",
+              "name": "\u0426\u0432\u0435\u0442",
+              "value": "\u0421\u0438\u043d\u0438\u0439"
+            },
+            {
+              "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+              "value": "50"
+            },
+            {
+              "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+              "value": "74% \u041f\u043e\u043b\u0438\u044d\u0441\u0442\u0435\u0440, 24% \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0441\u043a\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c, 2% \u041b\u0430\u0439\u043a\u0440\u0430"
+            },
+            {
+              "name": "\u0421\u0435\u0437\u043e\u043d",
+              "value": "\u041e\u0441\u0435\u043d\u044c/\u0437\u0438\u043c\u0430"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "Sale"
+            },
+            {
+              "name": "\u041a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u044f",
+              "value": "\u041a\u043e\u0441\u0442\u044e\u043c\u043d\u0430\u044f \u0448\u0435\u0440\u0441\u0442\u044c"
+            }
+          ],
+          "vendorCode": "418370262-140",
+          "preDiscountPrice": 24990,
           "configurationImages": null
         }
       }
@@ -3118,7 +3494,15 @@ const products = [
     "active": true,
     "deliveryNote": null,
     "credit": [],
-    "badges": [],
+    "badges": [
+      {
+        "type": "text",
+        "text": "SALE",
+        "textColor": "#C9002E",
+        "bgColor": "#ffffff",
+        "position": "top-left"
+      }
+    ],
     "videos": [],
     "videosTitle": null,
     "colorOptionHex": null,
@@ -3142,7 +3526,7 @@ const products = [
     "reviewsCounters": null,
     "cashback": null
   }
-]
+];
 
 // --==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
 
