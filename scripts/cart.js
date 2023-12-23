@@ -462,12 +462,13 @@ function showSnackbar() {
 document.addEventListener("DOMContentLoaded", async function() {
   products = await getProducts();
   const cart = await getCart(products);
+  console.log(cart);
   cart.forEach((product) => {
     localStorage.setItem(
       product['id'], (localStorage.getItem(product['id']) === 'null') 
         ? '0' : localStorage.getItem(product['id'])
       ); 
   });
-  getCart(products).forEach(addProductToPage);
+  cart.forEach(addProductToPage);
   updatePage(); updateCartIcon();
 });
