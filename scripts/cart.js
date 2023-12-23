@@ -461,8 +461,8 @@ function showSnackbar() {
 
 document.addEventListener("DOMContentLoaded", async function() {
   products = await getProducts();
-  console.log(products);
-  getCart(products).forEach((product) => {
+  const cart = await getCart(products);
+  cart.forEach((product) => {
     localStorage.setItem(
       product['id'], (localStorage.getItem(product['id']) === 'null') 
         ? '0' : localStorage.getItem(product['id'])
