@@ -479,6 +479,15 @@ input, textarea {
   bottom: 70px; /* 30px from the bottom */
 }
 
+item-button-add>div, .item-button-remove>div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
 #snackbar.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;

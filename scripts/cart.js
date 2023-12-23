@@ -227,7 +227,7 @@ function openModal(item) {
       const itemButtonRemove = createButton(
         'item-button-remove', 
         () => { handleRemoveFromCart(item); openModal(item); }, 
-        `<div>${renderMinusIcon(29)}</div>`
+        `<div>${renderMinusIcon(24)}</div>`
       );
       const itemCount = createAndSetAttributes(
         'div', {'class': 'item-count'}, localStorage.getItem(item['id'])
@@ -235,7 +235,7 @@ function openModal(item) {
       const itemButtonAdd = createButton(
         'item-button-add', 
         () => { handleAddToCart(item); openModal(item); }, 
-        `<div>${renderPlusIcon(29)}</div>`
+        `<div>${renderPlusIcon(24)}</div>`
       );
 
       const descriptionHeader = createAndSetAttributes(
