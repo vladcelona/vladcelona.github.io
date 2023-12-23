@@ -114,14 +114,16 @@ function addProductToPage(product) {
  * Function that adds product to localStorage (Cart)
  * @param {any} product 
  */
-function handleAddToCart(product) {
+async function handleAddToCart(product) {
   localStorage.setItem(product['id'], parseInt(localStorage.getItem(product['id'])) + 1);
   console.log(localStorage);
 
   const productList = document.getElementsByClassName('product-list-container'); 
   console.log(productList[0].children); productList[0].innerHTML = '';
 
-  getCart(products).forEach(addProductToPage);
+  const cart = await getCart(products);
+
+  cart.forEach(addProductToPage);
   updateCartIcon(); updatePage();
 }
 
@@ -129,14 +131,16 @@ function handleAddToCart(product) {
  * Function that removes product from localStorage (Cart)
  * @param {any} product 
  */
-function handleRemoveFromCart(product) {
+async function handleRemoveFromCart(product) {
   localStorage.setItem(product['id'], Math.max(parseInt(localStorage.getItem(product['id'])) - 1, 0));
   console.log(localStorage);
 
   const productList = document.getElementsByClassName('product-list-container'); 
   console.log(productList[0].children); productList[0].innerHTML = '';
 
-  getCart(products).forEach(addProductToPage);
+  const cart = await getCart(products);
+
+  cart.forEach(addProductToPage);
   updateCartIcon(); updatePage();
 }
 
