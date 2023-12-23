@@ -427,11 +427,11 @@ function phoneFormat(input) {
 /**
  * Function that updates page on every action received
  */
-function updatePage() {
-  console.log(getCart(products));
-  const totalPrice = (getCart(products).length === 0)
+async function updatePage() {
+  const cart = await getCart(products);
+  const totalPrice = (cart.length === 0)
     ? 0 
-    : getCart(products).reduce((sum, item) => {
+    : cart.reduce((sum, item) => {
         return sum + item.price * localStorage.getItem(item.id);
       }, 0);
   if (totalPrice === 0) {
